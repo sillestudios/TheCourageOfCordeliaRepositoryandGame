@@ -197,6 +197,8 @@ function anim(){
 			if facing = 2 sprite_index = s_player_idle_left;
 			
 			if facing = 3 sprite_index = s_player_idle_down;
+			
+			if facing = 5 facing = 0;
 				
 			
 		break;
@@ -219,7 +221,7 @@ function anim(){
 function check_fire(){
 	if fire {
 
-		if can_attack{
+		if can_attack && !obj_inventory.can_show_inv{
 			
 			//add screen shake to shooting
 			var _dir = aim_dir;
@@ -296,7 +298,7 @@ function check_dash(){
 		//get direction and distance we are moving
 		hsp = lengthdir_x(dash_speed, move_dir);
 		vsp = lengthdir_y(dash_speed, move_dir);
-		if image_index >= 4{instance_create_layer(x, y, "Player", o_dust_particles2)}
+		//if image_index >= 4{instance_create_layer(x, y, "Player", o_dust_particles2)}
 
 	}
 }
