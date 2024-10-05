@@ -47,12 +47,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_player_idle",
-    "path":"sprites/s_player_idle/s_player_idle.yy",
+    "name":"s_player_idle_right",
+    "path":"sprites/s_player_idle_right/s_player_idle_right.yy",
   },
   "spriteMaskId":{
-    "name":"s_player_idle",
-    "path":"sprites/s_player_idle/s_player_idle.yy",
+    "name":"s_player_idle_right",
+    "path":"sprites/s_player_idle_right/s_player_idle_right.yy",
   },
   "visible":true,
 }

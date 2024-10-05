@@ -44,7 +44,7 @@ if can_show_inv{
 	
 	//character
 	draw_sprite_ext(
-	s_player_idle_new, 0, CameraX() + 202, CameraY() + 138, 
+	s_player_idle_down, 0, CameraX() + 202, CameraY() + 138, 
 	2, 2, 0, c_white, 0.8);
 	
 	//euip top pannel

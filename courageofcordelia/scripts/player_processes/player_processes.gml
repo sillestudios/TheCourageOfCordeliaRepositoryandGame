@@ -187,14 +187,16 @@ function collision(){
 function anim(){
 	switch(state){
 		default:
+			//use this for running anims
 			//if hmove != 0 or vmove != 0{
-				//if left or right {sprite_index = s_player_walk;}
+
+			if facing = 0 sprite_index = s_player_idle_right;
 				
-			if facing = 1 sprite_index = s_player_idle_up
+			if facing = 1 sprite_index = s_player_idle_up;
 			
-			if facing = 2 sprite_index = s_player_idle_new
+			if facing = 2 sprite_index = s_player_idle_left;
 			
-			if facing = 3 sprite_index = s_player_idle_down
+			if facing = 3 sprite_index = s_player_idle_down;
 				
 			
 		break;
