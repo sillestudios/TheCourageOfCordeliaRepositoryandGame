@@ -15,4 +15,12 @@
 @	key drop for the next dungeon
 
 @	room 6 bosses in each dungeon
+
+@	add player melee style
+
+@	MAKE ROOMS
+
+@	random thought bubbles above player
+
+@	lore 
 	
