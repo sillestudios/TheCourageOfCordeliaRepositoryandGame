@@ -1,10 +1,18 @@
-//make light cut out better
-
-//fix weapon lerping so it can be adjusted with different weapon sizes, right now we are using
-	"magic numbers" and not variables to set weapon recoil and it is not universal to all wep
-	sizes
+@	check if item is in equipment slot, 
+	if there is and we want to add a new item to it, 
+	move the old one back to inv then delete it from the equip slot
 	
-//create loot beams
+@	create loot beams
 
-//all black outlines on all entitys for every animation sprite
+@	all black outlines on all entitys for every animation sprite
+
+@	set up buffs and bonuses for all armor sets
+
+@	hovering over item  > item description
+
+@	create drop tables for 6 different chests (new chest style for each new dungeon)
+
+@	key drop for the next dungeon
+
+@	room 6 bosses in each dungeon
 	
