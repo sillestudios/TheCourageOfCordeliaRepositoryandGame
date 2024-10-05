@@ -9,8 +9,8 @@
   "name":"o_room_transition",
   "overriddenProperties":[],
   "parent":{
-    "name":"courageofcordelia",
-    "path":"courageofcordelia.yyp",
+    "name":"Control",
+    "path":"folders/Control.yy",
   },
   "parentObjectId":null,
   "persistent":false,
