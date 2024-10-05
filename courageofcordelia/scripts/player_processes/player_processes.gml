@@ -108,9 +108,14 @@ function calc_movement(){
 	else if (o_player.counter_footsteps>0) o_player.counter_footsteps--;
 	
 	
-	var _facing = aim_dir < 90 or aim_dir > 270;
+	/*var _facing = aim_dir < 90 or aim_dir > 270;
 	if _facing == 0 _facing = -1;
+	facing = _facing;*/
+	
+	var _facing = round(aim_dir/90);
+	//if _facing == 0 _facing = -1;
 	facing = _facing;
+	
 	
 	
 
@@ -182,11 +187,16 @@ function collision(){
 function anim(){
 	switch(state){
 		default:
-			if hmove != 0 or vmove != 0{
-				sprite_index = s_player_walk;
-			}else{
-				sprite_index = s_player_idle;
-			}
+			//if hmove != 0 or vmove != 0{
+				//if left or right {sprite_index = s_player_walk;}
+				
+			if facing = 1 sprite_index = s_player_idle_up
+			
+			if facing = 2 sprite_index = s_player_idle_new
+			
+			if facing = 3 sprite_index = s_player_idle_down
+				
+			
 		break;
 		
 		case states.DEAD:

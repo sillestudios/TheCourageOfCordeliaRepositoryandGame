@@ -82,3 +82,7 @@ window_set_cursor(cr_none);
 ready_to_restart = false // ensures we can restart after death animation
 
 death_timer = 30
+
+
+
+
