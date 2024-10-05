@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sound_pistol_shells",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.735146,
+  "name":"sound_pistol_shells",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound_pistol_shells.wav",
+  "type":0,
+  "volume":0.25,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DropTables",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DropTables",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

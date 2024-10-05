@@ -1,0 +1,1 @@
+to stop fast wall speed take the ceil functions out of collisions script

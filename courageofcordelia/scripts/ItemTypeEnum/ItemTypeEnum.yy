@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ItemTypeEnum",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ItemTypeEnum",
+  "parent":{
+    "name":"Inventory",
+    "path":"folders/UI/Inventory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

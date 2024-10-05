@@ -1,0 +1,13 @@
+enum TYPE
+{
+	WEAPON,
+	HELMS,
+	AMULETS,
+	CHESTS,
+	PANTS,
+	BOOTS,
+	GLOVES,
+	CLOAKS,
+	RINGS
+	
+}

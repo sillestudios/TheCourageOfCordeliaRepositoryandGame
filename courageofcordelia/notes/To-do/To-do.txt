@@ -1,0 +1,10 @@
+//make light cut out better
+
+//fix weapon lerping so it can be adjusted with different weapon sizes, right now we are using
+	"magic numbers" and not variables to set weapon recoil and it is not universal to all wep
+	sizes
+	
+//create loot beams
+
+//all black outlines on all entitys for every animation sprite
+	
