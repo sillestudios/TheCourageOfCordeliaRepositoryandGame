@@ -8,8 +8,8 @@
   "name":"o_red_mage_hat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Helms",
-    "path":"folders/RPG_Icons/Helms.yy",
+    "name":"Mage",
+    "path":"folders/RPG_Icons/Helms/Mage.yy",
   },
   "parentObjectId":{
     "name":"o_hat_parent",

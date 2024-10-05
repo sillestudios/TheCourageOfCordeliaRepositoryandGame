@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Helms",
-    "path":"folders/RPG_Icons/Helms.yy",
+    "name":"Mage",
+    "path":"folders/RPG_Icons/Helms/Mage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
