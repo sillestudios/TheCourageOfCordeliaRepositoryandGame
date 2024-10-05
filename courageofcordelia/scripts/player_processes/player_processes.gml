@@ -113,7 +113,6 @@ function calc_movement(){
 	facing = _facing;*/
 	
 	var _facing = round(aim_dir/90);
-	//if _facing == 0 _facing = -1;
 	facing = _facing;
 	
 	
@@ -198,7 +197,7 @@ function anim(){
 			
 			if facing = 3 sprite_index = s_player_idle_down;
 			
-			if facing = 5 facing = 0;
+			if facing = 4 sprite_index = s_player_idle_right;
 				
 			
 		break;
@@ -211,6 +210,8 @@ function anim(){
 			sprite_index = s_player_dash;
 
 		break;
+		
+
 	}
 	depth = -bbox_bottom;
 	//update previous position
@@ -290,7 +291,7 @@ function collision_bounce(){
 	
 function check_dash(){
 	if  dash and can_dash and !(hmove == 0 and vmove == 0){
-		image_index = image_number-1
+		//image_index = image_number-1
 		state = states.DASH;
 		instance_create_layer(x, y, "Player", o_dust_particles)
 		audio_play_sound(choose(sound_dash, sound_dash2), 1, false);
@@ -299,8 +300,7 @@ function check_dash(){
 		hsp = lengthdir_x(dash_speed, move_dir);
 		vsp = lengthdir_y(dash_speed, move_dir);
 		//if image_index >= 4{instance_create_layer(x, y, "Player", o_dust_particles2)}
-
-	}
+	} 
 }
 	
 function check_walk_effect(){
