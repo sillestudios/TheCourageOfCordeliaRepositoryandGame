@@ -125,6 +125,7 @@
     {"name":"inst_5DFFDCD4","path":"rooms/Rooms1_2/Rooms1_2.yy",},
     {"name":"inst_7A163FEA","path":"rooms/Rooms1_2/Rooms1_2.yy",},
     {"name":"inst_5C6931A7","path":"rooms/Rooms1_2/Rooms1_2.yy",},
+    {"name":"inst_53830426","path":"rooms/Rooms1_2/Rooms1_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -257,6 +258,7 @@
         {"$GMRInstance":"v1","%Name":"inst_16117F6E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16117F6E","objectId":{"name":"o_stair_shake","path":"objects/o_stair_shake/o_stair_shake.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.875,"x":272.0,"y":576.0,},
         {"$GMRInstance":"v1","%Name":"inst_60AD735B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60AD735B","objectId":{"name":"o_stair_shake","path":"objects/o_stair_shake/o_stair_shake.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.7395153,"x":800.0,"y":320.0,},
         {"$GMRInstance":"v1","%Name":"inst_63C45129","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63C45129","objectId":{"name":"o_solid_2","path":"objects/o_solid_2/o_solid_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0625,"scaleY":1.875,"x":464.0,"y":979.0,},
+        {"$GMRInstance":"v1","%Name":"inst_53830426","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53830426","objectId":{"name":"o_room_transition","path":"objects/o_room_transition/o_room_transition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":800.0,"y":258.0,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_wall_decos","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_wall_decos","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":94,"SerialiseWidth":94,"TileCompressedData":[
           -47,0,-47,-2147483648,-47,0,-47,-2147483648,-47,0,-47,-2147483648,-47,0,-47,-2147483648,-47,0,-47,-2147483648,
