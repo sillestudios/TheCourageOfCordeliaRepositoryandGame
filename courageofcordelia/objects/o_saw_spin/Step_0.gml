@@ -1,5 +1,5 @@
 
-x += sine_wave(current_time/1000, 2, 2, 0);
+x += sine_wave(current_time/time, period, amplitude, midpoint);
 //saw_move();
 
 if create_vfx{

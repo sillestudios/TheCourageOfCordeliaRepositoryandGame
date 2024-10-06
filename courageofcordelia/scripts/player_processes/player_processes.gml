@@ -207,8 +207,9 @@ function anim(){
 		break;
 		
 		case states.DASH:
-			sprite_index = s_player_dash;
-
+			if facing = 0 or facing = 4{
+				sprite_index = s_player_dash;
+			}else sprite_index = s_player_backdash;
 		break;
 		
 
