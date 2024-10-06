@@ -6,8 +6,8 @@
   "name":"o_blue_furnace",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Lighting",
+    "path":"folders/Control/Lighting.yy",
   },
   "parentObjectId":null,
   "persistent":false,

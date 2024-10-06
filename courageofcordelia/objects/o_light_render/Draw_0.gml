@@ -344,7 +344,7 @@ gpu_set_blendmode(bm_normal);
 
 #region SAW
 with(o_saw_spin){
-	var _wobble = 0.2;
+	var _wobble = 0.025;
 	var _wobble_amount_x = 1.7 + random_range(-_wobble, _wobble);
 	var _wobble_amount_y = 1.7 + random_range(-_wobble, _wobble);
 	
