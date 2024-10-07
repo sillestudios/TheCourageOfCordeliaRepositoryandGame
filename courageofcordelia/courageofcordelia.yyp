@@ -325,6 +325,7 @@
     {"id":{"name":"s_button","path":"sprites/s_button/s_button.yy",},},
     {"id":{"name":"s_chest_close","path":"sprites/s_chest_close/s_chest_close.yy",},},
     {"id":{"name":"s_chest_idle","path":"sprites/s_chest_idle/s_chest_idle.yy",},},
+    {"id":{"name":"s_chest_loot_zone","path":"sprites/s_chest_loot_zone/s_chest_loot_zone.yy",},},
     {"id":{"name":"s_chest_open","path":"sprites/s_chest_open/s_chest_open.yy",},},
     {"id":{"name":"s_coin","path":"sprites/s_coin/s_coin.yy",},},
     {"id":{"name":"s_cooldown_percent","path":"sprites/s_cooldown_percent/s_cooldown_percent.yy",},},
