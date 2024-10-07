@@ -5,3 +5,4 @@ global.drag = 0.93;
 global.controller = controllers.KEYBOARD;
 
 window_set_fullscreen(true);
+randomize();
