@@ -1,4 +1,4 @@
-
+targetRoom = asset_get_index("Rooms1" + "_" + string(irandom_range(1, 5)));
 
 if targetRoom == Rooms1_1{
 	targetRoom = Rooms1_1;

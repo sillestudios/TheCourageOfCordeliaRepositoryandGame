@@ -188,12 +188,20 @@ function anim(){
 		default:
 			//use this for running anims
 			//if hmove != 0 or vmove != 0{
+			if facing  = 4 facing = 0
 
 			if facing = 0 sprite_index = s_player_idle_right;
+			if facing = 0  && right{
+				sprite_index = s_player_run_right
+			}
+			
 				
 			if facing = 1 sprite_index = s_player_idle_up;
 			
 			if facing = 2 sprite_index = s_player_idle_left;
+			if facing = 2  && left{
+				sprite_index = s_player_run_left;
+			}
 			
 			if facing = 3 sprite_index = s_player_idle_down;
 			

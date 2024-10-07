@@ -81,4 +81,8 @@ if !place_meeting(x, y, o_trader){
 
 #endregion
 
+			if right or left{
+				walk_spd = 3;
+			}
+
 
