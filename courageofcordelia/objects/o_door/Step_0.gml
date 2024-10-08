@@ -1,4 +1,5 @@
 
+
 if !instance_exists(o_enemy_par){
 
 	image_speed = 1;

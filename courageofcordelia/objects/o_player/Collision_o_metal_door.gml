@@ -1,0 +1,1 @@
+metal_door_collision();

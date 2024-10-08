@@ -1,1 +1,2 @@
-kill_countdown = 30;
+kill_countdown = 50;
+depth = -bbox_bottom;

@@ -393,6 +393,23 @@ with(o_pillar){
 gpu_set_blendmode(bm_normal);
 #endregion
 
+#region SUMMON SPAWNER
+with(o_summon_spawner){
+	var _wobble = 0.2;
+	var _wobble_amount_x = 2 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 2 + random_range(-_wobble, _wobble);
+	
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(s_light_cutout, 0, x - 5 , y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+	gpu_set_blendmode(bm_add);
+	draw_sprite_ext(s_light_cutout, 0, x - 5, y, _wobble_amount_x, _wobble_amount_y, 0, c_purple, 0.55);
+	
+
+}
+gpu_set_blendmode(bm_normal);
+#endregion
+
 
 surface_reset_target();
 

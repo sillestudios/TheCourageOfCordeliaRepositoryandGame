@@ -494,6 +494,29 @@ function vase_collision(){
 	
 }
 	
+function metal_door_collision(){
+	//set target values
+	var _tx = x;
+	var _ty = y;
+	
+	//move back to last step position, out of the collision
+	x = xprevious;
+	y = yprevious;
+	
+	//get max distance we want to move
+	var _disx = floor(abs(_tx - x));
+	var _disy = floor(abs(_ty - y));
+	
+	//move as far as we can in x and y before hitting the solid
+	repeat(_disx){
+		if !place_meeting(x + sign(_tx - x), y, o_metal_door) x += sign(_tx - x);
+	}
+		
+	repeat(_disy){
+		if !place_meeting(x, y + sign(_ty - y), o_metal_door) y += sign(_ty - y);
+	}
+	
+}
 
 	
 	
