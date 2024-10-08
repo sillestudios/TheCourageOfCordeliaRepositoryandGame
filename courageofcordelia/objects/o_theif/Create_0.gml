@@ -25,3 +25,4 @@ s_hurt = s_theif_hit;
 
 
 death_timer = 120;
+

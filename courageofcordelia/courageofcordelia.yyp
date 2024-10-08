@@ -485,6 +485,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"RoomInit","path":"rooms/RoomInit/RoomInit.yy",},},
+    {"roomId":{"name":"Rooms3_1","path":"rooms/Rooms3_1/Rooms3_1.yy",},},
     {"roomId":{"name":"RoomM","path":"rooms/RoomM/RoomM.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -506,9 +507,7 @@
             {"roomId":{"name":"Rooms2_4","path":"rooms/Rooms2_4/Rooms2_4.yy",},},
             {"roomId":{"name":"Rooms2_5","path":"rooms/Rooms2_5/Rooms2_5.yy",},},
           ],"groupName":"Rooms2",},
-        {"children":[
-            {"roomId":{"name":"Rooms3_1","path":"rooms/Rooms3_1/Rooms3_1.yy",},},
-          ],"groupName":"Rooms3",},
+        {"children":[],"groupName":"Rooms3",},
         {"roomId":{"name":"Dung1RoomTemplate","path":"rooms/Dung1RoomTemplate/Dung1RoomTemplate.yy",},},
       ],"groupName":"Dung1",},
   ],
