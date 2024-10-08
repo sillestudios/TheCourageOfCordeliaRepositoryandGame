@@ -192,11 +192,14 @@ function anim(){
 
 			if facing = 0 sprite_index = s_player_idle_right;
 			if facing = 0  && right{
-				sprite_index = s_player_run_right
+				sprite_index = s_player_run_right;
 			}
 			
 				
 			if facing = 1 sprite_index = s_player_idle_up;
+			if facing = 1 && up{
+				sprite_index = s_player_run_up;
+			}
 			
 			if facing = 2 sprite_index = s_player_idle_left;
 			if facing = 2  && left{
@@ -204,6 +207,9 @@ function anim(){
 			}
 			
 			if facing = 3 sprite_index = s_player_idle_down;
+			if facing = 3 && down{
+				sprite_index = s_player_run_down;
+			}
 			
 			if facing = 4 sprite_index = s_player_idle_right;
 				

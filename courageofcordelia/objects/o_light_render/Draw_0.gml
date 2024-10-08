@@ -359,6 +359,40 @@ with(o_saw_spin){
 gpu_set_blendmode(bm_normal);
 #endregion
 
+#region SUMMON VFX
+with(o_summon){
+	var _wobble = 0.02;
+	var _wobble_amount_x = 1 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 1 + random_range(-_wobble, _wobble);
+	
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+	gpu_set_blendmode(bm_add);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_purple, 0.55);
+	
+
+}
+gpu_set_blendmode(bm_normal);
+#endregion
+
+#region PILLAR
+with(o_pillar){
+	var _wobble = 0.2;
+	var _wobble_amount_x = 1.7 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 1.7 + random_range(-_wobble, _wobble);
+	
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(s_light_cutout, 0, x , y + 20, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+	gpu_set_blendmode(bm_add);
+	draw_sprite_ext(s_light_cutout, 0, x , y + 20, _wobble_amount_x, _wobble_amount_y, 0, c_aqua, 0.55);
+	
+
+}
+gpu_set_blendmode(bm_normal);
+#endregion
+
 
 surface_reset_target();
 
