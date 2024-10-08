@@ -44,3 +44,4 @@ calc_path_timer = irandom(60);
 
 death_timer = 10;
 
+

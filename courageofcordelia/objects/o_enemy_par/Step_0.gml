@@ -49,3 +49,5 @@ switch (state){
 	else if (o_enemy_par.counter_footsteps>0) o_enemy_par.counter_footsteps--;
 
 
+
+
