@@ -239,7 +239,6 @@ function enemy_check_spawn_spawner(){
 	
 function summons_room_check(){
 	if instance_exists(o_pillar){
-	o_pillar.kill_countdown = o_pillar.kill_countdown - 1;
 	instance_create_layer(x, y, "Enemy", o_summon);
 	instance_create_layer(x, y, "Enemy", o_death_skulls);
 	}
