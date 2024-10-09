@@ -266,18 +266,15 @@ function hailstorm_attack(){
 		//get attack direction
 		var _dir = point_direction(x, y, o_player.x, o_player.y);
 		
-		//get attack position
-		var _xx = x + lengthdir_x(attack_dis, _dir);
-		var _yy = y + lengthdir_y(attack_dis, _dir);
+		var _hail = instance_create_depth(random_range(o_player.x + 30, o_player.x - 30), random_range(o_player.y - 30, o_player.y + 30), -2000, o_hail_rain);
 		
-		var _inst = instance_create_layer(random_range(o_player.x + 30, o_player.x - 30), random_range(o_player.y - 30, o_player.y + 30), "Enemy", o_hail_rain);
-		
+
 		//create hitbox and pass our variables to the hitbox
-		var _inst = instance_create_layer(_inst.x, _inst.y, "Enemy", o_hailstorm_hitbox);
+		var _inst = instance_create_depth(_hail.x, _hail.y, -1000, o_hailstorm_hitbox);
 		_inst.owner_id = id;
 		_inst.damage = damage;
 		_inst.knockback_time = knockback_time;
-		
+
 
 
 		}

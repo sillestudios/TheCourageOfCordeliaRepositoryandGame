@@ -15,7 +15,7 @@ hp = hp_max;
 
 alert_dis = 4000;
 attack_dis = 750
-hailstorm_cooldown = 25;
+hailstorm_cooldown = 35;
 hailstorm_active = false;
 attack_frame = 1;
 
