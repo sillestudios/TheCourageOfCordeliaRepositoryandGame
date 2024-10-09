@@ -20,6 +20,10 @@ hailstorm_active = false;
 attack_frame = 1;
 
 
+start_attacks = false;
+start_attacks_timer_init = 120;
+
+
 //assign sprites
 s_idle = s_necromancer_idle;
 s_attack = s_necromancer_shoot;
