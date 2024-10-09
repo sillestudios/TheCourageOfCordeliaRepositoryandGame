@@ -182,6 +182,8 @@
     {"name":"Rooms2_3","order":2,"path":"rooms/Rooms2_3/Rooms2_3.yy",},
     {"name":"Rooms2_4","order":3,"path":"rooms/Rooms2_4/Rooms2_4.yy",},
     {"name":"Rooms2_5","order":4,"path":"rooms/Rooms2_5/Rooms2_5.yy",},
+    {"name":"Rooms3_2","order":1,"path":"rooms/Rooms3_2/Rooms3_2.yy",},
+    {"name":"Rooms3_3","order":2,"path":"rooms/Rooms3_3/Rooms3_3.yy",},
     {"name":"RoomTitleScreen","order":1,"path":"rooms/RoomTitleScreen/RoomTitleScreen.yy",},
     {"name":"Camera","order":9,"path":"scripts/Camera/Camera.yy",},
     {"name":"draw_inv","order":12,"path":"scripts/draw_inv/draw_inv.yy",},
