@@ -13,7 +13,3 @@ if alarm[HURT] > 0 and flash-- < flash_initial/2 or show_flash-- > 0{
 
 //draw_text(CameraX() + 100, CameraY() + 100, string(enemy_spawn_count));
 
-//draw hp (seperate from player when doing player ui)
-/*var _healthPercent = hp/hp_max;
-var _hpImage = _healthPercent * (sprite_get_number(s_small_health_bar) -1 );
-draw_sprite_ext(s_small_health_bar, _hpImage, x , y - headheight - headheight_spacer, image_xscale, image_yscale, image_angle, image_blend, image_alpha );
