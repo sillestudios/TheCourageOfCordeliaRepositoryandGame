@@ -7,6 +7,7 @@ switch (state){
 	
 	case states.HAILSTORM:
 		check_facing();
+		spawn_hail_cloud();
 		hailstorm_attack();
 		enemy_anim();
 	break;

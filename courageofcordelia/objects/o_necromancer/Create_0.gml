@@ -10,12 +10,13 @@ counter_footsteps = 20;
 //healthbar
 headheight = 10;
 
-hp_max = 10;
+hp_max = 100;
 hp = hp_max;
 
 alert_dis = 4000;
 attack_dis = 750
-hailstorm_cooldown = 120;
+hailstorm_cooldown = 25;
+hailstorm_active = false;
 attack_frame = 1;
 
 

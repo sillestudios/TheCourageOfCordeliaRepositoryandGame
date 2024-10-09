@@ -248,9 +248,17 @@ function summons_room_check(){
 	}
 }
 	
+	
+function spawn_hail_cloud(){
+	if !instance_exists(o_hail_storm){
+	instance_create_layer(o_necromancer.x + 10, o_necromancer.y - 10, "Enemy", o_hail_storm);
+	hailstorm_active = true;
+	}
+}
+	
 function hailstorm_attack(){
 	//attack player when we are at the correct frame
-	if image_index >= attack_frame and can_attack{
+	if can_attack{
 		//reset for next attack
 		can_attack = false;
 		alarm[0] = hailstorm_cooldown;
@@ -262,15 +270,15 @@ function hailstorm_attack(){
 		var _xx = x + lengthdir_x(attack_dis, _dir);
 		var _yy = y + lengthdir_y(attack_dis, _dir);
 		
+		var _inst = instance_create_layer(random_range(o_player.x + 30, o_player.x - 30), random_range(o_player.y - 30, o_player.y + 30), "Enemy", o_hail_rain);
+		
 		//create hitbox and pass our variables to the hitbox
-		var _inst = instance_create_layer(o_player.x *facing, o_player.y, "Enemy", o_enemy_hitbox);
+		var _inst = instance_create_layer(_inst.x, _inst.y, "Enemy", o_hailstorm_hitbox);
 		_inst.owner_id = id;
 		_inst.damage = damage;
 		_inst.knockback_time = knockback_time;
 		
 
-
-		var _inst = instance_create_layer(o_player.x, o_player.y, "Enemy", o_hail_rain);
 
 		}
 }
