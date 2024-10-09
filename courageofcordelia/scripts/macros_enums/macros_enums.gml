@@ -15,6 +15,8 @@ enum states{
 	KNOCKBACK,
 	DASH,
 	SPAWNER,
+	HAILSTORM,
+	
 }
 
 enum controllers{

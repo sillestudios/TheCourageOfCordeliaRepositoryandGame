@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_enemy_hitbox",
+  "%Name":"o_hail_rain",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_enemy_hitbox",
+  "name":"o_hail_rain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemy",
-    "path":"folders/Entity/Enemy.yy",
+    "name":"NecroSpells",
+    "path":"folders/Entity/Enemy/Necromancer/NecroSpells.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_enemy_hitbox",
-    "path":"sprites/s_enemy_hitbox/s_enemy_hitbox.yy",
+    "name":"s_hail_rain",
+    "path":"sprites/s_hail_rain/s_hail_rain.yy",
   },
   "spriteMaskId":null,
   "visible":true,

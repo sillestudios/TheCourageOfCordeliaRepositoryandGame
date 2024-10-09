@@ -104,6 +104,10 @@ function enemy_anim(){
 		case states.SPAWNER:
 			sprite_index = s_warlock_spawn;
 		break;
+		
+		case states.HAILSTORM:
+			sprite_index = s_necromancer_laugh;
+		break;
 	}
 	//set depth
 	depth = -bbox_bottom;
@@ -241,5 +245,51 @@ function summons_room_check(){
 	if instance_exists(o_pillar){
 	instance_create_layer(x, y, "Enemy", o_summon);
 	instance_create_layer(x, y, "Enemy", o_death_skulls);
+	}
+}
+	
+function hailstorm_attack(){
+	//attack player when we are at the correct frame
+	if image_index >= attack_frame and can_attack{
+		//reset for next attack
+		can_attack = false;
+		alarm[0] = hailstorm_cooldown;
+		
+		//get attack direction
+		var _dir = point_direction(x, y, o_player.x, o_player.y);
+		
+		//get attack position
+		var _xx = x + lengthdir_x(attack_dis, _dir);
+		var _yy = y + lengthdir_y(attack_dis, _dir);
+		
+		//create hitbox and pass our variables to the hitbox
+		var _inst = instance_create_layer(o_player.x *facing, o_player.y, "Enemy", o_enemy_hitbox);
+		_inst.owner_id = id;
+		_inst.damage = damage;
+		_inst.knockback_time = knockback_time;
+		
+
+
+		var _inst = instance_create_layer(o_player.x, o_player.y, "Enemy", o_hail_rain);
+
+		}
+}
+
+function necro_check_for_player(){
+	//ensure player is alive and exists
+	if instance_exists(o_player){
+		if o_player.state == states.DEAD exit;
+	
+		//check if player is close enough to the enemy to start chasing the player
+		var _dis = distance_to_object(o_player);
+	
+		//can we start chasing? or are we already alert and out of attack distance
+		if ((_dis <= alert_dis) or alert){
+			//enemy is now alert
+			alert = true;
+			if _dis <= attack_dis{
+				state = states.HAILSTORM;
+			}
+		}
 	}
 }
