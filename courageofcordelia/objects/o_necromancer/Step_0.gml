@@ -1,6 +1,8 @@
 
+
 switch (state){
 	case states.IDLE:
+		reset_variables();
 		necro_check_for_player();
 		enemy_anim();
 	break;
