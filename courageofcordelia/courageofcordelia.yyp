@@ -248,6 +248,7 @@
     {"id":{"name":"Rooms3_3","path":"rooms/Rooms3_3/Rooms3_3.yy",},},
     {"id":{"name":"Rooms4_1","path":"rooms/Rooms4_1/Rooms4_1.yy",},},
     {"id":{"name":"RoomTitleScreen","path":"rooms/RoomTitleScreen/RoomTitleScreen.yy",},},
+    {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
     {"id":{"name":"Camera","path":"scripts/Camera/Camera.yy",},},
     {"id":{"name":"draw_inv","path":"scripts/draw_inv/draw_inv.yy",},},
     {"id":{"name":"draw_reset","path":"scripts/draw_reset/draw_reset.yy",},},

@@ -279,7 +279,7 @@ function hailstorm_attack(){
 		//get attack direction
 		//var _dir = point_direction(x, y, o_player.x, o_player.y);
 		
-		var _hail = instance_create_depth(random_range(o_player.x + 5, o_player.x - 5), random_range(o_player.y - 5, o_player.y + 5), -2000, o_hail_rain);
+		var _hail = instance_create_depth(random_range(px + 5, px - 5), random_range(py - 5, py + 5), -2000, o_hail_rain);
 		screen_shake(5)
 
 		//create hitbox and pass our variables to the hitbox
@@ -302,6 +302,7 @@ function hailstorm_attack(){
 			}
 		
 		state = states.LASERPHASE;
+		state_timer = 0;
 		stay_in_phase = true;
 		alarm[3] = -1
 		next_phase_countdown = 280;
@@ -314,28 +315,29 @@ function necro_check_for_player(){
 	if instance_exists(o_player){
 		if o_player.state == states.DEAD exit;
 	
-		//check if player is close enough to the enemy to start chasing the player
+		//check if player is close enough to the enemy to start attacking the player
 		var _dis = distance_to_object(o_player);
 	
-		//can we start chasing? or are we already alert and out of attack distance
+		//can we start attacking or are we already alert and out of attack distance
 		if ((_dis <= alert_dis) or alert){
 			//enemy is now alert
 			alert = true;
 			if _dis <= attack_dis{
 				state = states.HAILSTORM;
+				state_timer = 0;
 			}
 		}
 	}
 }
 	
 function set_hailstorm_phase(){
-		//alarm[3] = -1;
 		if alarm[4] == -1{
 			alarm[4] = next_phase_countdown2;
 		}
 		
 		if stay_in_laserphase = false {
 			state = states.HAILSTORM;
+			state_timer = 0;
 			stay_in_laserphase = true;
 			alarm[4] = -1;
 			next_phase_countdown2 = 280;

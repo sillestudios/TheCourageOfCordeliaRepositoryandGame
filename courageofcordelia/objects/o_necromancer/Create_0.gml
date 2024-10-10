@@ -4,6 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
+state_timer = 1;
+px = undefined;
+py = undefined;
+
 facing = 1;
 
 //footstep counter

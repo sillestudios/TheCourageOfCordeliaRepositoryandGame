@@ -8,6 +8,6 @@ switch(state){
 	
 	case states.HAILSTORM:
 		image_index = 0;
-		state = states.IDLE;
+		//state = states.IDLE;
 	break;
 }

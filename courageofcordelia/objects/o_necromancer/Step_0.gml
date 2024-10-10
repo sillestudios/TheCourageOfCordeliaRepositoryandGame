@@ -7,10 +7,15 @@ switch (state){
 	break;
 	
 	case states.HAILSTORM:
+		if state_timer == 1{
+			px = o_player.x;
+			py = o_player.y;
+		}
 		check_facing();
 		spawn_hail_cloud();
 		hailstorm_attack();
 		enemy_anim();
+		
 	break;
 	
 	case states.LASERPHASE:
@@ -28,6 +33,7 @@ switch (state){
 		
 	break;
 }
+state_timer++;
 
 	
 	if (sprite_index==o_enemy_par.s_walk) and (o_enemy_par.counter_footsteps==0){
@@ -39,49 +45,5 @@ switch (state){
 	else if (o_enemy_par.counter_footsteps>0) o_enemy_par.counter_footsteps--;
 
 
-/*switch (state){
-	case states.IDLE:
-		calc_entity_movement();
-		check_for_player();
-		if path_index != -1 state = states.MOVE;		
-		enemy_anim();
-	break;
-	
-	case states.MOVE:
-		enemy_check_spawn_spawner();
-		calc_entity_movement();
-		check_for_player();
-		if path_index == -1 state = states.IDLE;
-		check_facing();
-		check_walk_effect();
-		enemy_anim();
-	break;
-	
-	case states.ATTACK:
 
-		calc_entity_movement();
-		enemy_aim_weapon();
-		enemy_shoot()
-		check_facing();
-		check_walk_effect();
-		enemy_anim();
-	break;
-	
-	case states.SPAWNER:
-		enemy_check_spawn_spawner();
-		enemy_anim();
-	break;
-	
-	case states.KNOCKBACK:
-		calc_knockback_movement();
-		check_walk_effect();
-		enemy_anim();
-	break;
-	
-	case states.DEAD:
-		calc_entity_movement();
-		check_walk_effect()
-		enemy_anim();
-	break;
-}
 
