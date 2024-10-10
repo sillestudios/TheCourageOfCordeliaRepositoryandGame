@@ -11,6 +11,11 @@ switch (state){
 		hailstorm_attack();
 		enemy_anim();
 	break;
+	
+	case states.LASERPHASE:
+		check_facing();
+		enemy_anim();
+	break;
 
 	case states.DEAD:
 		enemy_anim();

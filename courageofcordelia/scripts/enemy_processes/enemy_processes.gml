@@ -108,6 +108,10 @@ function enemy_anim(){
 		case states.HAILSTORM:
 			sprite_index = s_necromancer_laugh;
 		break;
+		
+		case states.LASERPHASE:
+			sprite_index = s_necromancer_shoot;
+		break;
 	}
 	//set depth
 	depth = -bbox_bottom;
@@ -257,8 +261,12 @@ function spawn_hail_cloud(){
 }
 	
 function hailstorm_attack(){
+	
+
+	
 	//attack player when we are at the correct frame
 	if can_attack{
+		
 		//reset for next attack
 		can_attack = false;
 		alarm[0] = hailstorm_cooldown;
@@ -267,7 +275,7 @@ function hailstorm_attack(){
 		var _dir = point_direction(x, y, o_player.x, o_player.y);
 		
 		var _hail = instance_create_depth(random_range(o_player.x + 30, o_player.x - 30), random_range(o_player.y - 30, o_player.y + 30), -2000, o_hail_rain);
-		
+
 
 		//create hitbox and pass our variables to the hitbox
 		var _inst = instance_create_depth(_hail.x, _hail.y, -1000, o_hailstorm_hitbox);
@@ -275,8 +283,18 @@ function hailstorm_attack(){
 		_inst.damage = damage;
 		_inst.knockback_time = knockback_time;
 
-
-
+		}
+		
+		if alarm[3] == -1{
+			alarm[3] = next_phase_countdown;
+		}
+		
+		if stay_in_phase = false {
+			state = states.LASERPHASE;
+			if instance_exists(o_hail_storm){
+				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
+				instance_destroy(o_hail_storm);
+			}
 		}
 }
 
@@ -297,4 +315,8 @@ function necro_check_for_player(){
 			}
 		}
 	}
+}
+	
+function check_laserphase(){
+
 }

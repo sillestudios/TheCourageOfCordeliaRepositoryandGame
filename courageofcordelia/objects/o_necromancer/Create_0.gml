@@ -19,9 +19,10 @@ hailstorm_cooldown = 35;
 hailstorm_active = false;
 attack_frame = 1;
 
+stay_in_phase = true;
+next_phase_countdown = 280;
 
-start_attacks = false;
-start_attacks_timer_init = 120;
+
 
 
 //assign sprites

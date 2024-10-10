@@ -16,6 +16,7 @@ enum states{
 	DASH,
 	SPAWNER,
 	HAILSTORM,
+	LASERPHASE
 	
 }
 

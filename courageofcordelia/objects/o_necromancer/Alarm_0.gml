@@ -1,3 +1,3 @@
-/// @description Insert description here
+/// @description CAN ATTACK
 // You can write your code in this editor
 can_attack = true;
