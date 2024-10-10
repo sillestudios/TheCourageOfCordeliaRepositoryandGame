@@ -17,7 +17,7 @@ attack_dis = 75;
 attack_frame = 10;
 
 //throwing bomb
-aim_dir = 0;
+aim_dir = point_direction(x, y, o_player.x, o_player.y);
 can_throw_bomb = true;
 bomb_cooldown = 120;
 bomb_power = 8;

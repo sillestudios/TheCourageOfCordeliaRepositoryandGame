@@ -152,9 +152,9 @@ function perform_attack(){
 	
 function enemy_aim_weapon(){
 	//get and set weapon aim
-	var _dir = undefined;
+	//var _dir = undefined;
 
-	_dir = point_direction(x, y, o_player.x, o_player.y);
+	var _dir = point_direction(x, y, o_player.x, o_player.y);
 		
 	//?????figure out how to stop enemies from shooting walls with collison line?????
 	
@@ -170,6 +170,7 @@ function enemy_aim_weapon(){
 	//limit aim dir between 0 and 360
 	if aim_dir >= 360 aim_dir -= 360;
 	else if aim_dir < 0 aim_dir += 360;
+	
 
 }
 
@@ -258,6 +259,9 @@ function summons_room_check(){
 }
 	
 	
+	
+//necromancer specific
+	
 function spawn_hail_cloud(){
 	if !instance_exists(o_hail_storm){
 	instance_create_layer(o_necromancer.x, o_necromancer.y - 25, "Enemy", o_hail_storm);
@@ -298,6 +302,10 @@ function hailstorm_attack(){
 			if instance_exists(o_hail_storm){
 				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
 				instance_destroy(o_hail_storm);
+				
+				//testing wait time in between states.
+				//sprite_index = s_necromancer_laugh
+				//alarm[5] = 
 				
 			}
 		

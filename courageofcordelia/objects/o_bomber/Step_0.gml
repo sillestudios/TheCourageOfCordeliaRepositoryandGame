@@ -20,7 +20,6 @@ switch (state){
 		calc_entity_movement();
 		check_facing();
 		enemy_aim_weapon();
-		//perform_ranged_attack();
 		check_bomb();
 		check_walk_effect();
 		enemy_anim();
