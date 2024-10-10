@@ -322,6 +322,23 @@ function necro_check_for_player(){
 	}
 }
 	
+function set_hailstorm_phase(){
+			
+		if alarm[3] == -1{
+			alarm[3] = next_phase_countdown;
+		}
+		
+		if stay_in_phase = false {
+			if instance_exists(o_hail_storm){
+				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
+				instance_destroy(o_hail_storm);
+			}
+		state = states.LASERPHASE;
+		}
+}
+	
+
+	
 
 
 

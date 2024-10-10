@@ -37,6 +37,7 @@ shoot_cooldown = 25;
 
 
 
+
 //assign sprites
 s_idle = s_necromancer_idle;
 s_attack = s_necromancer_shoot;

@@ -2,7 +2,6 @@
 
 switch (state){
 	case states.IDLE:
-		reset_variables();
 		necro_check_for_player();
 		enemy_anim();
 	break;
@@ -15,6 +14,7 @@ switch (state){
 	break;
 	
 	case states.LASERPHASE:
+		set_hailstorm_phase();
 		check_facing();
 		enemy_aim_weapon();
 		enemy_shoot();
