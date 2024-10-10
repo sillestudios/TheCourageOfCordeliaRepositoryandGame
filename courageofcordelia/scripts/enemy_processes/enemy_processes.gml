@@ -279,7 +279,7 @@ function hailstorm_attack(){
 		//get attack direction
 		//var _dir = point_direction(x, y, o_player.x, o_player.y);
 		
-		var _hail = instance_create_depth(random_range(px + 5, px - 5), random_range(py - 5, py + 5), -2000, o_hail_rain);
+		var _hail = instance_create_depth(random_range(px + 50, px - 50), random_range(py - 50, py + 50), -2000, o_hail_rain);
 		screen_shake(5)
 
 		//create hitbox and pass our variables to the hitbox
