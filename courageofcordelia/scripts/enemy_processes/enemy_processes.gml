@@ -204,6 +204,13 @@ function enemy_shoot(){
 			alarm[0] = shoot_cooldown;
 			var _dir = aim_dir;
 			var _inst = instance_create_layer(x, y, "Projectile", enemy_projectile);
+			if enemy_projectile = o_necro_bullet{
+				var _muzzle = instance_create_layer(x + 20, y, "Enemy", o_necro_bullet_muzzle);
+				with(_muzzle){
+					direction = _dir;
+					image_angle = _dir;
+				}
+			}
 			with(_inst){
 				hsp = lengthdir_x(other.fire_power, _dir);
 				vsp = lengthdir_y(other.fire_power, _dir);
@@ -273,7 +280,7 @@ function hailstorm_attack(){
 		var _dir = point_direction(x, y, o_player.x, o_player.y);
 		
 		var _hail = instance_create_depth(random_range(o_player.x + 30, o_player.x - 30), random_range(o_player.y - 30, o_player.y + 30), -2000, o_hail_rain);
-
+		screen_shake(3)
 
 		//create hitbox and pass our variables to the hitbox
 		var _inst = instance_create_depth(_hail.x, _hail.y, -1000, o_hailstorm_hitbox);

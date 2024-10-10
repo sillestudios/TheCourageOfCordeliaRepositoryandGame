@@ -1,18 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"o_hailstorm_hitbox",
+  "%Name":"o_necro_bullet",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_hailstorm_hitbox",
+  "name":"o_necro_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemy",
-    "path":"folders/Entity/Enemy.yy",
+    "name":"NecroSpells",
+    "path":"folders/Entity/Enemy/Necromancer/NecroSpells.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_water_bolt",
+    "path":"objects/o_water_bolt/o_water_bolt.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +35,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_hailstorm_hitbox",
-    "path":"sprites/s_hailstorm_hitbox/s_hailstorm_hitbox.yy",
+    "name":"s_necro_bullet",
+    "path":"sprites/s_necro_bullet/s_necro_bullet.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

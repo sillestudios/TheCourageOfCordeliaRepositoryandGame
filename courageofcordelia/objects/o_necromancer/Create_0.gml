@@ -25,7 +25,7 @@ stay_in_phase = true;
 next_phase_countdown = 280;
 
 //shooting
-enemy_projectile = o_beam;
+enemy_projectile = o_necro_bullet;
 attack_dis = 500;
 attack_frame = 2;
 if attack_frame = 2 fire = true;
