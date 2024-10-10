@@ -298,8 +298,14 @@ function hailstorm_attack(){
 			if instance_exists(o_hail_storm){
 				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
 				instance_destroy(o_hail_storm);
+				
 			}
+		
 		state = states.LASERPHASE;
+		stay_in_phase = true;
+		alarm[3] = -1
+		next_phase_countdown = 280;
+		
 		}
 }
 
@@ -323,22 +329,20 @@ function necro_check_for_player(){
 }
 	
 function set_hailstorm_phase(){
-			
-		if alarm[3] == -1{
-			alarm[3] = next_phase_countdown;
+		//alarm[3] = -1;
+		if alarm[4] == -1{
+			alarm[4] = next_phase_countdown2;
 		}
 		
-		if stay_in_phase = false {
-			if instance_exists(o_hail_storm){
-				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
-				instance_destroy(o_hail_storm);
-			}
-		state = states.LASERPHASE;
+		if stay_in_laserphase = false {
+			state = states.HAILSTORM;
+			stay_in_laserphase = true;
+			alarm[4] = -1;
+			next_phase_countdown2 = 280;
 		}
 }
 	
 
-	
 
 
 
