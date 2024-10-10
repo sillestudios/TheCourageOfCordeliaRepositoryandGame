@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"o_beam",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_beam",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"NecroSpells",
     "path":"folders/Entity/Enemy/Necromancer/NecroSpells.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_water_bolt",
+    "path":"objects/o_water_bolt/o_water_bolt.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

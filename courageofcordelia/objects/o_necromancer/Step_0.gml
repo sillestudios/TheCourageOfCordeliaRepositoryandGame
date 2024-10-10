@@ -14,6 +14,8 @@ switch (state){
 	
 	case states.LASERPHASE:
 		check_facing();
+		enemy_aim_weapon();
+		enemy_shoot();
 		enemy_anim();
 	break;
 

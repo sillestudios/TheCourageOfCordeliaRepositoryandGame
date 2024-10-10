@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+facing = 1;
+
 //footstep counter
 counter_footsteps = 20;
 
@@ -21,6 +23,16 @@ attack_frame = 1;
 
 stay_in_phase = true;
 next_phase_countdown = 280;
+
+//shooting
+enemy_projectile = o_beam;
+attack_dis = 500;
+attack_frame = 2;
+if attack_frame = 2 fire = true;
+can_attack = true;
+aim_dir = point_direction(x, y, o_player.x, o_player.y);
+fire_power = 3; //bullet speed
+shoot_cooldown = 25;
 
 
 
