@@ -81,6 +81,24 @@ if can_show_inv{
 		//hovering
 		if (is_between(mx, (CameraX() + _posX), (CameraX() + _posX) + 24)){
 			if (is_between(my, (CameraY() + _posY), (CameraY() + _posY) + 24)){
+				
+				//item description
+				if (_inventory_index <= array_length(_inventory_items) - 1){
+				draw_set(c_white, 1);
+				draw_sprite_ext(s_hotkey_box, 0, CameraX() + 450,
+				CameraY() + 75,
+				2.5, 2.5, 0, c_white, 1);
+				}
+				
+				text_align(fa_center, fa_middle )
+				if (_inventory_index <= array_length(_inventory_items) - 1){
+				draw_text_transformed(CameraX() + 491, CameraY() + 85,
+				string(_inventory_items[_inventory_index].name),
+				 0.2, 0.2, 0);
+				}
+
+		
+				
 				draw_set(c_black, 0.25);
 				draw_rectangle(
 				CameraX() + _posX,
