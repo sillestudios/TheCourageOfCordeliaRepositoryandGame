@@ -26,6 +26,23 @@ with(o_torch_light){
 gpu_set_blendmode(bm_normal);
 #endregion
 
+#region RED TORCH
+with(o_red_torch){
+	var _wobble = 0.2;
+	var _wobble_amount_x = 2 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 2 + random_range(-_wobble, _wobble);
+	
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+	gpu_set_blendmode(bm_add);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_red, 0.55);
+	
+
+}
+gpu_set_blendmode(bm_normal);
+#endregion
+
 #region TORCH POST
 with(o_torch_post){
 	var _wobble = 0.2;
