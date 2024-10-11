@@ -19,9 +19,9 @@ headheight = 10;
 hp_max = 100;
 hp = hp_max;
 
-alert_dis = 4000;
-attack_dis = 750
-hailstorm_cooldown = 20;
+alert_dis = 300;
+attack_dis = 275
+hailstorm_cooldown = 10;
 hailstorm_active = false;
 attack_frame = 1;
 
@@ -29,6 +29,8 @@ stay_in_phase = true;
 stay_in_laserphase = true;
 next_phase_countdown = 280;
 next_phase_countdown2 = 280;
+
+can_spawn_rip = true;
 
 //shooting
 enemy_projectile = o_necro_bullet;

@@ -11,6 +11,7 @@ switch (state){
 			px = o_player.x;
 			py = o_player.y;
 		}
+		spawn_time_rip();
 		check_facing();
 		spawn_hail_cloud();
 		hailstorm_attack();

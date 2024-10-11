@@ -181,6 +181,40 @@ gpu_set_blendmode(bm_normal);
 
 #endregion
 
+#region GOBBOMB ENEMY
+with(o_bomber){
+	var _wobble = 0.025;
+	var _wobble_amount_x = 1.25 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 1.25 + random_range(-_wobble, _wobble);
+	
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+	gpu_set_blendmode(bm_add);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_green, 0.45);
+}
+gpu_set_blendmode(bm_normal);
+
+
+#endregion
+
+#region NECROMANCER
+with(o_necromancer){
+	var _wobble = 0.025;
+	var _wobble_amount_x = 1.5 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 1.5 + random_range(-_wobble, _wobble);
+	
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+	gpu_set_blendmode(bm_add);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_purple, 0.45);
+}
+gpu_set_blendmode(bm_normal);
+
+
+#endregion
+
 #region ARROW
 with(o_arrow){
 

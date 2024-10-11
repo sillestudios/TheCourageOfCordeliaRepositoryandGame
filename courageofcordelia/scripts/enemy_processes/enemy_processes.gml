@@ -269,16 +269,24 @@ function spawn_hail_cloud(){
 	}
 }
 	
+function spawn_time_rip(){
+	if !instance_exists(o_time_rip) && can_spawn_rip{
+			instance_create_depth(o_player.x, o_player.y - 30, -2001, o_time_rip)
+			can_spawn_rip = false;
+	}
+}
+	
 function hailstorm_attack(){
 	
-
 	
 	//attack player when we are at the correct frame
-	if can_attack{
+	if can_attack && !instance_exists(o_time_rip){
 		
 		//reset for next attack
 		can_attack = false;
 		alarm[0] = hailstorm_cooldown;
+		
+		
 		
 		//get attack direction
 		//var _dir = point_direction(x, y, o_player.x, o_player.y);
@@ -310,6 +318,7 @@ function hailstorm_attack(){
 			}
 		
 		state = states.LASERPHASE;
+		can_spawn_rip = true;
 		state_timer = 0;
 		stay_in_phase = true;
 		alarm[3] = -1
