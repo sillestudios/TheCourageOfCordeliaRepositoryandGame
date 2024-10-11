@@ -358,6 +358,8 @@
     {"name":"s_pistol_muzzle","order":7,"path":"sprites/s_pistol_muzzle/s_pistol_muzzle.yy",},
     {"name":"s_pistol_trail","order":11,"path":"sprites/s_pistol_trail/s_pistol_trail.yy",},
     {"name":"s_player_backdash","order":3,"path":"sprites/s_player_backdash/s_player_backdash.yy",},
+    {"name":"s_player_dash_down","order":20,"path":"sprites/s_player_dash_down/s_player_dash_down.yy",},
+    {"name":"s_player_dash_up","order":19,"path":"sprites/s_player_dash_up/s_player_dash_up.yy",},
     {"name":"s_player_dash","order":4,"path":"sprites/s_player_dash/s_player_dash.yy",},
     {"name":"s_player_die","order":1,"path":"sprites/s_player_die/s_player_die.yy",},
     {"name":"s_player_idle_down","order":8,"path":"sprites/s_player_idle_down/s_player_idle_down.yy",},

@@ -224,7 +224,19 @@ function anim(){
 		case states.DASH:
 			if facing = 0 or facing = 4{
 				sprite_index = s_player_dash;
-			}else sprite_index = s_player_backdash;
+			}
+			
+			if facing = 1 {
+				sprite_index = s_player_dash_up;
+			}
+			
+			if facing = 2{
+				sprite_index = s_player_backdash;
+			}
+			
+			if facing = 3{
+				sprite_index = s_player_dash_down;
+			}
 		break;
 		
 
@@ -307,8 +319,10 @@ function collision_bounce(){
 	
 function check_dash(){
 	if  dash and can_dash and !(hmove == 0 and vmove == 0){
-		//image_index = image_number-1
+
 		state = states.DASH;
+		image_index = 0
+		//image_index = image_number-1
 		instance_create_layer(x, y, "Player", o_dust_particles)
 		audio_play_sound(choose(sound_dash, sound_dash2), 1, false);
 		dash_timer = dash_timer_initial;

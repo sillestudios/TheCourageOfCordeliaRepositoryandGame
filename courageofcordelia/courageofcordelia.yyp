@@ -421,6 +421,8 @@
     {"id":{"name":"s_pistol_muzzle","path":"sprites/s_pistol_muzzle/s_pistol_muzzle.yy",},},
     {"id":{"name":"s_pistol_trail","path":"sprites/s_pistol_trail/s_pistol_trail.yy",},},
     {"id":{"name":"s_player_backdash","path":"sprites/s_player_backdash/s_player_backdash.yy",},},
+    {"id":{"name":"s_player_dash_down","path":"sprites/s_player_dash_down/s_player_dash_down.yy",},},
+    {"id":{"name":"s_player_dash_up","path":"sprites/s_player_dash_up/s_player_dash_up.yy",},},
     {"id":{"name":"s_player_dash","path":"sprites/s_player_dash/s_player_dash.yy",},},
     {"id":{"name":"s_player_die","path":"sprites/s_player_die/s_player_die.yy",},},
     {"id":{"name":"s_player_idle_down","path":"sprites/s_player_idle_down/s_player_idle_down.yy",},},

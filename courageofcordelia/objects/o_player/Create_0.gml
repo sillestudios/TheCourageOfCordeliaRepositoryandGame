@@ -35,7 +35,7 @@ alarm[2] = bomb_cooldown;
 bomb_power = 8;
 
 //dash variables
-dash_speed = 4.5;
+dash_speed = 5;
 can_dash = true;
 
 dash_cooldown = 60;
