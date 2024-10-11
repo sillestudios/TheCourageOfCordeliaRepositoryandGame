@@ -282,6 +282,8 @@ function hailstorm_attack(){
 	//attack player when we are at the correct frame
 	if can_attack && !instance_exists(o_time_rip){
 		
+		instance_create_layer(px, py, "Enemy", o_purp_circ);
+		
 		//reset for next attack
 		can_attack = false;
 		alarm[0] = hailstorm_cooldown;
@@ -318,6 +320,10 @@ function hailstorm_attack(){
 			}
 		
 		state = states.LASERPHASE;
+		
+		instance_create_layer(o_purp_circ.x, o_purp_circ.y, "Enemy", o_purp_circ_end);
+		instance_destroy(o_purp_circ);
+		
 		can_spawn_rip = true;
 		state_timer = 0;
 		stay_in_phase = true;

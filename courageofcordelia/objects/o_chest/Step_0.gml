@@ -1,3 +1,5 @@
+
+
 if place_meeting(x, y, o_player) and keyboard_check(ord("E")){
 	sprite_index = s_chest_open;
 	image_speed = 1;
