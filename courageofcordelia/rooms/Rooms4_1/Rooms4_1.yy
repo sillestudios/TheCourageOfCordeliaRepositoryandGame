@@ -88,7 +88,7 @@
           3512,8,2838,2840,2840,3624,3625,3626,2841,2842,-117,3512,3,2838,2840,2840,-3,3961,2,2841,2842,-117,3512,
           1,2838,-5,2840,2,2841,2842,-117,3512,1,2838,-5,2840,2,2841,2842,-117,3512,1,2838,-5,2840,2,2841,2842,
           -117,3512,1,2838,-5,2840,2,2841,2842,-117,3512,1,2838,-5,2840,2,2841,2842,-118,3512,1,2838,-4,2840,2,
-          2841,2842,-119,3512,1,2838,-3,2840,2,2954,2955,-123,3512,2,3067,3068,-4310,3512,
+          2841,2842,-119,3512,1,2838,-3,2840,2,2954,2955,-123,3512,2,3067,3068,-155,3512,1,1202,-4154,3512,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278209536,"depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
