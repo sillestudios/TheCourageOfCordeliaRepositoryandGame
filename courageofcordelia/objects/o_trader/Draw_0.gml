@@ -1,61 +1,65 @@
 //550 x 309
 draw_self();
 
-if can_show_shop{
+if o_trader_zone.in_trader_zone{
+	draw_sprite(s_enter, 0, x + 4, y - 35)
+}
+
+if can_show_shop && o_trader_zone.in_trader_zone == true{
 	text_align(fa_center, fa_middle);
 	draw_set_font(fn_8bit);
 	
 	//pannel connectors
 	draw_sprite_ext(
-	Pipe_36x11, 0, CameraX() + 175, CameraY() + 25, 
-	3, 1, 90, c_white, 1);
+	Pipe_36x11, 0, CameraX() + 50, CameraY() + 115, 
+	3, 1, 180, c_white, 1);
 	
 	draw_sprite_ext(
-	Pipe_36x11, 0, CameraX() + 375, CameraY() + 25, 
-	3, 1, 90, c_white, 1);
+	Pipe_36x11, 0, CameraX() + 50, CameraY() + 185, 
+	3, 1, 180, c_white, 1);
 
 	//inv
 	draw_sprite_ext(
-	RectangleBox_96x96, 0, CameraX() + 275, CameraY() + 156, 
-	3.25, 2, 0, c_white, 1);
+	RectangleBox_96x96, 0, CameraX() + 150, CameraY() + 153, 
+	2, 1.5, 0, c_white, 1);
 	
 	
 	//bottom design
 	draw_sprite_ext(
-	TopPatternPanel_02_33x15, 0, CameraX() + 344, CameraY() + 235, 
+	TopPatternPanel_02_33x15, 0, CameraX() + 150, CameraY() + 205, 
 	1.5, 1.5, 0, c_white, 1);
 	
 	//top design
 	draw_sprite_ext(
-	TopPatternPanel_02_33x15, 0, CameraX() + 344, CameraY() + 76, 
+	TopPatternPanel_02_33x15, 0, CameraX() + 150, CameraY() + 100, 
 	1.5, 1.5, 0, c_white, 1);
 	
 	//title box
-	draw_sprite_ext(TitleBox_64x16, 0, CameraX() + 275, CameraY() + 50, 
+	draw_sprite_ext(TitleBox_64x16, 0, CameraX() + 150, CameraY() + 72, 
 	1.75, 1.75, 0, c_white, 1)
 	
 	//title text
-	draw_text_transformed(CameraX() + 275, CameraY() + 50, "Shop", 0.4, 0.4, image_angle);
+	draw_text_transformed(CameraX() + 150, CameraY() + 72, "Shop", 0.4, 0.4, image_angle);
 	
 	//character box
 	draw_sprite_ext(
-	CharacterBox_56x57, 0, CameraX() + 200, CameraY() + 135, 
+	CharacterBox_56x57, 0, CameraX() + 100, CameraY() + 151, 
 	1, 1.5, 0, c_white, 1);
 	
 	//character
 	draw_sprite_ext(
-	s_trader_idle, 0, CameraX() + 200, CameraY() + 135, 
+	s_trader_idle, 0, CameraX() + 100, CameraY() + 151, 
 	2, 2, 0, c_white, 0.8);
 	
 	//euip top pannel
-	draw_sprite_ext(
+	/*draw_sprite_ext(
 	TopPatternPanel_01_33x15, 0, CameraX() + 200, CameraY() + 77, 
 	1, 1, 0, c_white, 1);
 	
 	//equip bottom pannel
 	draw_sprite_ext(
 	BottomPatternPanel_119x17, 0, CameraX() + 200, CameraY() + 230, 
-	1, 1, 0, c_white, 1);
+	1, 1, 0, c_white, 1);*/
 
 
 	var mx = mouse_x;

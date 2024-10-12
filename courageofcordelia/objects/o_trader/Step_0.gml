@@ -3,7 +3,7 @@ var my = mouse_y;
 
 
 
-if (can_show_shop) {
+if (can_show_shop && o_trader_zone.in_trader_zone ==true) {
     if (mouse_check_button_released(mb_left)) {
         trader_shop_items = trader_shop.item_get(); 
 
