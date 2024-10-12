@@ -8,6 +8,7 @@ enum TYPE
 	BOOTS,
 	GLOVES,
 	CLOAKS,
-	RINGS
+	RINGS,
+	CONSUME
 	
 }

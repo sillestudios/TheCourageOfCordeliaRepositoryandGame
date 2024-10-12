@@ -1,8 +1,5 @@
 function use_item(item) {        
-	
-	
-	//testing
-		//working
+
 	if (item.type == TYPE.WEAPON) {   
         if (obj_equip_gun.gun_item[obj_equip_gun.gun_index].name != item.name) {
 			//check if item is in gun slot and we add a new gun, move the old one back to inv
@@ -88,6 +85,15 @@ function use_item(item) {
         }
         return;
     }
+	
+	if (item.type == TYPE.CONSUME) {   
+        if (obj_quickslots.quickslots_item[obj_quickslots.quickslots_index].name != item.name) {
+            obj_quickslots.quickslots.item_subtract(obj_quickslots.quickslots_item[obj_quickslots.quickslots_index].name, 1);
+            obj_quickslots.quickslots.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg);
+            obj_inventory.inventory.item_subtract(item.name, 1);
+        }
+        return;
+    }
     
     obj_inventory.inventory.item_subtract(item.name, 1);
 	show_debug_message("inventory item subtract call activated")
@@ -168,6 +174,14 @@ function unequip_item(item) {
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg)
 		obj_equip_rings.equip_rings.item_add("Empty", 1, s_empty, TYPE.RINGS, noone);
 		show_debug_message("Unequiping ring to inv.")
+        return;
+    }
+	
+	if (item.type == TYPE.CONSUME) {   
+        obj_quickslots.quickslots.item_subtract(item.name, item.quantity);
+        obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg)
+		obj_quickslots.quickslots.item_add("Empty", 1, s_empty, TYPE.CONSUME, noone);
+		show_debug_message("Unequiping consume to inv.")
         return;
     }
     

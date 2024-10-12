@@ -21,7 +21,7 @@ can_show_inv = false;
 gun_index = undefined;
 gun_item = undefined;
 
-equip_gun.item_add("Empty", 1, s_empty);
+equip_gun.item_add("Empty", 1, s_empty, TYPE.WEAPON, noone);
 
 
 weapon_name = noone;

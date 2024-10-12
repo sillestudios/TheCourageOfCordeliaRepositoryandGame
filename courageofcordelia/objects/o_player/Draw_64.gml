@@ -35,13 +35,13 @@ draw_sprite_ext(s_xp_percent, _xpImage, 136, 90, 2.5, 2.5, image_angle, image_bl
 
 
 //hotkey boxes
-draw_sprite_ext(s_hotkey_box, 0, display_get_gui_width()/2 + 150, 975, 2.5, 2.5, image_angle, image_blend, image_alpha);
+/*draw_sprite_ext(s_hotkey_box, 0, display_get_gui_width()/2 + 150, 975, 2.5, 2.5, image_angle, image_blend, image_alpha);
 draw_sprite_ext(s_hotkey_box, 0, display_get_gui_width()/2 + 50, 975, 2.5, 2.5, image_angle, image_blend, image_alpha);
 draw_sprite_ext(s_hotkey_box, 0, display_get_gui_width()/2 -50, 975, 2.5, 2.5, image_angle, image_blend, image_alpha);
 draw_sprite_ext(s_hotkey_box, 0, display_get_gui_width()/2 - 150, 975, 2.5, 2.5, image_angle, image_blend, image_alpha);
 draw_sprite_ext(s_hotkey_box, 0, display_get_gui_width()/2 - 250, 975, 2.5, 2.5, image_angle, image_blend, image_alpha);
 draw_sprite_ext(s_bomb, 0, display_get_gui_width()/2 - 209, 1017, 3, 3, image_angle, image_blend, image_alpha);
-
+*/
 //cooldown fx
 if !can_throw_bomb{
 	var _cooldownImage = (alarm[2]/bomb_cooldown) * (sprite_get_number(s_cooldown_percent));
