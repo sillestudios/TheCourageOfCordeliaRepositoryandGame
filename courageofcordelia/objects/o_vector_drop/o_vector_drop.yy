@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_vector",
-    "path":"sprites/s_vector/s_vector.yy",
+    "name":"s_vector_drop",
+    "path":"sprites/s_vector_drop/s_vector_drop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

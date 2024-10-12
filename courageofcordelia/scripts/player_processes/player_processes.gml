@@ -197,7 +197,7 @@ function anim(){
 			
 				
 			if facing = 1 sprite_index = s_player_idle_up;
-			if facing = 1 && up{
+			if facing = 1 && up or facing = 1 && down{
 				sprite_index = s_player_run_up;
 			}
 			
@@ -207,7 +207,7 @@ function anim(){
 			}
 			
 			if facing = 3 sprite_index = s_player_idle_down;
-			if facing = 3 && down{
+			if facing = 3 && down or facing = 3 && up{
 				sprite_index = s_player_run_down;
 			}
 			

@@ -520,6 +520,7 @@
     {"id":{"name":"s_tyranny_muzzle","path":"sprites/s_tyranny_muzzle/s_tyranny_muzzle.yy",},},
     {"id":{"name":"s_tyranny","path":"sprites/s_tyranny/s_tyranny.yy",},},
     {"id":{"name":"s_vase","path":"sprites/s_vase/s_vase.yy",},},
+    {"id":{"name":"s_vector_drop","path":"sprites/s_vector_drop/s_vector_drop.yy",},},
     {"id":{"name":"s_vector","path":"sprites/s_vector/s_vector.yy",},},
     {"id":{"name":"s_walk_effect","path":"sprites/s_walk_effect/s_walk_effect.yy",},},
     {"id":{"name":"s_walk_effect2","path":"sprites/s_walk_effect2/s_walk_effect2.yy",},},

@@ -445,6 +445,7 @@
     {"name":"s_tyranny_hit","order":3,"path":"sprites/s_tyranny_hit/s_tyranny_hit.yy",},
     {"name":"s_tyranny_muzzle","order":1,"path":"sprites/s_tyranny_muzzle/s_tyranny_muzzle.yy",},
     {"name":"s_vase","order":39,"path":"sprites/s_vase/s_vase.yy",},
+    {"name":"s_vector_drop","order":2,"path":"sprites/s_vector_drop/s_vector_drop.yy",},
     {"name":"s_vector","order":1,"path":"sprites/s_vector/s_vector.yy",},
     {"name":"s_walk_effect","order":3,"path":"sprites/s_walk_effect/s_walk_effect.yy",},
     {"name":"s_walk_effect2","order":4,"path":"sprites/s_walk_effect2/s_walk_effect2.yy",},
