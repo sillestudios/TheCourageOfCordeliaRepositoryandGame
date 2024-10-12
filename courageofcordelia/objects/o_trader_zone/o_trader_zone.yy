@@ -15,7 +15,7 @@
     "path":"folders/Entity/Trader.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -37,5 +37,5 @@
     "path":"sprites/s_trader_zone/s_trader_zone.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

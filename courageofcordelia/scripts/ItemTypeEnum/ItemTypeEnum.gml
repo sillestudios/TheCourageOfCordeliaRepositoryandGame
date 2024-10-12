@@ -9,6 +9,7 @@ enum TYPE
 	GLOVES,
 	CLOAKS,
 	RINGS,
-	CONSUME
+	CONSUME,
+	TOOL
 	
 }

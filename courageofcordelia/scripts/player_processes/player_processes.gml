@@ -250,7 +250,7 @@ function anim(){
 function check_fire(){
 	if fire {
 
-		if can_attack && !obj_inventory.can_show_inv && !o_trader.can_show_shop{
+		if can_attack && !obj_inventory.can_show_inv && !o_trader_zone.in_trader_zone{
 			
 			//add screen shake to shooting
 			var _dir = aim_dir;
@@ -298,6 +298,7 @@ function check_fire(){
 		}
 	}
 }
+
 	
 function check_bomb(){
 	if bomb {
