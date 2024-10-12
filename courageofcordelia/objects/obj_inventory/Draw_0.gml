@@ -94,7 +94,11 @@ if can_show_inv{
 				if (_inventory_index <= array_length(_inventory_items) - 1){
 				draw_text_transformed(CameraX() + 491, CameraY() + 85,
 				string(_inventory_items[_inventory_index].name),
-				 0.2, 0.2, 0);
+				0.2, 0.2, 0);
+				 
+				draw_text_transformed(CameraX() + 491, CameraY() + 95,
+				string(description),
+				0.2, 0.2, 0);
 				}
 
 		

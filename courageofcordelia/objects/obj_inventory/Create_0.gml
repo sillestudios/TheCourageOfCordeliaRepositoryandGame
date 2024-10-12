@@ -16,5 +16,8 @@ show_debug_message(inventory)
 
 can_show_inv = false;
 
+description = "no description";
+
+
 
 
