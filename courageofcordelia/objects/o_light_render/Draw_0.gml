@@ -464,8 +464,8 @@ gpu_set_blendmode(bm_normal);
 #region PURP CIRC
 with(o_purp_circ){
 	var _wobble = 0.2;
-	var _wobble_amount_x = 5 + random_range(-_wobble, _wobble);
-	var _wobble_amount_y = 5 + random_range(-_wobble, _wobble);
+	var _wobble_amount_x = 4 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 4 + random_range(-_wobble, _wobble);
 	
 	gpu_set_blendmode(bm_subtract);
 	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
@@ -481,8 +481,8 @@ gpu_set_blendmode(bm_normal);
 #region PURP CIRC END
 with(o_purp_circ_end){
 	var _wobble = 0.2;
-	var _wobble_amount_x = 5 + random_range(-_wobble, _wobble);
-	var _wobble_amount_y = 5 + random_range(-_wobble, _wobble);
+	var _wobble_amount_x = 4 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 4 + random_range(-_wobble, _wobble);
 	
 	gpu_set_blendmode(bm_subtract);
 	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);

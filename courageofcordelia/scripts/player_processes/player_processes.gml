@@ -250,7 +250,7 @@ function anim(){
 function check_fire(){
 	if fire {
 
-		if can_attack && !obj_inventory.can_show_inv{
+		if can_attack && !obj_inventory.can_show_inv && !o_trader.can_show_shop{
 			
 			//add screen shake to shooting
 			var _dir = aim_dir;

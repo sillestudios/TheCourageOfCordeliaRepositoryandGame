@@ -56,6 +56,11 @@ if can_show_inv{
 	draw_sprite_ext(
 	BottomPatternPanel_119x17, 0, CameraX() + 200, CameraY() + 230, 
 	1, 1, 0, c_white, 1);
+	
+	//money pouch
+	draw_sprite(s_inv_coin, 0, CameraX() + 185, CameraY() + 210)
+	text_align(fa_left, fa_middle)
+	draw_text_transformed(CameraX() + 192, CameraY() + 210, string(o_player.money), 0.3, 0.3, 0)
 
 
 	var mx = mouse_x;
