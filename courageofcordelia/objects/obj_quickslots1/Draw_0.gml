@@ -14,7 +14,7 @@ if can_show_quickslots{
 		for (var _collumn = 0; _collumn < quickslots1_collumns; _collumn++ ){
 			var _posX = quickslots1_slot_posX + (_collumn * quickslots1_sep);
 		
-			draw_sprite_ext(s_inv_slot, 0, CameraX() + _posX, CameraY() +  _posY,
+			draw_sprite_ext(s_hotkey_box, 0, CameraX() + _posX, CameraY() +  _posY,
 			1, 1, 0, c_white, 1);
 		
 			quickslots1_index = (_row * quickslots1_collumns) + _collumn
@@ -41,16 +41,13 @@ if can_show_quickslots{
 		
 		//quantity
 		if (quickslots1_index <= array_length(quickslots1_item) -1) && quickslots1_item[quickslots1_index].quantity > 1 {
-			draw_set(c_black, 1);
-			draw_circle(CameraX() + _posX + 24, CameraY() + _posY + 24,
-			5, false);
 		
 			draw_set(c_white, 1);
 			text_align(fa_center, fa_middle);
 		
 			draw_set_font(fn_8bit);
-			draw_text_transformed(CameraX() + _posX + 24, CameraY() + _posY + 24,
-			quickslots1_item[quickslots1_index].quantity, 0.25, 0.25, image_angle);
+			draw_text_transformed(CameraX() + _posX + 3, CameraY() + _posY + 5,
+			quickslots1_item[quickslots1_index].quantity, 0.2, 0.2, image_angle);
 		}
 	
 	}

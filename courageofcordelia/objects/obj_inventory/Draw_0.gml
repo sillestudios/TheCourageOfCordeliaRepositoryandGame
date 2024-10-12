@@ -85,7 +85,7 @@ if can_show_inv{
 				//item description
 				if (_inventory_index <= array_length(_inventory_items) - 1){
 				draw_set(c_white, 1);
-				draw_sprite_ext(s_hotkey_box, 0, CameraX() + 450,
+				draw_sprite_ext(s_desc_box, 0, CameraX() + 450,
 				CameraY() + 75,
 				2.5, 2.5, 0, c_white, 1);
 				}

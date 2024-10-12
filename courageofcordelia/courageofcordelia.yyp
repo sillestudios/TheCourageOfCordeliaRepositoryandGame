@@ -369,6 +369,7 @@
     {"id":{"name":"s_cursor","path":"sprites/s_cursor/s_cursor.yy",},},
     {"id":{"name":"s_dark_spawn","path":"sprites/s_dark_spawn/s_dark_spawn.yy",},},
     {"id":{"name":"s_death_skulls","path":"sprites/s_death_skulls/s_death_skulls.yy",},},
+    {"id":{"name":"s_desc_box","path":"sprites/s_desc_box/s_desc_box.yy",},},
     {"id":{"name":"s_door_open","path":"sprites/s_door_open/s_door_open.yy",},},
     {"id":{"name":"s_door","path":"sprites/s_door/s_door.yy",},},
     {"id":{"name":"s_dungeon_tileset","path":"sprites/s_dungeon_tileset/s_dungeon_tileset.yy",},},
