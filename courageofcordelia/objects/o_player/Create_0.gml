@@ -54,7 +54,7 @@ array_push(global.PlayerWeapons, global.WeaponList.tyranny);		//5
 array_push(global.PlayerWeapons, global.WeaponList.empty);			//6
 
 
-selectedWeapon = 4;
+selectedWeapon = 5;
 my_weapon = global.PlayerWeapons[selectedWeapon];
 
 weaponOffsetDistInitial = my_weapon.wep_offset;//offset gun for length of arms
