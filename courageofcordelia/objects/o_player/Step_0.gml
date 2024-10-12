@@ -89,3 +89,15 @@ if !place_meeting(x, y, o_trader){
 //if my_weapon = global.WeaponList.vector && keyboard_check(ord("U")){
 	//my_weapon.sprite = vector_reload_gif;
 //}
+
+//loot logs
+for (var i = 0; i < ds_list_size(loot_feed_text); i++)
+{
+    loot_feed_alpha[| i] -= 0.01;
+ 
+    if (!loot_feed_alpha[| i])
+    {
+        ds_list_delete(loot_feed_text, i);
+        ds_list_delete(loot_feed_alpha, i);
+    }
+}

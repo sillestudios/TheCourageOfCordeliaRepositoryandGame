@@ -89,6 +89,8 @@ death_timer = 30
 
 
 
-
+//loot log
+loot_feed_text = ds_list_create();
+loot_feed_alpha = ds_list_create();
 
 
