@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-damage = 3;
+damage = 4;
 range = 160;
 owner_id = noone;
 knockback_time = 2;

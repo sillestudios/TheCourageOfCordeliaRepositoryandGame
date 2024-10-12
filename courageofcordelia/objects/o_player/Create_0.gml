@@ -52,9 +52,11 @@ array_push(global.PlayerWeapons, global.WeaponList.blaster);		//3
 array_push(global.PlayerWeapons, global.WeaponList.purgatory);		//4
 array_push(global.PlayerWeapons, global.WeaponList.tyranny);		//5
 array_push(global.PlayerWeapons, global.WeaponList.empty);			//6
+array_push(global.PlayerWeapons, global.WeaponList.vector);			//7
 
 
-selectedWeapon = 5;
+
+selectedWeapon = 7;
 my_weapon = global.PlayerWeapons[selectedWeapon];
 
 weaponOffsetDistInitial = my_weapon.wep_offset;//offset gun for length of arms

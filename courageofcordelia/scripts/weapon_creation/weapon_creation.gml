@@ -112,6 +112,18 @@ global.WeaponList =
 	
 	),
 	
+	vector : new create_weapon(
+		s_vector,
+		s_vector,
+		9,
+		11,
+		0,
+		o_pistol_bullet,
+		5,
+		o_pistol_muzzle,
+		sound_vector_shot
+		),
+	
 	empty : new create_weapon(
 		s_empty,
 		s_empty,
