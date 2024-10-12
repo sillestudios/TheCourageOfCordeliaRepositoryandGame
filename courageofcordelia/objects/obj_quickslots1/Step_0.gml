@@ -4,24 +4,24 @@ var my = mouse_y;
 if (can_show_quickslots) {
     //inv_is_visisble = true;
     if (mouse_check_button_released(mb_left)) {
-       quickslots_item = quickslots.item_get(); 
+       quickslots1_item = quickslots1.item_get(); 
 
-        for (var i = 0; i < quickslots_rows * quickslots_collumns; i++) {
-            var column = i % quickslots_collumns;
-            var row = i div quickslots_collumns;
+        for (var i = 0; i < quickslots1_rows * quickslots1_collumns; i++) {
+            var column = i % quickslots1_collumns;
+            var row = i div quickslots1_collumns;
             
-            var _posX = quickslots_slot_posX + (column * quickslots_sep);
-            var _posY = quickslots_slot_posY + (row * quickslots_sep);
+            var _posX = quickslots1_slot_posX + (column * quickslots1_sep);
+            var _posY = quickslots1_slot_posY + (row * quickslots1_sep);
             
             //hovering
             if (is_between(mx, (CameraX() + _posX), (CameraX() + _posX) + 24)) {
                 if (is_between(my, (CameraY() + _posY), (CameraY() + _posY) + 24)) {
-                     quickslots_index = i;
+                     quickslots1_index = i;
 
                                     
-                    if (quickslots_index < array_length(quickslots_item)) {
-                        show_debug_message("unequipping " + quickslots_item[quickslots_index].name);
-                        unequip_item(quickslots_item[quickslots_index]);
+                    if (quickslots1_index < array_length(quickslots1_item)) {
+                        show_debug_message("unequipping " +quickslots1_item[quickslots1_index].name);
+                        unequip_item(quickslots1_item[quickslots1_index]);
                         break;
                         
                     }

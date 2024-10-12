@@ -7,20 +7,20 @@ if can_show_quickslots{
 	var my = mouse_y;
 
 
-	quickslots_item = quickslots.item_get(); 
+	quickslots1_item = quickslots1.item_get(); 
 
-	for (var _row = 0; _row < quickslots_rows; _row++){
-		var _posY = quickslots_slot_posY + (_row * quickslots_sep);
-		for (var _collumn = 0; _collumn < quickslots_collumns; _collumn++ ){
-			var _posX = quickslots_slot_posX + (_collumn * quickslots_sep);
+	for (var _row = 0; _row < quickslots1_rows; _row++){
+		var _posY = quickslots1_slot_posY + (_row * quickslots1_sep);
+		for (var _collumn = 0; _collumn < quickslots1_collumns; _collumn++ ){
+			var _posX = quickslots1_slot_posX + (_collumn * quickslots1_sep);
 		
 			draw_sprite_ext(s_inv_slot, 0, CameraX() + _posX, CameraY() +  _posY,
 			1, 1, 0, c_white, 1);
 		
-			quickslots_index = (_row * quickslots_collumns) + _collumn
+			quickslots1_index = (_row * quickslots1_collumns) + _collumn
 		
-			if (quickslots_index <= array_length(quickslots_item) - 1){
-				draw_sprite(quickslots_item[quickslots_index].sprite, 0, CameraX() + (_posX +12), CameraY() + (_posY+12));
+			if (quickslots1_index <= array_length(quickslots1_item) - 1){
+				draw_sprite(quickslots1_item[quickslots1_index].sprite, 0, CameraX() + (_posX +12), CameraY() + (_posY+12));
 			}
 		
 		//hovering
@@ -40,7 +40,7 @@ if can_show_quickslots{
 	
 		
 		//quantity
-		if (quickslots_index <= array_length(quickslots_item) -1) && quickslots_item[quickslots_index].quantity > 1 {
+		if (quickslots1_index <= array_length(quickslots1_item) -1) && quickslots1_item[quickslots1_index].quantity > 1 {
 			draw_set(c_black, 1);
 			draw_circle(CameraX() + _posX + 24, CameraY() + _posY + 24,
 			5, false);
@@ -50,9 +50,10 @@ if can_show_quickslots{
 		
 			draw_set_font(fn_8bit);
 			draw_text_transformed(CameraX() + _posX + 24, CameraY() + _posY + 24,
-			quickslots_item[quickslots_index].quantity, 0.25, 0.25, image_angle);
+			quickslots1_item[quickslots1_index].quantity, 0.25, 0.25, image_angle);
 		}
 	
 	}
 	}
 }
+

@@ -87,11 +87,12 @@ function use_item(item) {
     }
 	
 	if (item.type == TYPE.CONSUME) {   
-        if (obj_quickslots.quickslots_item[obj_quickslots.quickslots_index].name != item.name) {
-            obj_quickslots.quickslots.item_subtract(obj_quickslots.quickslots_item[obj_quickslots.quickslots_index].name, 1);
-            obj_quickslots.quickslots.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg);
+        if (obj_quickslots1.quickslots1_item[obj_quickslots1.quickslots1_index].name = "Empty") {
+            obj_quickslots1.quickslots1.item_subtract(obj_quickslots1.quickslots1_item[obj_quickslots1.quickslots1_index].name, 1);
+		}
+            obj_quickslots1.quickslots1.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg);
             obj_inventory.inventory.item_subtract(item.name, 1);
-        }
+
         return;
     }
     
@@ -178,9 +179,9 @@ function unequip_item(item) {
     }
 	
 	if (item.type == TYPE.CONSUME) {   
-        obj_quickslots.quickslots.item_subtract(item.name, item.quantity);
+        obj_quickslots1.quickslots1.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg)
-		obj_quickslots.quickslots.item_add("Empty", 1, s_empty, TYPE.CONSUME, noone);
+		obj_quickslots1.quickslots1.item_add("Empty", 1, s_empty, TYPE.CONSUME, noone);
 		show_debug_message("Unequiping consume to inv.")
         return;
     }

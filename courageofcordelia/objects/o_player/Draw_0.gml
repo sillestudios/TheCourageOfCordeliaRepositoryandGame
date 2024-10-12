@@ -36,5 +36,3 @@ if aim_dir >= 135 or aim_dir <= 45 {
 	}
 }
 
-
-
