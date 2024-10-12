@@ -25,5 +25,7 @@ quickslots_item = undefined;
 
 quickslots.item_add("Empty", 1, s_empty, TYPE.CONSUME, noone);
 
+can_heal = true
+
 
 
