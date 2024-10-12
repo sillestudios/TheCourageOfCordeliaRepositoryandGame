@@ -106,7 +106,6 @@
     {"name":"o_enemy_hitbox","order":10,"path":"objects/o_enemy_hitbox/o_enemy_hitbox.yy",},
     {"name":"o_enemy_par","order":8,"path":"objects/o_enemy_par/o_enemy_par.yy",},
     {"name":"o_enemy","order":5,"path":"objects/o_enemy/o_enemy.yy",},
-    {"name":"o_enter","order":5,"path":"objects/o_enter/o_enter.yy",},
     {"name":"o_explosion","order":2,"path":"objects/o_explosion/o_explosion.yy",},
     {"name":"o_flame_trail","order":7,"path":"objects/o_flame_trail/o_flame_trail.yy",},
     {"name":"o_green_boots","order":1,"path":"objects/o_green_boots/o_green_boots.yy",},

@@ -197,3 +197,13 @@ function unequip_item(item) {
 	
 	
 }
+
+function buy_item(item){
+		if (item.type == TYPE.CONSUME) {   
+        o_trader.trader_shop.item_subtract(item.name, 1);
+        obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
+		//o_trader.trader_shop.item_add("Empty", 1, s_empty, TYPE.CONSUME, noone, noone, noone, 0, 0);
+		show_debug_message("buying consume, putting in player inv")
+        return;
+    }
+}

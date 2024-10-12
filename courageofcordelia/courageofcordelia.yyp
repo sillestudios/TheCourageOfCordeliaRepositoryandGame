@@ -138,7 +138,6 @@
     {"id":{"name":"o_enemy_hitbox","path":"objects/o_enemy_hitbox/o_enemy_hitbox.yy",},},
     {"id":{"name":"o_enemy_par","path":"objects/o_enemy_par/o_enemy_par.yy",},},
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},},
-    {"id":{"name":"o_enter","path":"objects/o_enter/o_enter.yy",},},
     {"id":{"name":"o_entity_par","path":"objects/o_entity_par/o_entity_par.yy",},},
     {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},},
     {"id":{"name":"o_flame_bolt","path":"objects/o_flame_bolt/o_flame_bolt.yy",},},

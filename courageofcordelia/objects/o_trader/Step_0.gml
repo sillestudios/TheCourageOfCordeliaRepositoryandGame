@@ -19,9 +19,9 @@ if (can_show_shop && o_trader_zone.in_trader_zone ==true) {
                 if (is_between(my, (CameraY() + _posY), (CameraY() + _posY) + 24)) {
                     trader_shop_index = i;
                                     
-                    if (inventory_index < array_length(trader_shop_items)) {
+                    if (trader_shop_index < array_length(trader_shop_items)) {
                         show_debug_message("Using " + trader_shop_items[trader_shop_index].name);
-                        use_item(trader_shop_items[trader_shop_index]);
+                        buy_item(trader_shop_items[trader_shop_index]);
                         break;
                     }
                     else {

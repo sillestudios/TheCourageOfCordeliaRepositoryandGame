@@ -23,4 +23,6 @@ trader_shop_items = undefined;
 
 //trader_shop.item_add("Empty", 1, s_empty, TYPE.CONSUME, noone);
 
+trader_shop.item_add("Health Potion", 100, s_health_potion, TYPE.CONSUME, noone, "Healing Elixer", "Potion", 0,0)
+
 
