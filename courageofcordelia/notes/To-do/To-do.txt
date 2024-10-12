@@ -1,18 +1,18 @@
-@	check if item is in equipment slot, 
-	if there is and we want to add a new item to it, 
-	move the old one back to inv then delete it from the equip slot
+@	sounds for good drops
+
+@	loot logs
+
+@	
 	
 @	create loot beams
 
 @	all black outlines on all entitys for every animation sprite
 
-@	set up buffs and bonuses for all armor sets
-
-@	hovering over item  > item description
+@	apply buffs and bonuses for all armor sets to character
 
 @	create drop tables for 6 different chests (new chest style for each new dungeon)
 
-@	key drop for the next dungeon
+@	key drop for the next dungeon (1 key done)
 
 @	room 6 bosses in each dungeon
 

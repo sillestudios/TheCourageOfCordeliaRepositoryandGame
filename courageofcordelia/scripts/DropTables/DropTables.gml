@@ -39,4 +39,8 @@ function chest_loot_drop(){
 		instance_create_layer(x, y - _yOff, "Enemy", o_theif);
 	}
 	
+	if (_chance <= 2){
+		instance_create_layer(x, y - _yOff, "Enemy", o_silver_key);
+	}
+	
 }
