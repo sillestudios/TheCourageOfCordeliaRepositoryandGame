@@ -90,15 +90,34 @@ if can_show_inv{
 				2.5, 2.5, 0, c_white, 1);
 				}
 				
+				
 				text_align(fa_center, fa_middle )
 				if (_inventory_index <= array_length(_inventory_items) - 1){
-				draw_text_transformed(CameraX() + 491, CameraY() + 85,
-				string(_inventory_items[_inventory_index].name),
-				0.2, 0.2, 0);
+					
+					//item name
+					draw_text_transformed(CameraX() + 491, CameraY() + 85,
+					string(_inventory_items[_inventory_index].name),
+					0.2, 0.2, 0);
+				
+					//item style
+					draw_text_transformed(CameraX() + 491, CameraY() + 95, 
+					"Style: " + string(_inventory_items[_inventory_index].style),
+					0.2, 0.2, 0);
+					
+					//item armor bonus
+					draw_text_transformed(CameraX() + 491, CameraY() + 105, 
+					"Armor: +" + string(_inventory_items[_inventory_index].armor_bonus),
+					0.2, 0.2, 0);
+					
+					//item damage bonus
+					draw_text_transformed(CameraX() + 491, CameraY() + 115, 
+					"Damage: +" + string(_inventory_items[_inventory_index].damage_bonus),
+					0.2, 0.2, 0);
 				 
-				draw_text_transformed(CameraX() + 491, CameraY() + 95,
-				string(description),
-				0.2, 0.2, 0);
+					//item description
+					draw_text_ext_transformed(CameraX() + 491, CameraY() + 142,
+					string(_inventory_items[_inventory_index].description), 35, 300, 
+					0.2, 0.2, 0);
 				}
 
 		
