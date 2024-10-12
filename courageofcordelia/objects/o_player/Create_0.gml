@@ -13,7 +13,7 @@ vase_col = true;
 headheight = 12;
 
 //money
-money = 0;
+money = 100;
 
 //movement
 walk_spd = 2;

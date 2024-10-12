@@ -103,8 +103,10 @@ function use_item(item) {
         return;
     }
     
-    obj_inventory.inventory.item_subtract(item.name, 1);
-	show_debug_message("inventory item subtract call activated")
+	if item.type != TYPE.TOOL{
+	    obj_inventory.inventory.item_subtract(item.name, 1);
+		show_debug_message("inventory item subtract call activated")
+	}
 }
 
 

@@ -554,7 +554,6 @@
     {"id":{"name":"TitleBox_64x16","path":"sprites/TitleBox_64x16/TitleBox_64x16.yy",},},
     {"id":{"name":"TopPatternPanel_01_33x15","path":"sprites/TopPatternPanel_01_33x15/TopPatternPanel_01_33x15.yy",},},
     {"id":{"name":"TopPatternPanel_02_33x15","path":"sprites/TopPatternPanel_02_33x15/TopPatternPanel_02_33x15.yy",},},
-    {"id":{"name":"vector_reload_gif","path":"sprites/vector_reload_gif/vector_reload_gif.yy",},},
     {"id":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},},
     {"id":{"name":"tiles_walls","path":"tilesets/tiles_walls/tiles_walls.yy",},},
     {"id":{"name":"ts_floor","path":"tilesets/ts_floor/ts_floor.yy",},},
@@ -564,8 +563,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"RoomInit","path":"rooms/RoomInit/RoomInit.yy",},},
-    {"roomId":{"name":"RoomTitleScreen","path":"rooms/RoomTitleScreen/RoomTitleScreen.yy",},},
     {"roomId":{"name":"RoomM","path":"rooms/RoomM/RoomM.yy",},},
+    {"roomId":{"name":"RoomTitleScreen","path":"rooms/RoomTitleScreen/RoomTitleScreen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},

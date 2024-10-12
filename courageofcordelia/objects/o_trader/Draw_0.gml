@@ -117,6 +117,12 @@ if can_show_shop && o_trader_zone.in_trader_zone == true{
 					draw_text_transformed(CameraX() + 491, CameraY() + 115, 
 					"Damage: +" + string(trader_shop_items[trader_shop_index].damage_bonus),
 					0.2, 0.2, 0);
+					
+					draw_set_color(c_green)
+					draw_text_transformed(CameraX() + 491, CameraY() + 125, 
+					"Price: " + string(trader_shop_items[trader_shop_index].price) + " coins.",
+					0.2, 0.2, 0);
+					draw_set_color(c_white);
 				 
 					//item description
 					draw_text_ext_transformed(CameraX() + 491, CameraY() + 142,

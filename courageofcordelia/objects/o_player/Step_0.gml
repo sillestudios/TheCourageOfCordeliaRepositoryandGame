@@ -86,3 +86,6 @@ if !place_meeting(x, y, o_trader){
 			}
 
 
+//if my_weapon = global.WeaponList.vector && keyboard_check(ord("U")){
+	//my_weapon.sprite = vector_reload_gif;
+//}

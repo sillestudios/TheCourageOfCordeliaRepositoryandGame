@@ -21,7 +21,10 @@ if (can_show_shop && o_trader_zone.in_trader_zone ==true) {
                                     
                     if (trader_shop_index < array_length(trader_shop_items)) {
                         show_debug_message("Using " + trader_shop_items[trader_shop_index].name);
-                        buy_item(trader_shop_items[trader_shop_index]);
+						if o_player.money >= trader_shop_items[trader_shop_index].price{
+							buy_item(trader_shop_items[trader_shop_index]);
+							o_player.money = o_player.money - trader_shop_items[trader_shop_index].price;
+						}
                         break;
                     }
                     else {

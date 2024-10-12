@@ -477,7 +477,6 @@
     {"name":"TitleBox_64x16","order":8,"path":"sprites/TitleBox_64x16/TitleBox_64x16.yy",},
     {"name":"TopPatternPanel_01_33x15","order":10,"path":"sprites/TopPatternPanel_01_33x15/TopPatternPanel_01_33x15.yy",},
     {"name":"TopPatternPanel_02_33x15","order":13,"path":"sprites/TopPatternPanel_02_33x15/TopPatternPanel_02_33x15.yy",},
-    {"name":"vector_reload_gif","order":3,"path":"sprites/vector_reload_gif/vector_reload_gif.yy",},
     {"name":"tiles_walls","order":1,"path":"tilesets/tiles_walls/tiles_walls.yy",},
     {"name":"ts_floor","order":2,"path":"tilesets/ts_floor/ts_floor.yy",},
     {"name":"ts_wall","order":3,"path":"tilesets/ts_wall/ts_wall.yy",},

@@ -1,7 +1,9 @@
 function Inventory() constructor{
 	_inventory_items = [];
 	
-	item_set = function(_name, _quantity, _sprite, _type, _weapon_equiping_arg, _description, _style, _armor_bonus, _damage_bonus){
+	item_set = function(_name, _quantity, _sprite, _type,
+	_weapon_equiping_arg, _description, _style,
+	_armor_bonus, _damage_bonus, _price = 0){
 		array_push(_inventory_items, {
 			name : _name,
 			quantity : _quantity,
@@ -12,6 +14,7 @@ function Inventory() constructor{
 			style : _style,
 			armor_bonus : _armor_bonus,
 			damage_bonus : _damage_bonus,
+			price : _price
 			
 			
 		})
@@ -27,13 +30,15 @@ function Inventory() constructor{
 		return -1;
 	}
 	
-	item_add = function(_name, _quantity, _sprite, _type, _weapon_equiping_arg, _description, _style, _armor_bonus, _damage_bonus){
+	item_add = function(_name, _quantity, _sprite, _type,
+	_weapon_equiping_arg, _description, _style,
+	_armor_bonus, _damage_bonus, _price = 0){
 		var _index = item_find(_name);
 		
 		if _index >= 0{
 			_inventory_items[_index].quantity += _quantity;
 		} else {
-			item_set(_name, _quantity, _sprite, _type, _weapon_equiping_arg, _description, _style, _armor_bonus, _damage_bonus);
+			item_set(_name, _quantity, _sprite, _type, _weapon_equiping_arg, _description, _style, _armor_bonus, _damage_bonus, _price);
 	}
 		
 	}

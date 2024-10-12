@@ -8,5 +8,6 @@ consume_description = "What's in this?.."
 consume_style = "Healing"
 consume_armor_bonus = 0;
 consume_damage_bonus = 0;
+consume_price = 50;
 
 pickup_sound = coin_pickup;
