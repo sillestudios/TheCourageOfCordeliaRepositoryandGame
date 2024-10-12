@@ -8,8 +8,8 @@
   "name":"o_vector_drop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sidewinder",
-    "path":"folders/Entity/Weapons/Weps/Guns/Sidewinder.yy",
+    "name":"Vector",
+    "path":"folders/Entity/Weapons/Weps/Guns/Vector.yy",
   },
   "parentObjectId":{
     "name":"o_sidewinder_drop",

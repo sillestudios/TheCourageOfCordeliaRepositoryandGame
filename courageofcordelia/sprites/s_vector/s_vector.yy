@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sidewinder",
-    "path":"folders/Entity/Weapons/Weps/Guns/Sidewinder.yy",
+    "name":"Vector",
+    "path":"folders/Entity/Weapons/Weps/Guns/Vector.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
