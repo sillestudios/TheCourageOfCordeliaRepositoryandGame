@@ -2,7 +2,7 @@
 
 @	loot logs
 
-@	
+@	pets
 	
 @	create loot beams
 
