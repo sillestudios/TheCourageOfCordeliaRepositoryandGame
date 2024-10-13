@@ -98,3 +98,5 @@ if my_weapon = global.WeaponList.wood_bow && fire == false{
 	my_weapon.sprite = s_wood_bow;
 }
 
+
+

@@ -4,8 +4,12 @@ else _depth = -1;
 
 my_weapon.depth = depth + _depth;
 
+
 my_weapon.x = x + lengthdir_x(weaponOffsetDist, aim_dir);
 my_weapon.y = y + lengthdir_y(weaponOffsetDist, aim_dir);
 
 weaponOffsetDist = lerp( weaponOffsetDist, weaponOffsetDistInitial, 0.1)
+
+
+
 

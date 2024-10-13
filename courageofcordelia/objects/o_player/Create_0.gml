@@ -57,9 +57,8 @@ array_push(global.PlayerWeapons, global.WeaponList.wood_bow);		//8
 
 
 
-selectedWeapon = 8;
+selectedWeapon = 0;
 my_weapon = global.PlayerWeapons[selectedWeapon];
-
 weaponOffsetDistInitial = my_weapon.wep_offset;//offset gun for length of arms
 weaponOffsetDist = weaponOffsetDistInitial
 weaponRecoil = my_weapon.wep_recoil;
