@@ -141,7 +141,7 @@ global.WeaponList =
 		s_wood_bow,
 		7,
 		13,
-		7,
+		0,
 		o_wood_bow_arrow,
 		30,
 		o_empty,
