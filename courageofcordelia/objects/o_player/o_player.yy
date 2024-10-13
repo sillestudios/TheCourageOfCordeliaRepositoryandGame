@@ -48,8 +48,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_player_idle_right",
-    "path":"sprites/s_player_idle_right/s_player_idle_right.yy",
+    "name":"s_player_run_right",
+    "path":"sprites/s_player_run_right/s_player_run_right.yy",
   },
   "spriteMaskId":{
     "name":"s_player_idle_right",
