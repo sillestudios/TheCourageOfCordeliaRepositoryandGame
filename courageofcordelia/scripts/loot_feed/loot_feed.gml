@@ -31,9 +31,12 @@ function loot_feed() constructor{
 		{
 		    draw_set_alpha(loot_feed_text[i].alpha);
 			draw_set_font(fn_8bit);
-		    draw_text_transformed(425, 10 + 16* i, "Loot from chest:" + loot_feed_text[i].item, 0.25,0.25,0);
+			draw_set_color(loot_feed_text[i].color)
+			text_align(fa_left, fa_center)
+		    draw_text_transformed(425, 10 + 8* i, "Loot from chest:" + loot_feed_text[i].item, 0.25,0.25,0);
 		}
-
+		draw_reset();
+		draw_set_color(c_white)
 		draw_set_alpha(1);
 	}
 }

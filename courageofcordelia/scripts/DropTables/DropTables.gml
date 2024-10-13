@@ -29,6 +29,7 @@ function chest_loot_drop(){
 	if (_chance >= 13 and _chance <= 22){
 		
 		instance_create_layer(x, y - _yOff, "Enemy", o_sidewinder_drop);
+		o_loot_feed._loot_feed.add_feed(c_green, 1, "Side-winder", 1);
 		instance_create_depth(o_sidewinder_drop.x, o_sidewinder_drop.y - _yOff, -800, o_sparks);
 	
 	}
@@ -44,6 +45,7 @@ function chest_loot_drop(){
 	
 	if (_chance <= 2){
 		instance_create_layer(x, y - _yOff, "Enemy", o_silver_key);
+		o_loot_feed._loot_feed.add_feed(c_purple, 1, "Silver Key", 1);
 	}
 	
 }
