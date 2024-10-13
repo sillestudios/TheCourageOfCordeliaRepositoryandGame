@@ -282,8 +282,8 @@ function check_fire(){
 			can_attack = false;
 			alarm[0] = my_weapon.cooldown;
 			
-			
-			weaponOffsetDist = weaponRecoil;
+			my_weapon.wep_offset = my_weapon.wep_recoil;
+			//weaponOffsetDist = weaponRecoil;
 			
 			
 			var _inst = instance_create_layer(x, y, "Projectile", my_weapon.projectile);

@@ -81,10 +81,6 @@ if !place_meeting(x, y, o_trader){
 
 #endregion
 
-			if right or left{
-				walk_spd = 3;
-			}
-
 
 //if my_weapon = global.WeaponList.vector && keyboard_check(ord("U")){
 	//my_weapon.sprite = vector_reload_gif;

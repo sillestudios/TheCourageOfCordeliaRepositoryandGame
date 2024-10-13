@@ -16,7 +16,7 @@ headheight = 12;
 money = 100;
 
 //movement
-walk_spd = 2;
+walk_spd = 2.5;
 move_dir = 0;
 
 //hp
@@ -35,11 +35,11 @@ alarm[2] = bomb_cooldown;
 bomb_power = 8;
 
 //dash variables
-dash_speed = 5;
+dash_speed = 3.5;
 can_dash = true;
 
 dash_cooldown = 60;
-dash_timer_initial = 20;
+dash_timer_initial = 24;
 dash_timer = dash_timer_initial;
 
 
