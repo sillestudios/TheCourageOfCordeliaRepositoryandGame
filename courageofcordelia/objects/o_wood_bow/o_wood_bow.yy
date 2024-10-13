@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"o_arrow_in_wall",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_wood_bow",
+  "eventList":[],
   "managed":true,
-  "name":"o_arrow_in_wall",
+  "name":"o_wood_bow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Arrows",
-    "path":"folders/Entity/Weapons/Weps/Bows/Arrows.yy",
+    "name":"Bows",
+    "path":"folders/Entity/Weapons/Weps/Bows.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_bow",
+    "path":"objects/o_bow/o_bow.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_arrow_in_wall",
-    "path":"sprites/s_arrow_in_wall/s_arrow_in_wall.yy",
+    "name":"s_wood_bow",
+    "path":"sprites/s_wood_bow/s_wood_bow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

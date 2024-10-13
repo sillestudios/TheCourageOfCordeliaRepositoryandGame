@@ -101,7 +101,7 @@ function calc_movement(){
 	x += hmove;
 	y += vmove;
 	
-	if (sprite_index==s_player_walk) and (o_player.counter_footsteps==0){
+	if (sprite_index==s_player_run_down) and (o_player.counter_footsteps==0){
     audio_play_sound(choose(Footsteps_Floor_01,Footsteps_Floor_02,Footsteps_Floor_03,Footsteps_Floor_04), 1, false);
     o_player.counter_footsteps = 20; // number of steps to wait before trying to play the sound again
 	}

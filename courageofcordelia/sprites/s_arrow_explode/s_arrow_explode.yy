@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Bows",
-    "path":"folders/Entity/Weapons/Weps/Bows.yy",
+    "name":"Arrow Effects",
+    "path":"folders/Entity/Weapons/Weps/Bows/Arrow Effects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

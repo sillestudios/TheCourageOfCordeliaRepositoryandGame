@@ -90,15 +90,11 @@ if !place_meeting(x, y, o_trader){
 	//my_weapon.sprite = vector_reload_gif;
 //}
 
-//loot logs
-/*for (var i = 0; i < array_length(_loot_feed.loot_feed_text); i++)
-{
-    _loot_feed.loot_feed_text[i].alpha -= 0.02;
- 
-    if (_loot_feed.loot_feed_text[i].alpha) <= 0
-    {
-		array_delete(_loot_feed.loot_feed_text, i, 1);
-    }
-}*/
+if my_weapon = global.WeaponList.wood_bow && fire{
+	my_weapon.sprite = s_wood_bow_shoot;
+}
 
+if my_weapon = global.WeaponList.wood_bow && fire == false{
+	my_weapon.sprite = s_wood_bow;
+}
 

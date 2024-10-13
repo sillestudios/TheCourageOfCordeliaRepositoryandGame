@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Bows",
-    "path":"folders/Entity/Weapons/Weps/Bows.yy",
+    "name":"Arrows",
+    "path":"folders/Entity/Weapons/Weps/Bows/Arrows.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

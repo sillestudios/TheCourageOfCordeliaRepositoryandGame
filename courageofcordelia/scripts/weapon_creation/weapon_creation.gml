@@ -134,7 +134,21 @@ global.WeaponList =
 		0,
 		o_empty,
 		sound_empty
-	)
+	),
+	
+	wood_bow : new create_weapon(
+		s_wood_bow,
+		s_wood_bow,
+		7,
+		13,
+		7,
+		o_wood_bow_arrow,
+		30,
+		o_empty,
+		sound_bow_shoot_1
+		),
+	
+	
 	
 		
 	

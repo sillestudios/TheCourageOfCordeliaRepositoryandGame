@@ -8,8 +8,8 @@
   "name":"o_dust_particles2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Entity/Player.yy",
+    "name":"PlayerSprites",
+    "path":"folders/Entity/Player/PlayerSprites.yy",
   },
   "parentObjectId":null,
   "persistent":false,

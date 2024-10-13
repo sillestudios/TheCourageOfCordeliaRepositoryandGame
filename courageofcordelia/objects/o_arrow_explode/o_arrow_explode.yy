@@ -8,8 +8,8 @@
   "name":"o_arrow_explode",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bows",
-    "path":"folders/Entity/Weapons/Weps/Bows.yy",
+    "name":"Arrow Effects",
+    "path":"folders/Entity/Weapons/Weps/Bows/Arrow Effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
