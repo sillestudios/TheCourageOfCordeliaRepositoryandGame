@@ -275,6 +275,7 @@
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"is_between","path":"scripts/is_between/is_between.yy",},},
     {"id":{"name":"ItemTypeEnum","path":"scripts/ItemTypeEnum/ItemTypeEnum.yy",},},
+    {"id":{"name":"loot_feed","path":"scripts/loot_feed/loot_feed.yy",},},
     {"id":{"name":"macros_enums","path":"scripts/macros_enums/macros_enums.yy",},},
     {"id":{"name":"player_processes","path":"scripts/player_processes/player_processes.yy",},},
     {"id":{"name":"text_align","path":"scripts/text_align/text_align.yy",},},

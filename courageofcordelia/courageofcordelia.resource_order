@@ -219,6 +219,7 @@
     {"name":"Inventory","order":3,"path":"scripts/Inventory/Inventory.yy",},
     {"name":"is_between","order":6,"path":"scripts/is_between/is_between.yy",},
     {"name":"ItemTypeEnum","order":5,"path":"scripts/ItemTypeEnum/ItemTypeEnum.yy",},
+    {"name":"loot_feed","order":14,"path":"scripts/loot_feed/loot_feed.yy",},
     {"name":"macros_enums","order":4,"path":"scripts/macros_enums/macros_enums.yy",},
     {"name":"text_align","order":8,"path":"scripts/text_align/text_align.yy",},
     {"name":"trap_processes","order":3,"path":"scripts/trap_processes/trap_processes.yy",},

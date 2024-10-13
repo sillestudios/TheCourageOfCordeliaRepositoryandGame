@@ -85,12 +85,8 @@ ready_to_restart = false // ensures we can restart after death animation
 
 death_timer = 30
 
+_loot_feed = new loot_feed();
 
 
-
-
-//loot log
-loot_feed_text = ds_list_create();
-loot_feed_alpha = ds_list_create();
 
 

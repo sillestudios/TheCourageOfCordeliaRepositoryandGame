@@ -37,8 +37,10 @@ if aim_dir >= 135 or aim_dir <= 45 {
 }
 
 //loot feed
-for (var i = 0; i < ds_list_size(loot_feed_text); i++)
+for (var i = 0; i < array_length(_loot_feed.loot_feed_text); i++)
 {
-    draw_set_alpha(loot_feed_alpha[| i]);
-    draw_text(x, y + 16 * i, "Loot from chest:" + loot_feed_text[| i]);
+    draw_set_alpha(_loot_feed.loot_feed_text[i].alpha);
+    draw_text(x, y + 16 * i, "Loot from chest:" + _loot_feed.loot_feed_text[i].item);
 }
+
+draw_set_alpha(1);
