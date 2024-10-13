@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Control","order":2,"path":"folders/Control.yy",},
-    {"name":"Lighting","order":2,"path":"folders/Control/Lighting.yy",},
+    {"name":"Lighting","order":3,"path":"folders/Control/Lighting.yy",},
     {"name":"Entity","order":3,"path":"folders/Entity.yy",},
     {"name":"Enemy","order":2,"path":"folders/Entity/Enemy.yy",},
     {"name":"GoblinBomber","order":2,"path":"folders/Entity/Enemy/GoblinBomber.yy",},
@@ -123,6 +123,7 @@
     {"name":"o_iron_chest","order":1,"path":"objects/o_iron_chest/o_iron_chest.yy",},
     {"name":"o_jar_break_fx","order":27,"path":"objects/o_jar_break_fx/o_jar_break_fx.yy",},
     {"name":"o_jar","order":30,"path":"objects/o_jar/o_jar.yy",},
+    {"name":"o_loot_feed","order":2,"path":"objects/o_loot_feed/o_loot_feed.yy",},
     {"name":"o_metal_door","order":9,"path":"objects/o_metal_door/o_metal_door.yy",},
     {"name":"o_necro_bullet_hit","order":10,"path":"objects/o_necro_bullet_hit/o_necro_bullet_hit.yy",},
     {"name":"o_necro_bullet_muzzle","order":12,"path":"objects/o_necro_bullet_muzzle/o_necro_bullet_muzzle.yy",},
@@ -142,7 +143,7 @@
     {"name":"o_red_cloak","order":1,"path":"objects/o_red_cloak/o_red_cloak.yy",},
     {"name":"o_red_mage_hat","order":5,"path":"objects/o_red_mage_hat/o_red_mage_hat.yy",},
     {"name":"o_red_torch","order":7,"path":"objects/o_red_torch/o_red_torch.yy",},
-    {"name":"o_room_transition","order":3,"path":"objects/o_room_transition/o_room_transition.yy",},
+    {"name":"o_room_transition","order":4,"path":"objects/o_room_transition/o_room_transition.yy",},
     {"name":"o_saw_guide","order":5,"path":"objects/o_saw_guide/o_saw_guide.yy",},
     {"name":"o_saw_spin","order":6,"path":"objects/o_saw_spin/o_saw_spin.yy",},
     {"name":"o_shell","order":3,"path":"objects/o_shell/o_shell.yy",},

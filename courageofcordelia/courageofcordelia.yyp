@@ -163,6 +163,7 @@
     {"id":{"name":"o_jar_break_fx","path":"objects/o_jar_break_fx/o_jar_break_fx.yy",},},
     {"id":{"name":"o_jar","path":"objects/o_jar/o_jar.yy",},},
     {"id":{"name":"o_light_render","path":"objects/o_light_render/o_light_render.yy",},},
+    {"id":{"name":"o_loot_feed","path":"objects/o_loot_feed/o_loot_feed.yy",},},
     {"id":{"name":"o_metal_door","path":"objects/o_metal_door/o_metal_door.yy",},},
     {"id":{"name":"o_necro_bullet_hit","path":"objects/o_necro_bullet_hit/o_necro_bullet_hit.yy",},},
     {"id":{"name":"o_necro_bullet_muzzle","path":"objects/o_necro_bullet_muzzle/o_necro_bullet_muzzle.yy",},},

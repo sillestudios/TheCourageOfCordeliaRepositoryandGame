@@ -21,16 +21,16 @@ if global.controller = controllers.KEYBOARD{
 }
 
 //healthbar
-draw_sprite_ext(s_health_bar_panel, 0, 25, 25, 2.5, 2.5, 0, c_white, 1);
+draw_sprite_ext(s_health_bar_panel, 0, 25, 25, 1, 1, 0, c_white, 1);
 
 var _healthPercent = hp/hp_max;
 var _hpImage = _healthPercent * (sprite_get_number(s_health_percent) -1 );
-draw_sprite_ext(s_health_percent, _hpImage,  136, 52, 2.5, 2.5, image_angle, image_blend, image_alpha);
+draw_sprite_ext(s_health_percent, _hpImage,  25, 25, 1, 1, image_angle, image_blend, image_alpha);
 
 //xp bar
 var _xpPercent = experience/experience_max;
 var _xpImage = _xpPercent * (sprite_get_number(s_xp_percent) );
-draw_sprite_ext(s_xp_percent, _xpImage, 136, 90, 2.5, 2.5, image_angle, image_blend, image_alpha);
+draw_sprite_ext(s_xp_percent, _xpImage, 136, 90, 1, 1, image_angle, image_blend, image_alpha);
 
 
 

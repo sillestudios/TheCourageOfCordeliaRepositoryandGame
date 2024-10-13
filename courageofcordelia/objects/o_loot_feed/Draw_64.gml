@@ -1,0 +1,1 @@
+_loot_feed.draw_loop();

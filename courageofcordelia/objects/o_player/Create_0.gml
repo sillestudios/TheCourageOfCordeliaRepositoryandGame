@@ -85,7 +85,7 @@ ready_to_restart = false // ensures we can restart after death animation
 
 death_timer = 30
 
-_loot_feed = new loot_feed();
+
 
 
 

@@ -11,6 +11,31 @@ function loot_feed() constructor{
 		alpha : _alpha
 		})
 	}
+	
+	step_loop = function(){
+		//loot logs
+		for (var i = 0; i < array_length(loot_feed_text); i++)
+		{
+		    loot_feed_text[i].alpha -= 0.009;
+ 
+		    if (loot_feed_text[i].alpha) <= 0
+		    {
+				array_delete(loot_feed_text, i, 1);
+		    }
+		}
+	}
+	
+	draw_loop = function(){
+		//loot feed
+		for (var i = 0; i < array_length(loot_feed_text); i++)
+		{
+		    draw_set_alpha(loot_feed_text[i].alpha);
+			draw_set_font(fn_8bit);
+		    draw_text_transformed(425, 10 + 16* i, "Loot from chest:" + loot_feed_text[i].item, 0.25,0.25,0);
+		}
+
+		draw_set_alpha(1);
+	}
 }
 
 

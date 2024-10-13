@@ -17,9 +17,11 @@ function chest_loot_drop(){
 	var _yOff = -15;
 	
 	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
 	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
 	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
-	o_player._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
 
 	
 	var _chance = irandom(100)

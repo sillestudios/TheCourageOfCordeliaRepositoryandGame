@@ -1,0 +1,1 @@
+_loot_feed = new loot_feed();

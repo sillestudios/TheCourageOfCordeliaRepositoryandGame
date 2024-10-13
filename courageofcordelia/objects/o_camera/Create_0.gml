@@ -22,3 +22,4 @@ yShakeAmountSpd = 1/4;
 window_set_rectangle((display_get_width() - view_wport[0]) * 0.5, (display_get_height() - view_hport[0]) * 0.5, view_wport[0], view_hport[0]);
 surface_resize(application_surface,view_wport[0],view_hport[0]);
 
+display_set_gui_size(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));

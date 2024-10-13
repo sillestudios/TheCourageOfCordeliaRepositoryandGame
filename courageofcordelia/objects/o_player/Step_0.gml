@@ -91,12 +91,14 @@ if !place_meeting(x, y, o_trader){
 //}
 
 //loot logs
-for (var i = 0; i < array_length(_loot_feed.loot_feed_text); i++)
+/*for (var i = 0; i < array_length(_loot_feed.loot_feed_text); i++)
 {
-    _loot_feed.loot_feed_text[i].alpha -= 0.1;
+    _loot_feed.loot_feed_text[i].alpha -= 0.02;
  
     if (_loot_feed.loot_feed_text[i].alpha) <= 0
     {
 		array_delete(_loot_feed.loot_feed_text, i, 1);
     }
-}
+}*/
+
+
