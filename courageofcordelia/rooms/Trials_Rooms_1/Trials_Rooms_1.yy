@@ -25,10 +25,12 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_wall","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,
-          -63,0,-62,-2147483648,-63,0,-4612,-2147483648,4,516,517,518,519,-12,-2147483648,4,516,517,518,519,-105,
-          -2147483648,4,551,552,553,554,-12,-2147483648,4,551,552,553,554,-105,-2147483648,4,586,587,588,589,-12,
-          -2147483648,4,586,587,588,589,-105,-2147483648,4,621,622,623,624,-12,-2147483648,4,621,622,623,624,-9805,
-          -2147483648,
+          -63,0,-49,-2147483648,1,233,-8,234,1,235,-3,-2147483648,-63,0,-49,-2147483648,1,268,-8,719,1,270,-115,
+          -2147483648,1,268,-8,719,1,270,-115,-2147483648,1,268,-8,719,1,270,-115,-2147483648,1,268,-8,719,1,270,
+          -115,-2147483648,1,303,-8,304,1,305,-4053,-2147483648,4,516,517,518,519,-12,-2147483648,4,516,517,518,
+          519,-105,-2147483648,4,551,552,553,554,-12,-2147483648,4,551,552,553,554,-105,-2147483648,4,586,587,
+          588,589,-12,-2147483648,4,586,587,588,589,-105,-2147483648,4,621,622,623,624,-12,-2147483648,4,621,622,
+          623,624,-9805,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_floor_decos","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_floor_decos","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -5,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,

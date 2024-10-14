@@ -1,7 +1,9 @@
 {
   "$GMTileSet":"",
   "%Name":"ts_lava",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[162,305,303,304,235,270,0,226,233,0,268,229,297,296,299,263,],},
+  ],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,

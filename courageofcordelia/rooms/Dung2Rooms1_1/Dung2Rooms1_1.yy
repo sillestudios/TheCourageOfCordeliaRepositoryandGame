@@ -1,18 +1,18 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Trials_Room_Template",
+  "%Name":"Dung2Rooms1_1",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_56DEBABE_1_1_8","path":"rooms/Trials_Room_Template/Trials_Room_Template.yy",},
+    {"name":"inst_56DEBABE_1_1_9_1","path":"rooms/Dung2Rooms1_1/Dung2Rooms1_1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"MenuItems","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"MenuItems","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Lighting","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_56DEBABE_1_1_8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56DEBABE_1_1_8","objectId":{"name":"o_light_render","path":"objects/o_light_render/o_light_render.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-32.0,},
+        {"$GMRInstance":"v1","%Name":"inst_56DEBABE_1_1_9_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56DEBABE_1_1_9_1","objectId":{"name":"o_light_render","path":"objects/o_light_render/o_light_render.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":-32.0,},
       ],"layers":[],"name":"Lighting","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Projectile","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Projectile","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
@@ -22,26 +22,26 @@
     {"$GMRTileLayer":"","%Name":"Tiles_wall_decos","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_wall_decos","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,
           -63,0,-62,-2147483648,-63,0,-14812,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_wall","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,
           -63,0,-62,-2147483648,-63,0,-14812,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_floor_decos","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_floor_decos","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -5,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,
           -58,0,-67,-2147483648,-58,0,-67,-2147483648,-58,0,-14812,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_floor_shadow","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_floor_shadow","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,
           -63,0,-62,-2147483648,-63,0,-14812,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_floor","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[-15625,3512,],"TileDataFormat":1,},"tilesetId":{"name":"tiles_dungeon","path":"tilesets/tiles_dungeon/tiles_dungeon.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_floor","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[-15625,253,],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278209536,"depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Trials_Room_Template",
+  "name":"Dung2Rooms1_1",
   "parent":{
-    "name":"Trials",
-    "path":"folders/Rooms/Trials.yy",
+    "name":"Dung2Rooms1",
+    "path":"folders/Rooms/Dungeon2/Dung2Rooms1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
