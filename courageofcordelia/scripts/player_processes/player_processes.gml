@@ -112,7 +112,7 @@ function calc_movement(){
 	if _facing == 0 _facing = -1;
 	facing = _facing;*/
 	
-	var _facing = round(aim_dir/90);
+	var _facing = round(aim_dir/90)
 	facing = _facing;
 	
 	
@@ -195,11 +195,14 @@ function anim(){
 				sprite_index = s_player_run_right;
 			}
 			
+			
 				
 			if facing = 1 sprite_index = s_player_idle_up;
 			if facing = 1 && hmove != 0 or facing = 1 && vmove !=0{
 				sprite_index = s_player_run_up;
 			}
+			
+
 			
 			if facing = 2 sprite_index = s_player_idle_left;
 			if facing = 2  && hmove != 0 or facing = 2 && vmove !=0{
@@ -211,7 +214,7 @@ function anim(){
 				sprite_index = s_player_run_down;
 			}
 			
-			if facing = 4 sprite_index = s_player_idle_right;
+			//if facing = 6 sprite_index = s_player_idle_right;
 			#endregion
 			
 			
@@ -222,19 +225,19 @@ function anim(){
 		break;
 		
 		case states.DASH:
-			if facing = 0 or facing = 4{
+			if right{
 				sprite_index = s_player_dash;
 			}
 			
-			if facing = 1 {
+			if up {
 				sprite_index = s_player_dash_up;
 			}
 			
-			if facing = 2{
+			if left{
 				sprite_index = s_player_backdash;
 			}
 			
-			if facing = 3{
+			if down{
 				sprite_index = s_player_dash_down;
 			}
 		break;
