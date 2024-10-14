@@ -191,23 +191,23 @@ function anim(){
 			if facing  = 4 facing = 0
 
 			if facing = 0 sprite_index = s_player_idle_right;
-			if facing = 0  && right or facing = 0  && left{
+			if facing = 0  && hmove != 0 or facing = 0 && vmove !=0{
 				sprite_index = s_player_run_right;
 			}
 			
 				
 			if facing = 1 sprite_index = s_player_idle_up;
-			if facing = 1 && up or facing = 1 && down{
+			if facing = 1 && hmove != 0 or facing = 1 && vmove !=0{
 				sprite_index = s_player_run_up;
 			}
 			
 			if facing = 2 sprite_index = s_player_idle_left;
-			if facing = 2  && left or facing = 2  && right{
+			if facing = 2  && hmove != 0 or facing = 2 && vmove !=0{
 				sprite_index = s_player_run_left;
 			}
 			
 			if facing = 3 sprite_index = s_player_idle_down;
-			if facing = 3 && down or facing = 3 && up{
+			if facing = 3 && hmove != 0 or facing = 3 && vmove !=0{
 				sprite_index = s_player_run_down;
 			}
 			
@@ -370,8 +370,10 @@ function draw_my_weapon()
 
 
 //get weapon away from player body adjusting for arm length
-var _xOffset = lengthdir_x(weaponOffsetDist, aim_dir);
-var _yOffset = lengthdir_y(weaponOffsetDist, aim_dir);
+//var _xOffset = lengthdir_x(weaponOffsetDist, aim_dir);
+//var _yOffset = lengthdir_y(weaponOffsetDist, aim_dir);
+var _xOffset = lengthdir_x(my_weapon.wep_offset, aim_dir);
+var _yOffset = lengthdir_y(my_weapon.wep_offset, aim_dir);
 
 //flip weapon on y axis correctly
 var _weaponYsc1 = 1;

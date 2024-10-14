@@ -15,6 +15,7 @@
     {"$GMSpriteFrame":"","%Name":"9f023680-be78-4d55-bc2d-87ef9bd86b8c","name":"9f023680-be78-4d55-bc2d-87ef9bd86b8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"8ba50f44-f74a-4800-9ba6-91a8b3235594","name":"8ba50f44-f74a-4800-9ba6-91a8b3235594","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"0bf3f687-73d4-4f72-b47e-64f11e649f9c","name":"0bf3f687-73d4-4f72-b47e-64f11e649f9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6caeca7b-059b-4611-a9e4-d62ae181d55b","name":"6caeca7b-059b-4611-a9e4-d62ae181d55b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -52,7 +53,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -62,7 +63,7 @@
     },
     "name":"s_wood_bow_shoot",
     "playback":1,
-    "playbackSpeed":6.0,
+    "playbackSpeed":24.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -80,6 +81,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0bf3f687-73d4-4f72-b47e-64f11e649f9c","path":"sprites/s_wood_bow_shoot/s_wood_bow_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9787cb75-1ad3-492c-b7a4-e5678c8ff8c4","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6caeca7b-059b-4611-a9e4-d62ae181d55b","path":"sprites/s_wood_bow_shoot/s_wood_bow_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"672e2976-d8d8-4b3f-9ebc-0f3e88acb41f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

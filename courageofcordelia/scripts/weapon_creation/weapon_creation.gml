@@ -1,11 +1,15 @@
 //constructor template for weapons
 
-function create_weapon(_sprite, _spriteIcon, _projectile_spd, _weaponOffset, _weaponRecoil, _projectileObj, _cooldown, _wep_shoot_fx, _wep_shoot_sound, _bulletNum = 1, _bulletSpread = 0) constructor
+function create_weapon(_sprite, _spriteIcon, _projectile_spd,
+_weaponOffset, _weaponOffset_init, _weaponRecoil, _projectileObj, _cooldown,
+_wep_shoot_fx, _wep_shoot_sound,
+_bulletNum = 1, _bulletSpread = 0) constructor
 {
 sprite = _sprite;
 sprite_icon = _spriteIcon;
 projectile_spd = _projectile_spd;
 wep_offset = _weaponOffset; //distance from the player
+wep_offset_init = _weaponOffset_init
 wep_recoil = _weaponRecoil; //how close will the weapon get to the player
 projectile = _projectileObj;
 cooldown = _cooldown;
@@ -31,6 +35,7 @@ global.WeaponList =
 		s_bow,
 		7,
 		13,
+		13,
 		7,
 		o_arrow,
 		30,
@@ -42,6 +47,7 @@ global.WeaponList =
 		s_bow2,
 		s_bow2,
 		7,
+		13,
 		13,
 		10,
 		o_arrow,
@@ -55,6 +61,7 @@ global.WeaponList =
 		s_staff_icon,
 		5,
 		20,
+		20,
 		12,
 		o_flame_bolt,
 		15,
@@ -66,6 +73,7 @@ global.WeaponList =
 		s_sidewinder,
 		s_sidewinder,
 		6,
+		9,
 		9,
 		-5,
 		o_pistol_bullet,
@@ -79,6 +87,7 @@ global.WeaponList =
 		s_blaster,
 		6,
 		11,
+		11,
 		-12,
 		o_blaster_bullet,
 		45,
@@ -90,6 +99,7 @@ global.WeaponList =
 		s_purgatory,
 		s_purgatory,
 		6,
+		9,
 		9,
 		-9,
 		o_purgatory_bullet,
@@ -104,6 +114,7 @@ global.WeaponList =
 		s_tyranny,
 		6,
 		10,
+		10,
 		-15,
 		o_tyranny_bullet,
 		20,
@@ -116,6 +127,7 @@ global.WeaponList =
 		s_vector,
 		s_vector,
 		9,
+		11,
 		11,
 		0,
 		o_pistol_bullet,
@@ -130,6 +142,7 @@ global.WeaponList =
 		0,
 		0,
 		0,
+		0,
 		o_empty,
 		0,
 		o_empty,
@@ -141,7 +154,8 @@ global.WeaponList =
 		s_wood_bow,
 		7,
 		13,
-		0,
+		13,
+		4,
 		o_wood_bow_arrow,
 		30,
 		o_empty,

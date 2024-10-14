@@ -13,7 +13,7 @@ my_weapon.depth = depth + _depth;
 my_weapon.x = x + lengthdir_x(my_weapon.wep_offset, aim_dir);
 my_weapon.y = y + lengthdir_y(my_weapon.wep_offset, aim_dir);
 
-my_weapon.wep_offset = lerp( my_weapon.wep_offset, my_weapon.wep_offset, 0.1)
+my_weapon.wep_offset = lerp( my_weapon.wep_offset, my_weapon.wep_offset_init, 0.1)
 
 
 

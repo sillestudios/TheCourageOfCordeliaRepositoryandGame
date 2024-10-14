@@ -35,7 +35,7 @@ alarm[2] = bomb_cooldown;
 bomb_power = 8;
 
 //dash variables
-dash_speed = 3.5;
+dash_speed = 4.5;
 can_dash = true;
 
 dash_cooldown = 60;
@@ -59,9 +59,9 @@ array_push(global.PlayerWeapons, global.WeaponList.wood_bow);		//8
 
 selectedWeapon = 8;
 my_weapon = global.PlayerWeapons[selectedWeapon];
-weaponOffsetDistInitial = global.PlayerWeapons[selectedWeapon].wep_offset;//offset gun for length of arms
-weaponOffsetDist = weaponOffsetDistInitial
-weaponRecoil = global.PlayerWeapons[selectedWeapon].wep_recoil;
+//weaponOffsetDistInitial = global.PlayerWeapons[selectedWeapon].wep_offset;//offset gun for length of arms
+//weaponOffsetDist = weaponOffsetDistInitial
+//weaponRecoil = global.PlayerWeapons[selectedWeapon].wep_recoil;
 
 
 //weapon_shoot_fx = global.PlayerWeapons[selectedWeapon].wep_shoot_fx;

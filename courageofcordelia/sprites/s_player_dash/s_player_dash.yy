@@ -31,7 +31,7 @@
   ],
   "name":"s_player_dash",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"PlayerSprites",
     "path":"folders/Entity/Player/PlayerSprites.yy",
@@ -107,7 +107,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":12,
+    "xorigin":10,
     "yorigin":11,
   },
   "swatchColours":null,
