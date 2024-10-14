@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_torch",
-    "path":"sprites/s_torch/s_torch.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
