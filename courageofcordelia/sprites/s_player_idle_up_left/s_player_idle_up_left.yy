@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"PlayerSprites",
-    "path":"folders/Entity/Player/PlayerSprites.yy",
+    "name":"6Directional",
+    "path":"folders/Entity/Player/PlayerSprites/6Directional.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -24,6 +24,7 @@
     {"$GMFolder":"","%Name":"Quasits","folderPath":"folders/Entity/Enemy/Warlock/Quasits.yy","name":"Quasits","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Entity/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PlayerSprites","folderPath":"folders/Entity/Player/PlayerSprites.yy","name":"PlayerSprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"6Directional","folderPath":"folders/Entity/Player/PlayerSprites/6Directional.yy","name":"6Directional","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Trader","folderPath":"folders/Entity/Trader.yy","name":"Trader","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Weapons","folderPath":"folders/Entity/Weapons.yy","name":"Weapons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Projectiles","folderPath":"folders/Entity/Weapons/Projectiles.yy","name":"Projectiles","resourceType":"GMFolder","resourceVersion":"2.0",},
