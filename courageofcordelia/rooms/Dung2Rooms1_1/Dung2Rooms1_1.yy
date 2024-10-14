@@ -25,7 +25,15 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_wall","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,-63,0,-62,-2147483648,
-          -63,0,-62,-2147483648,-63,0,-14812,-2147483648,
+          -63,0,-62,-2147483648,-63,0,-11089,-2147483648,1,226,-8,304,1,229,-115,-2147483648,1,270,-8,162,1,268,
+          -115,-2147483648,3,270,162,233,-6,297,1,299,-115,-2147483648,3,270,162,268,-122,-2147483648,3,270,162,
+          268,-122,-2147483648,6,270,162,268,-2147483648,-2147483648,226,-3,304,1,229,-115,-2147483648,6,270,162,
+          268,-2147483648,-2147483648,270,-3,162,1,268,-115,-2147483648,10,270,162,268,-2147483648,-2147483648,
+          270,162,233,297,299,-115,-2147483648,8,270,162,268,-2147483648,-2147483648,270,162,268,-117,-2147483648,
+          8,270,162,268,-2147483648,-2147483648,270,162,268,-117,-2147483648,8,270,162,268,-2147483648,-2147483648,
+          270,162,268,-117,-2147483648,8,270,162,268,-2147483648,-2147483648,270,162,268,-117,-2147483648,8,270,
+          162,268,-2147483648,-2147483648,270,162,268,-117,-2147483648,8,270,162,303,304,304,305,162,268,-117,
+          -2147483648,1,270,-6,162,1,268,-117,-2147483648,1,296,-6,297,1,299,-1840,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_lava","path":"tilesets/ts_lava/ts_lava.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_floor_decos","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_floor_decos","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -5,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,-58,0,-67,-2147483648,
