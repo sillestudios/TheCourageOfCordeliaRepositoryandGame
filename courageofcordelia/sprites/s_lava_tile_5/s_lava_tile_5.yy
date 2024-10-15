@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"FirezoneSpecific",
-    "path":"folders/FirezoneSpecific.yy",
+    "name":"LavaTiles",
+    "path":"folders/FirezoneSpecific/LavaTiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"s_active_knight_sword_statue",
+  "%Name":"s_null_knight_statue",
   "bboxMode":0,
-  "bbox_bottom":35,
+  "bbox_bottom":34,
   "bbox_left":0,
-  "bbox_right":17,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e5ce49a-9983-4714-b1f3-f613fd51004a","name":"1e5ce49a-9983-4714-b1f3-f613fd51004a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1862f9cb-a422-4cf6-a6fc-3d4fa1a45ffd","name":"1862f9cb-a422-4cf6-a6fc-3d4fa1a45ffd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":36,
+  "height":35,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"81b3454d-614d-4885-a283-51b89a28d676","blendMode":0,"displayName":"default","isLocked":false,"name":"81b3454d-614d-4885-a283-51b89a28d676","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a1411941-68e8-4cac-b27d-5ae8a043cd1b","blendMode":0,"displayName":"default","isLocked":false,"name":"a1411941-68e8-4cac-b27d-5ae8a043cd1b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_active_knight_sword_statue",
+  "name":"s_null_knight_statue",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"s_active_knight_sword_statue",
+    "%Name":"s_null_knight_statue",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_active_knight_sword_statue",
+    "name":"s_null_knight_statue",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e5ce49a-9983-4714-b1f3-f613fd51004a","path":"sprites/s_active_knight_sword_statue/s_active_knight_sword_statue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d5d11f51-b9fa-41fc-87b7-67b7dcdc2451","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1862f9cb-a422-4cf6-a6fc-3d4fa1a45ffd","path":"sprites/s_null_knight_statue/s_null_knight_statue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e4be7386-aa98-4288-8f9c-0e779d553c7e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":18,
+  "width":16,
 }

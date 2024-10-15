@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"FirezoneSpecific",
-    "path":"folders/FirezoneSpecific.yy",
+    "name":"Statues",
+    "path":"folders/FirezoneSpecific/Statues.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
