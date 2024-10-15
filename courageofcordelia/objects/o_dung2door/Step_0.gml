@@ -1,6 +1,6 @@
 
 
-/*if !instance_exists(o_enemy_par){
+if open_dung2_door = true{
 
 	image_speed = 1;
 	mask_index = s_empty;

@@ -85,6 +85,8 @@ ready_to_restart = false // ensures we can restart after death animation
 
 death_timer = 30
 
+dung2door_col = false;
+
 
 
 
