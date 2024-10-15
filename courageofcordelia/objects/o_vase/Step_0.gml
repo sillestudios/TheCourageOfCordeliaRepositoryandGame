@@ -1,5 +1,6 @@
 
-if (place_meeting(x, y, o_arrow) or place_meeting(x, y, o_bomb) or place_meeting(x, y, o_explosion)) {
+if (place_meeting(x, y, o_arrow) or place_meeting(x, y, o_bomb) 
+or place_meeting(x, y, o_explosion) or place_meeting(x, y, o_wood_bow_arrow)) {
     if (collidable) && image_index < 4{
 
 		audio_play_sound(break_sfx, 1, false);

@@ -1,4 +1,5 @@
-if (place_meeting(x, y, o_arrow) or place_meeting(x, y, o_bomb) or place_meeting(x, y, o_explosion)) {
+if (place_meeting(x, y, o_arrow) or place_meeting(x, y, o_bomb) 
+or place_meeting(x, y, o_explosion)  or place_meeting(x, y, o_wood_bow_arrow)) {
     if (collidable) {
 		
 		audio_play_sound(choose(Vases_Breaking_1, Vases_Breaking_2, Vases_Breaking_3), 1, false);
