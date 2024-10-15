@@ -420,6 +420,8 @@
     {"id":{"name":"s_enter","path":"sprites/s_enter/s_enter.yy",},},
     {"id":{"name":"s_explosion","path":"sprites/s_explosion/s_explosion.yy",},},
     {"id":{"name":"s_fire_chest","path":"sprites/s_fire_chest/s_fire_chest.yy",},},
+    {"id":{"name":"s_fire_items","path":"sprites/s_fire_items/s_fire_items.yy",},},
+    {"id":{"name":"s_fire_pit","path":"sprites/s_fire_pit/s_fire_pit.yy",},},
     {"id":{"name":"s_flame_bolt","path":"sprites/s_flame_bolt/s_flame_bolt.yy",},},
     {"id":{"name":"s_flame_trail","path":"sprites/s_flame_trail/s_flame_trail.yy",},},
     {"id":{"name":"s_flames","path":"sprites/s_flames/s_flames.yy",},},
