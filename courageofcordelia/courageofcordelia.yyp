@@ -258,6 +258,7 @@
     {"id":{"name":"obj_quickslots1","path":"objects/obj_quickslots1/obj_quickslots1.yy",},},
     {"id":{"name":"Object27","path":"objects/Object27/Object27.yy",},},
     {"id":{"name":"lootbeam_green","path":"particles/lootbeam_green/lootbeam_green.yy",},},
+    {"id":{"name":"lootbeam_red","path":"particles/lootbeam_red/lootbeam_red.yy",},},
     {"id":{"name":"lootbeam","path":"particles/lootbeam/lootbeam.yy",},},
     {"id":{"name":"Dung1RoomTemplate","path":"rooms/Dung1RoomTemplate/Dung1RoomTemplate.yy",},},
     {"id":{"name":"Dung2Rooms1_1","path":"rooms/Dung2Rooms1_1/Dung2Rooms1_1.yy",},},

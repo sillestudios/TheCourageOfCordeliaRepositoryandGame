@@ -205,6 +205,7 @@
     {"name":"obj_quickslots1","order":1,"path":"objects/obj_quickslots1/obj_quickslots1.yy",},
     {"name":"Object27","order":6,"path":"objects/Object27/Object27.yy",},
     {"name":"lootbeam_green","order":1,"path":"particles/lootbeam_green/lootbeam_green.yy",},
+    {"name":"lootbeam_red","order":2,"path":"particles/lootbeam_red/lootbeam_red.yy",},
     {"name":"Room1","order":8,"path":"rooms/Room1/Room1.yy",},
     {"name":"Room2","order":9,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":10,"path":"rooms/Room3/Room3.yy",},

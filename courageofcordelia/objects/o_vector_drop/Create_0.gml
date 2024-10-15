@@ -8,3 +8,5 @@ weapon_description = "The holy grail.";
 weapon_style = "Ranged";
 weapon_armor_bonus = 0
 weapon_damage_bonus = 2;
+
+beam = part_system_create_layer("Lighting", true, lootbeam_red)
