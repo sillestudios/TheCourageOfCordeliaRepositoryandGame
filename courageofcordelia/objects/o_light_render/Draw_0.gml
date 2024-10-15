@@ -395,15 +395,32 @@ gpu_set_blendmode(bm_normal);
 
 #region SILVER KEY
 with(o_silver_key){
-	var _wobble = 0.4;
-	var _wobble_amount_x = 2 + random_range(-_wobble, _wobble);
-	var _wobble_amount_y = 2 + random_range(-_wobble, _wobble);
+	var _wobble = 0.025;
+	var _wobble_amount_x = 1 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 1 + random_range(-_wobble, _wobble);
 	
 	gpu_set_blendmode(bm_subtract);
 	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
 	
 	gpu_set_blendmode(bm_add);
 	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_silver, 0.5);
+	
+
+}
+gpu_set_blendmode(bm_normal);
+#endregion
+
+#region LOOTBEAM PURPLE
+with(lootbeam){
+	var _wobble = 0.025;
+	var _wobble_amount_x = 1 + random_range(-_wobble, _wobble);
+	var _wobble_amount_y = 1 + random_range(-_wobble, _wobble);
+	
+	gpu_set_blendmode(bm_subtract);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+	gpu_set_blendmode(bm_add);
+	draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_purple, 0.5);
 	
 
 }

@@ -13,3 +13,5 @@ weapon_armor_bonus = 0
 weapon_damage_bonus = 3;
 
 pickup_sound = coin_pickup;
+
+beam = part_system_create_layer("Projectile", true, lootbeam_green);

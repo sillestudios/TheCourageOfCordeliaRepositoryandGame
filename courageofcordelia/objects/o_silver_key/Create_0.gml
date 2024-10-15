@@ -11,6 +11,7 @@ tool_damage_bonus = 0;
 
 pickup_sound = coin_pickup;
 
-
+can_pick_up = false;
+beam = part_system_create_layer("Lighting", true, lootbeam);
 
 

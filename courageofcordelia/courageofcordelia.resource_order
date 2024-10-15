@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Control","order":2,"path":"folders/Control.yy",},
-    {"name":"ParticleSystem","order":4,"path":"folders/Control/ParticleSystem.yy",},
     {"name":"Lighting","order":3,"path":"folders/Control/Lighting.yy",},
+    {"name":"ParticleSystem","order":4,"path":"folders/Control/ParticleSystem.yy",},
     {"name":"Entity","order":3,"path":"folders/Entity.yy",},
     {"name":"Enemy","order":2,"path":"folders/Entity/Enemy.yy",},
     {"name":"GoblinBomber","order":2,"path":"folders/Entity/Enemy/GoblinBomber.yy",},
@@ -204,6 +204,7 @@
     {"name":"obj_equip_rings","order":8,"path":"objects/obj_equip_rings/obj_equip_rings.yy",},
     {"name":"obj_quickslots1","order":1,"path":"objects/obj_quickslots1/obj_quickslots1.yy",},
     {"name":"Object27","order":6,"path":"objects/Object27/Object27.yy",},
+    {"name":"lootbeam_green","order":1,"path":"particles/lootbeam_green/lootbeam_green.yy",},
     {"name":"Room1","order":8,"path":"rooms/Room1/Room1.yy",},
     {"name":"Room2","order":9,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":10,"path":"rooms/Room3/Room3.yy",},
