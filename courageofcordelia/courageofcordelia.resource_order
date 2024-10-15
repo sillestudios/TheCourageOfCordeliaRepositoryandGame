@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Control","order":2,"path":"folders/Control.yy",},
+    {"name":"ParticleSystem","order":4,"path":"folders/Control/ParticleSystem.yy",},
     {"name":"Lighting","order":3,"path":"folders/Control/Lighting.yy",},
     {"name":"Entity","order":3,"path":"folders/Entity.yy",},
     {"name":"Enemy","order":2,"path":"folders/Entity/Enemy.yy",},
@@ -150,7 +151,7 @@
     {"name":"o_red_cloak","order":1,"path":"objects/o_red_cloak/o_red_cloak.yy",},
     {"name":"o_red_mage_hat","order":5,"path":"objects/o_red_mage_hat/o_red_mage_hat.yy",},
     {"name":"o_red_torch","order":7,"path":"objects/o_red_torch/o_red_torch.yy",},
-    {"name":"o_room_transition","order":4,"path":"objects/o_room_transition/o_room_transition.yy",},
+    {"name":"o_room_transition","order":5,"path":"objects/o_room_transition/o_room_transition.yy",},
     {"name":"o_saw_guide","order":5,"path":"objects/o_saw_guide/o_saw_guide.yy",},
     {"name":"o_saw_spin","order":6,"path":"objects/o_saw_spin/o_saw_spin.yy",},
     {"name":"o_shell","order":3,"path":"objects/o_shell/o_shell.yy",},

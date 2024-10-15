@@ -43,7 +43,7 @@ function chest_loot_drop(){
 		instance_create_layer(x, y - _yOff, "Enemy", o_theif);
 	}
 	
-	if (_chance <= 2){
+	if (_chance <= 99){
 		instance_create_layer(x, y - _yOff, "Enemy", o_silver_key);
 		o_loot_feed._loot_feed.add_feed(c_purple, 1, "Silver Key", 1);
 	}

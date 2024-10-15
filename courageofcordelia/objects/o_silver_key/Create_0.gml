@@ -10,3 +10,7 @@ tool_armor_bonus = 0;
 tool_damage_bonus = 0;
 
 pickup_sound = coin_pickup;
+
+
+
+
