@@ -223,6 +223,7 @@
     {"id":{"name":"o_staff_icon","path":"objects/o_staff_icon/o_staff_icon.yy",},},
     {"id":{"name":"o_staff","path":"objects/o_staff/o_staff.yy",},},
     {"id":{"name":"o_stair_shake","path":"objects/o_stair_shake/o_stair_shake.yy",},},
+    {"id":{"name":"o_statue","path":"objects/o_statue/o_statue.yy",},},
     {"id":{"name":"o_summon_spawner","path":"objects/o_summon_spawner/o_summon_spawner.yy",},},
     {"id":{"name":"o_summon","path":"objects/o_summon/o_summon.yy",},},
     {"id":{"name":"o_theif","path":"objects/o_theif/o_theif.yy",},},

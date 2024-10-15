@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_lava_light",
+  "%Name":"o_statue",
   "eventList":[],
   "managed":true,
-  "name":"o_lava_light",
+  "name":"o_statue",
   "overriddenProperties":[],
   "parent":{
-    "name":"FirezoneSpecific",
-    "path":"folders/FirezoneSpecific.yy",
+    "name":"Statues",
+    "path":"folders/FirezoneSpecific/Statues.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_lava_light",
-    "path":"sprites/s_lava_light/s_lava_light.yy",
+    "name":"s_null_statue",
+    "path":"sprites/s_null_statue/s_null_statue.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

@@ -172,6 +172,7 @@
     {"name":"o_staff_drop","order":1,"path":"objects/o_staff_drop/o_staff_drop.yy",},
     {"name":"o_staff_icon","order":3,"path":"objects/o_staff_icon/o_staff_icon.yy",},
     {"name":"o_stair_shake","order":19,"path":"objects/o_stair_shake/o_stair_shake.yy",},
+    {"name":"o_statue","order":16,"path":"objects/o_statue/o_statue.yy",},
     {"name":"o_summon_spawner","order":6,"path":"objects/o_summon_spawner/o_summon_spawner.yy",},
     {"name":"o_summon","order":37,"path":"objects/o_summon/o_summon.yy",},
     {"name":"o_theif","order":5,"path":"objects/o_theif/o_theif.yy",},
