@@ -9,5 +9,5 @@ if place_meeting(x, y, o_player) && in_statue_zone = true && sprite_index != s_a
 
 if create_fire{
 	create_fire = false;
-	instance_create_layer(x+10, y, "Projectile", o_flames)
+	instance_create_depth(x, y+8, -2000, o_flames)
 }

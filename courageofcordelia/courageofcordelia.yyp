@@ -209,6 +209,7 @@
     {"id":{"name":"o_red_mage_hat","path":"objects/o_red_mage_hat/o_red_mage_hat.yy",},},
     {"id":{"name":"o_red_torch","path":"objects/o_red_torch/o_red_torch.yy",},},
     {"id":{"name":"o_ring_parent","path":"objects/o_ring_parent/o_ring_parent.yy",},},
+    {"id":{"name":"o_room_tele","path":"objects/o_room_tele/o_room_tele.yy",},},
     {"id":{"name":"o_room_transition","path":"objects/o_room_transition/o_room_transition.yy",},},
     {"id":{"name":"o_saw_guide","path":"objects/o_saw_guide/o_saw_guide.yy",},},
     {"id":{"name":"o_saw_spin","path":"objects/o_saw_spin/o_saw_spin.yy",},},

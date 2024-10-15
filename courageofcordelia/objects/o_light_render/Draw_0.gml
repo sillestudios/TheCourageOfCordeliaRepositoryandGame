@@ -94,6 +94,24 @@ with(o_fire_pit){
 gpu_set_blendmode(bm_normal);
 #endregion
 
+#region STATUE
+with(o_statue){
+	if o_statue.sprite_index == s_active_statue{
+		var _wobble = 0.2;
+		var _wobble_amount_x = 1.5 + random_range(-_wobble, _wobble);
+		var _wobble_amount_y = 1.5 + random_range(-_wobble, _wobble);
+	
+		gpu_set_blendmode(bm_subtract);
+		draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_white, 1);
+	
+		gpu_set_blendmode(bm_add);
+		draw_sprite_ext(s_light_cutout, 0, x, y, _wobble_amount_x, _wobble_amount_y, 0, c_yellow, 0.5);
+	}
+
+}
+gpu_set_blendmode(bm_normal);
+#endregion
+
 #region LAVALIGHT
 with(o_lava_light){
 	var _wobble = 0.3;

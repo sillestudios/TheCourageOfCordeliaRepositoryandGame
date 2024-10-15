@@ -160,6 +160,7 @@
     {"name":"o_red_cloak","order":1,"path":"objects/o_red_cloak/o_red_cloak.yy",},
     {"name":"o_red_mage_hat","order":5,"path":"objects/o_red_mage_hat/o_red_mage_hat.yy",},
     {"name":"o_red_torch","order":7,"path":"objects/o_red_torch/o_red_torch.yy",},
+    {"name":"o_room_tele","order":20,"path":"objects/o_room_tele/o_room_tele.yy",},
     {"name":"o_room_transition","order":5,"path":"objects/o_room_transition/o_room_transition.yy",},
     {"name":"o_saw_guide","order":5,"path":"objects/o_saw_guide/o_saw_guide.yy",},
     {"name":"o_saw_spin","order":6,"path":"objects/o_saw_spin/o_saw_spin.yy",},
