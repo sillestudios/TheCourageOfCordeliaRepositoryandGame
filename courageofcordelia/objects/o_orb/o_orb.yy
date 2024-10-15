@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_statue",
+  "%Name":"o_orb",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_statue",
+  "name":"o_orb",
   "overriddenProperties":[],
   "parent":{
-    "name":"Statues",
-    "path":"folders/FirezoneSpecific/Statues.yy",
+    "name":"FirezoneSpecific",
+    "path":"folders/FirezoneSpecific.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_null_statue",
-    "path":"sprites/s_null_statue/s_null_statue.yy",
+    "name":"s_fire_items",
+    "path":"sprites/s_fire_items/s_fire_items.yy",
   },
   "spriteMaskId":null,
   "visible":true,
