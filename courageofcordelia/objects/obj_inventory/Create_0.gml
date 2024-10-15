@@ -16,6 +16,9 @@ show_debug_message(inventory)
 
 can_show_inv = false;
 
+_inventory_items = undefined;
+inventory_index = undefined;
+
 
 
 

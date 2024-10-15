@@ -1,4 +1,15 @@
 function use_item(item) {        
+	
+	if(item.type == TYPE.TOOL){
+		if obj_inventory._inventory_items[obj_inventory.inventory_index].name == "Silver-key"{
+			show_debug_message("you made it here")
+			if place_meeting(o_player.x, o_player.y, o_dung2door){
+				show_debug_message("you made it to door collision")
+				obj_inventory.inventory.item_subtract(obj_inventory._inventory_items[obj_inventory.inventory_index].name, 1)
+			}
+		}
+	
+	}
 
 	if (item.type == TYPE.WEAPON) {   
         if (obj_equip_gun.gun_item[obj_equip_gun.gun_index].name != item.name) {

@@ -95,4 +95,3 @@ if my_weapon = global.WeaponList.wood_bow && fire == false{
 }
 
 
-

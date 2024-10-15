@@ -3,7 +3,7 @@ var my = mouse_y;
 
 if (can_show_inv) {
     if (mouse_check_button_released(mb_left)) {
-        var _inventory_items = inventory.item_get(); 
+        _inventory_items = inventory.item_get(); 
 
         for (var i = 0; i < inventory_rows * inventory_collumns; i++) {
             var column = i % inventory_collumns;
@@ -15,7 +15,7 @@ if (can_show_inv) {
             //hovering
             if (is_between(mx, (CameraX() + _posX), (CameraX() + _posX) + 24)) {
                 if (is_between(my, (CameraY() + _posY), (CameraY() + _posY) + 24)) {
-                    var inventory_index = i;
+                    inventory_index = i;
                                     
                     if (inventory_index < array_length(_inventory_items)) {
                         show_debug_message("Using " + _inventory_items[inventory_index].name);
@@ -30,6 +30,7 @@ if (can_show_inv) {
         }
     }
 }
+
 
 
 

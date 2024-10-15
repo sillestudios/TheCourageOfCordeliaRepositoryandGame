@@ -138,6 +138,7 @@
     {"id":{"name":"o_dark_spawn","path":"objects/o_dark_spawn/o_dark_spawn.yy",},},
     {"id":{"name":"o_death_skulls","path":"objects/o_death_skulls/o_death_skulls.yy",},},
     {"id":{"name":"o_door","path":"objects/o_door/o_door.yy",},},
+    {"id":{"name":"o_dung2door","path":"objects/o_dung2door/o_dung2door.yy",},},
     {"id":{"name":"o_dust_particles","path":"objects/o_dust_particles/o_dust_particles.yy",},},
     {"id":{"name":"o_dust_particles2","path":"objects/o_dust_particles2/o_dust_particles2.yy",},},
     {"id":{"name":"o_e","path":"objects/o_e/o_e.yy",},},
