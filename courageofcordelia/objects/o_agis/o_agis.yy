@@ -6,8 +6,8 @@
   "name":"o_agis",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Agis",
+    "path":"folders/Entity/Enemy/Agis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_agis",
-    "path":"sprites/s_agis/s_agis.yy",
+    "name":"s_agis_idle",
+    "path":"sprites/s_agis_idle/s_agis_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -14,7 +14,6 @@
     {"name":"inst_71ED0586","path":"rooms/Rooms4_1/Rooms4_1.yy",},
     {"name":"inst_137BDD3A","path":"rooms/Rooms4_1/Rooms4_1.yy",},
     {"name":"inst_55A8623B","path":"rooms/Rooms4_1/Rooms4_1.yy",},
-    {"name":"inst_284E86BB","path":"rooms/Rooms4_1/Rooms4_1.yy",},
     {"name":"inst_170BB9D2","path":"rooms/Rooms4_1/Rooms4_1.yy",},
     {"name":"inst_77A1E960","path":"rooms/Rooms4_1/Rooms4_1.yy",},
     {"name":"inst_2EAD4631","path":"rooms/Rooms4_1/Rooms4_1.yy",},
@@ -81,7 +80,6 @@
     {"$GMRInstanceLayer":"","%Name":"Player","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemy","depth":400,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_63D0F4ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63D0F4ED","objectId":{"name":"o_necromancer","path":"objects/o_necromancer/o_necromancer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":999.0,"y":1276.0,},
-        {"$GMRInstance":"v1","%Name":"inst_284E86BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_284E86BB","objectId":{"name":"o_agis","path":"objects/o_agis/o_agis.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":680.0,"y":1166.0,},
       ],"layers":[],"name":"Enemy","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":2,"gridY":2,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2BC4BCF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2BC4BCF6","objectId":{"name":"o_door","path":"objects/o_door/o_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":1111.0,},
