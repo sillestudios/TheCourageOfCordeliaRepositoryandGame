@@ -3,6 +3,9 @@
 var _camW = camera_get_view_width( view_camera[0]);
 var _camH = camera_get_view_height( view_camera[0]);
 
+//use this cam for agis fight
+// if o_agis var _camH = camera_get_view_height( view_camera[0])*1.5;
+
 
 
 
