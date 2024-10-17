@@ -23,10 +23,13 @@ function damage_entity(_tid, _sid, _damage, _time){
 		alert = true;
 		knockback_time = _time;
 		alarm[HURT] = hurt_time;
-		if !o_necromancer{
+		if !o_necromancer or !o_agis{
 			if !_dead state = states.KNOCKBACK;
 		}
-		image_index = 0;
+		
+		if !o_agis{
+			image_index = 0;
+		}
 		
 		//setting screen shake for player getting hit
 		if object_index = o_player{

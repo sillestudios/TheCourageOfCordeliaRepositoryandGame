@@ -1,4 +1,16 @@
 
+//random vars
+hsp = 0;
+vsp = 0;
+hurt_time = 0;
+
+//health
+hp = 1;
+
+//death
+death_timer = 120;
+
+
 //ENTERSTAGE PHASE
 display_enter = false;
 stop_draw_enter = false;
@@ -32,4 +44,4 @@ attack_dis = 500;
 knockback_time = 0;
 
 
-state = states.ENTERSTAGE;
+state = states.ATTACK1;

@@ -65,6 +65,7 @@ switch (state){
 			aim_dir = point_direction(x, y-40, o_player.x, o_player.y)
 			var _dir = aim_dir;
 			var _inst = instance_create_layer(x, y-40, "Projectile", enemy_projectile);
+			screen_shake(3);
 			show_debug_message("agis bullet created")
 			with(_inst){
 				hsp = lengthdir_x(bullet_spd, _dir);
@@ -108,6 +109,8 @@ switch (state){
 	//@@
 	
 	case states.DEAD:
+		screen_shake(3)
+		sprite_index = s_agis_die;
 	
 	break
 	
