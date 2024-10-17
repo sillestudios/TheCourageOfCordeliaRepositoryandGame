@@ -25,6 +25,11 @@ switch (state){
 				agis_enter_speach = true;
 			}
 			
+			if instance_exists(o_souldrain){
+				o_souldrain.x = o_player.x + 2;
+				o_souldrain.y = o_player.y -12;
+			}
+			
 		}
 
 	break;
@@ -32,6 +37,9 @@ switch (state){
 	//@@
 	
 	case states.ATTACK1:
+	
+	sprite_index = s_agis_attack_1;
+	image_speed = 1;
 	
 	break;
 	

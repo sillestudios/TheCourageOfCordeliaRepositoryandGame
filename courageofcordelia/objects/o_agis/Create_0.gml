@@ -1,3 +1,5 @@
+
+//ENTERSTAGE PHASE
 display_enter = false;
 stop_draw_enter = false;
 
@@ -11,5 +13,10 @@ image_speed = 0;
 
 ready_to_tele_in = false;
 agis_enter_speach = false;
+
+draw_next = false;
+
+//ATTACK1
+attack_frame = 14;
 
 state = states.ENTERSTAGE;
