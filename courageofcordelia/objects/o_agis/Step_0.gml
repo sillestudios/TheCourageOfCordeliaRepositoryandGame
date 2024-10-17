@@ -1,6 +1,8 @@
 
 switch (state){
 	case states.ENTERSTAGE:
+	
+	#region ENTER STAGE
 			//check if player is close enough for boss fight to start
 		var _dis = distance_to_object(o_player);
 	
@@ -31,6 +33,8 @@ switch (state){
 			}
 			
 		}
+		
+		#endregion
 
 	break;
 	
@@ -40,6 +44,7 @@ switch (state){
 	
 	sprite_index = s_agis_attack_1;
 	image_speed = 1;
+	enemy_shoot();
 	
 	break;
 	
