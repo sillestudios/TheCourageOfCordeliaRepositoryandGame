@@ -111,6 +111,7 @@
     {"id":{"name":"Player Ceil Collision script","path":"notes/Player Ceil Collision script/Player Ceil Collision script.yy",},},
     {"id":{"name":"To-do","path":"notes/To-do/To-do.yy",},},
     {"id":{"name":"destroy_beams","path":"objects/destroy_beams/destroy_beams.yy",},},
+    {"id":{"name":"o_agis_projectile","path":"objects/o_agis_projectile/o_agis_projectile.yy",},},
     {"id":{"name":"o_agis","path":"objects/o_agis/o_agis.yy",},},
     {"id":{"name":"o_amulet_parent","path":"objects/o_amulet_parent/o_amulet_parent.yy",},},
     {"id":{"name":"o_arrow_explode","path":"objects/o_arrow_explode/o_arrow_explode.yy",},},

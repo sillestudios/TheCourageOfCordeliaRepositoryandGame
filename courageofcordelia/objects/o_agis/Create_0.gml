@@ -17,6 +17,19 @@ agis_enter_speach = false;
 draw_next = false;
 
 //ATTACK1
+fire_power = 8
 attack_frame = 14;
+fire = false;
+can_attack = true;
+shoot_cooldown = 45;
+enemy_projectile = o_agis_projectile;
+
+attack_dis = 500;
+aim_dir = point_direction(x, y, o_player.x, o_player.y);
+//fire_power = 3; //bullet speed
+
+
+knockback_time = 0;
+
 
 state = states.ENTERSTAGE;
