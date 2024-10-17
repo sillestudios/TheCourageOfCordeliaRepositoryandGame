@@ -106,9 +106,23 @@ switch (state){
 
 		sprite_index = s_agis_attack_2;
 		
-		if image_index >= 15{
+		if image_index >=15{
+			start_attacks2 = true;
+			
+		}
+		fire_bomb_attack();
+		
+		
+		if image_index >= 23{
+			switch_to_idle_sprite = true;
+			
+			}
+			
+		if switch_to_idle_sprite{
 			sprite_index = s_agis_idle;
 		}
+		
+
 	
 	break;
 	

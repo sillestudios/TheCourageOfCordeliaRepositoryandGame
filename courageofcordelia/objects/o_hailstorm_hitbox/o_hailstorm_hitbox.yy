@@ -35,5 +35,5 @@
     "path":"sprites/s_hailstorm_hitbox/s_hailstorm_hitbox.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

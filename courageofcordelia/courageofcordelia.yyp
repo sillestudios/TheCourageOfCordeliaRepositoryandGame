@@ -160,6 +160,7 @@
     {"id":{"name":"o_entity_par","path":"objects/o_entity_par/o_entity_par.yy",},},
     {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},},
     {"id":{"name":"o_fearbubble","path":"objects/o_fearbubble/o_fearbubble.yy",},},
+    {"id":{"name":"o_fire_bomb","path":"objects/o_fire_bomb/o_fire_bomb.yy",},},
     {"id":{"name":"o_fire_chest_spawner","path":"objects/o_fire_chest_spawner/o_fire_chest_spawner.yy",},},
     {"id":{"name":"o_fire_chest","path":"objects/o_fire_chest/o_fire_chest.yy",},},
     {"id":{"name":"o_fire_pit","path":"objects/o_fire_pit/o_fire_pit.yy",},},

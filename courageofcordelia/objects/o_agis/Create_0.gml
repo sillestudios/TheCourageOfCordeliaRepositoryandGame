@@ -42,6 +42,10 @@ attack_dis = 500;
 end_stage_1 = false;
 stage_1_end_text = false;
 
+//ATTACK2
+switch_to_idle_sprite = false;
+start_attacks2 = false;
+firebomb_cooldown = 15;
 
 
 

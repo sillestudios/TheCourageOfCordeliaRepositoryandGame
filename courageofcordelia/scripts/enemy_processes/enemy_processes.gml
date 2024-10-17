@@ -313,10 +313,6 @@ function hailstorm_attack(){
 				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
 				instance_destroy(o_hail_storm);
 				
-				//testing wait time in between states.
-				//sprite_index = s_necromancer_laugh
-				//alarm[5] = 
-				
 			}
 		
 		state = states.LASERPHASE;
@@ -367,6 +363,21 @@ function set_hailstorm_phase(){
 		}
 }
 	
+//AGIS
+
+function fire_bomb_attack(){
+	if can_attack {
+		
+		var _bomb = instance_create_layer(o_player.x, o_player.y, "Projectile", o_fire_bomb);
+		
+		//reset for next attack
+		can_attack = false;
+		alarm[4] = firebomb_cooldown;
+
+	}
+}
+
+
 
 
 
