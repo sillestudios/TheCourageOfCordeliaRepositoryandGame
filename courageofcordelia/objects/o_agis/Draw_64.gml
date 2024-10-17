@@ -43,6 +43,7 @@ if state = states.IDLE && end_stage_1{
 		image_xscale = 0.15;
 		image_yscale = 0.15;
 	}
+	end_stage_1 = false;
 }
 
 

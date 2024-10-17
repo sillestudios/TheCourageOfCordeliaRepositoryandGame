@@ -5,7 +5,7 @@
 	if despawn_timer2 >= 60{
 
 		instance_destroy();
-		o_agis.state = states.ATTACK2;
+		o_agis.stage_1_end_text = true;
 
 	}
  }

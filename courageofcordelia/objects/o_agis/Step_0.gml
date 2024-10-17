@@ -43,6 +43,9 @@ switch (state){
 	case states.IDLE:
 	
 	sprite_index = s_agis_idle;
+	if stage_1_end_text{
+		state = states.ATTACK2
+	}
 	
 	break;
 	
@@ -102,6 +105,10 @@ switch (state){
 	case states.ATTACK2:
 
 		sprite_index = s_agis_attack_2;
+		
+		if image_index >= 15{
+			sprite_index = s_agis_idle;
+		}
 	
 	break;
 	

@@ -40,6 +40,7 @@ shoot_cooldown = 42;
 enemy_projectile = o_agis_projectile;
 attack_dis = 500;
 end_stage_1 = false;
+stage_1_end_text = false;
 
 
 
