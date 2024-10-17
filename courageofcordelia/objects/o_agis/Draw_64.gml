@@ -37,4 +37,12 @@ if !instance_exists(o_fearbubble) && draw_next{
 	draw_next = false;
 }
 
+if state = states.IDLE && end_stage_1{
+	var _bub = instance_create_layer(x+10, y-10, "Projectile", o_youwillsuffer);
+		with(_bub){
+		image_xscale = 0.15;
+		image_yscale = 0.15;
+	}
+}
+
 

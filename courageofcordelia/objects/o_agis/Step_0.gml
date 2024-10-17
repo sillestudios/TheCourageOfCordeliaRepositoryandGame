@@ -40,14 +40,29 @@ switch (state){
 	
 	//@@
 	
+	case states.IDLE:
+	
+	sprite_index = s_agis_idle;
+	
+	break;
+	
+	//@@
+	
 	case states.ATTACK1:
 	
-	if o_player.state = states.DEAD {
+		if o_player.state = states.DEAD {
 		sprite_index = s_agis_idle
 		exit;
 	}
 	
-	#region ATTACK1
+		#region ATTACK1
+	attack1_timer++
+	if attack1_timer = 60{
+		end_stage_1 = true;
+		state = states.IDLE;
+		attack1_timer = 0;
+
+	}
 	sprite_index = s_agis_attack_1;
 	image_speed = 1;
 	
@@ -85,6 +100,8 @@ switch (state){
 	//@@
 	
 	case states.ATTACK2:
+
+		sprite_index = s_agis_attack_2;
 	
 	break;
 	

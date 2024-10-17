@@ -1,8 +1,10 @@
 
 //random vars
-hsp = 0;
-vsp = 0;
-hurt_time = 0;
+hsp = 0; //from damage_entity()
+vsp = 0; //from damage_entity()
+hurt_time = 0; //from damage_entity()
+knockback_time = 0; //from damage_entity()
+state = states.ENTERSTAGE;
 
 //health
 hp = 1;
@@ -29,19 +31,16 @@ agis_enter_speach = false;
 draw_next = false;
 
 //ATTACK1
+attack1_timer = 0;
 fire_power = 8
 attack_frame = 14;
 fire = true;
 can_attack = true;
 shoot_cooldown = 42;
 enemy_projectile = o_agis_projectile;
-
 attack_dis = 500;
-//aim_dir = point_direction(x, y, o_player.x, o_player.y);
-//fire_power = 3; //bullet speed
+end_stage_1 = false;
 
 
-knockback_time = 0;
 
 
-state = states.ATTACK1;
