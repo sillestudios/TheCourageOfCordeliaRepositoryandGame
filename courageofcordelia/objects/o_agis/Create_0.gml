@@ -19,13 +19,13 @@ draw_next = false;
 //ATTACK1
 fire_power = 8
 attack_frame = 14;
-fire = false;
+fire = true;
 can_attack = true;
-shoot_cooldown = 45;
+shoot_cooldown = 42;
 enemy_projectile = o_agis_projectile;
 
 attack_dis = 500;
-aim_dir = point_direction(x, y, o_player.x, o_player.y);
+//aim_dir = point_direction(x, y, o_player.x, o_player.y);
 //fire_power = 3; //bullet speed
 
 

@@ -42,24 +42,29 @@ switch (state){
 	
 	case states.ATTACK1:
 	
+	if o_player.state = states.DEAD {
+		sprite_index = s_agis_idle
+		exit;
+	}
+	
 	#region ATTACK1
 	sprite_index = s_agis_attack_1;
 	image_speed = 1;
 	
-	if image_index >= 14 && image_index <= 16 fire = true
+	//if image_index > 16 && image_index < 18 can_attack = true
 	if alarm[3] = -1{
 		alarm[3] = shoot_cooldown;
 	}
 	
 		if fire {
-		if can_attack{
+		if can_attack {
 			
 			show_debug_message("agis can attack")
 
 			can_attack = false;
-			aim_dir = point_direction(x, y, o_player.x, o_player.y)
+			aim_dir = point_direction(x, y-40, o_player.x, o_player.y)
 			var _dir = aim_dir;
-			var _inst = instance_create_layer(o_agis.x, o_agis.y-50, "Projectile", enemy_projectile);
+			var _inst = instance_create_layer(x, y-40, "Projectile", enemy_projectile);
 			show_debug_message("agis bullet created")
 			with(_inst){
 				hsp = lengthdir_x(bullet_spd, _dir);
