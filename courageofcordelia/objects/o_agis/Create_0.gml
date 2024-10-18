@@ -46,6 +46,15 @@ stage_1_end_text = false;
 switch_to_idle_sprite = false;
 start_attacks2 = false;
 firebomb_cooldown = 15;
+stage_2_end_text = false;
+end_stage_2 = false;
 
+//ATTACK3
+px = 0;
+py = 0;
+firestorm_cooldown = 5
+can_spawn_red_rec = true;	
+end_stage_3 = false;
+stage_3_end_text = false;
 
 

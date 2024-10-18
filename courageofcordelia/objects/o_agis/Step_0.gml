@@ -47,6 +47,16 @@ switch (state){
 		state = states.ATTACK2
 	}
 	
+	if stage_2_end_text{
+		state = states.ATTACK3
+		px = o_player.x;
+		py = o_player.y;
+	}
+	
+	if stage_3_end_text{
+		state = states.ATTACK4
+	}
+	
 	break;
 	
 	//@@
@@ -146,65 +156,71 @@ switch (state){
 	
 	case states.ATTACK3:
 	
+		stage_2_end_text = false;
+	
 		if o_player.state = states.DEAD {
 			sprite_index = s_agis_idle
 		exit;
 		}
 			
+		#region ATTACK3
+			
 		sprite_index = s_agis_attack_3
+		
+		attack1_timer++
+		if attack1_timer = 60{
+			end_stage_3 = true;
+			state = states.IDLE;
+			if instance_exists(o_red_square){
+				instance_destroy(o_red_square);
+			}
+			attack1_timer = 0;
+		}
 		
 	
 	
 	//attack player when we are at the correct frame
 	if can_attack {
 		
-		instance_create_layer(px, py, "Instances", o_red_square);
+
+		
+		if can_spawn_red_rec{
+			instance_create_layer(px, py, "Instances", o_red_square);
+		}
+		can_spawn_red_rec = false;	
 		
 		//reset for next attack
 		can_attack = false;
-		alarm[0] = hailstorm_cooldown;
-		
-		
-		
-		//get attack direction
-		//var _dir = point_direction(x, y, o_player.x, o_player.y);
-		
-		var _hail = instance_create_depth(random_range(px + 50, px - 50), random_range(py - 50, py + 50), -2000, o_hail_rain);
-		screen_shake(5)
+		alarm[6] = firestorm_cooldown;
+
+		var _hail = instance_create_depth(random_range(px + 50, px - 50), random_range(py - 50, py + 50), -2000, o_fire_rain);
+		screen_shake(4)
 
 
 		}
-		
-		if alarm[3] == -1{
-			alarm[3] = next_phase_countdown;
-		}
-		
-		if stay_in_phase = false {
-			if instance_exists(o_hail_storm){
-				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
-				instance_destroy(o_hail_storm);
-				
-			}
-		
-		state = states.LASERPHASE;
-		
-		instance_create_layer(o_purp_circ.x, o_purp_circ.y, "Enemy", o_purp_circ_end);
-		instance_destroy(o_purp_circ);
-		
-		can_spawn_rip = true;
-		state_timer = 0;
-		stay_in_phase = true;
-		alarm[3] = -1
-		next_phase_countdown = 280;
-		
-		}
+		//despawn red circ here
+		//instance_create_layer(o_purp_circ.x, o_purp_circ.y, "Enemy", o_purp_circ_end);
 
+	#endregion
 	
 	break;
 	
 	//@@
 	
 	case states.ATTACK4:
+	
+		stage_3_end_text = false;
+	
+		if o_player.state = states.DEAD {
+			sprite_index = s_agis_idle
+		exit;
+		}
+			
+		#region ATTACK4
+			
+		sprite_index = s_agis_attack_4;
+		
+		#endregion
 	
 	break;
 	

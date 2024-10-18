@@ -19,7 +19,7 @@ if display_enter && !stop_draw_enter{
 
 
 if agis_enter_speach = true{
-	var _bub = instance_create_layer(x+10, y-10, "Projectile", o_fearbubble);
+	var _bub = instance_create_depth(x+10, y-10, -3000, o_fearbubble);
 	with(_bub){
 		image_xscale = 0.15;
 		image_yscale = 0.15;
@@ -29,7 +29,7 @@ if agis_enter_speach = true{
 
 
 if !instance_exists(o_fearbubble) && draw_next{
-	var _bub = instance_create_layer(x+10, y-10, "Projectile", o_nowyoudie);
+	var _bub = instance_create_depth(x+10, y-10, -3000, o_nowyoudie);
 	with(_bub){
 		image_xscale = 0.15;
 		image_yscale = 0.15;
@@ -38,12 +38,30 @@ if !instance_exists(o_fearbubble) && draw_next{
 }
 
 if state = states.IDLE && end_stage_1{
-	var _bub = instance_create_layer(x+10, y-10, "Projectile", o_youwillsuffer);
+	var _bub = instance_create_depth(x+10, y-10, -3000, o_youwillsuffer);
 		with(_bub){
 		image_xscale = 0.15;
 		image_yscale = 0.15;
 	}
 	end_stage_1 = false;
+}
+
+if state = states.IDLE && end_stage_2{
+	var _bub = instance_create_depth(x+10, y-10, -3000, o_preparefordeath);
+		with(_bub){
+		image_xscale = 0.15;
+		image_yscale = 0.15;
+	}
+	end_stage_2 = false;
+}
+
+if state = states.IDLE && end_stage_3{
+	var _bub = instance_create_depth(x+10, y-10, -3000, o_riseminions);
+		with(_bub){
+		image_xscale = 0.15;
+		image_yscale = 0.15;
+	}
+	end_stage_3 = false;
 }
 
 
