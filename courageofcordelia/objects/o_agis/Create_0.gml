@@ -7,7 +7,8 @@ knockback_time = 0; //from damage_entity()
 state = states.ENTERSTAGE;
 
 //health
-hp = 1;
+hp_max = 1000;
+hp = hp_max;
 
 //death
 death_timer = 120;

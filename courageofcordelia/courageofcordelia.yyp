@@ -402,6 +402,7 @@
     {"id":{"name":"s_agis_attack_3","path":"sprites/s_agis_attack_3/s_agis_attack_3.yy",},},
     {"id":{"name":"s_agis_attack_4","path":"sprites/s_agis_attack_4/s_agis_attack_4.yy",},},
     {"id":{"name":"s_agis_attack_5","path":"sprites/s_agis_attack_5/s_agis_attack_5.yy",},},
+    {"id":{"name":"s_agis_box","path":"sprites/s_agis_box/s_agis_box.yy",},},
     {"id":{"name":"s_agis_die","path":"sprites/s_agis_die/s_agis_die.yy",},},
     {"id":{"name":"s_agis_idle","path":"sprites/s_agis_idle/s_agis_idle.yy",},},
     {"id":{"name":"s_agis_tele_in","path":"sprites/s_agis_tele_in/s_agis_tele_in.yy",},},
