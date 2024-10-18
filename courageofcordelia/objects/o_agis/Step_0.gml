@@ -103,6 +103,22 @@ switch (state){
 	//@@
 	
 	case states.ATTACK2:
+		
+		stage_1_end_text = false;
+	
+		if o_player.state = states.DEAD {
+			sprite_index = s_agis_idle
+		exit;
+	}
+			
+		#region ATTACK2
+	
+		attack1_timer++
+		if attack1_timer = 60{
+			end_stage_2 = true;
+			state = states.IDLE;
+			attack1_timer = 0;
+		}
 
 		sprite_index = s_agis_attack_2;
 		
@@ -122,13 +138,67 @@ switch (state){
 			sprite_index = s_agis_idle;
 		}
 		
-
+		#endregion
 	
 	break;
 	
 	//@@
 	
 	case states.ATTACK3:
+	
+		if o_player.state = states.DEAD {
+			sprite_index = s_agis_idle
+		exit;
+		}
+			
+		sprite_index = s_agis_attack_3
+		
+	
+	
+	//attack player when we are at the correct frame
+	if can_attack {
+		
+		instance_create_layer(px, py, "Instances", o_red_square);
+		
+		//reset for next attack
+		can_attack = false;
+		alarm[0] = hailstorm_cooldown;
+		
+		
+		
+		//get attack direction
+		//var _dir = point_direction(x, y, o_player.x, o_player.y);
+		
+		var _hail = instance_create_depth(random_range(px + 50, px - 50), random_range(py - 50, py + 50), -2000, o_hail_rain);
+		screen_shake(5)
+
+
+		}
+		
+		if alarm[3] == -1{
+			alarm[3] = next_phase_countdown;
+		}
+		
+		if stay_in_phase = false {
+			if instance_exists(o_hail_storm){
+				instance_create_layer(o_hail_storm.x, o_hail_storm.y, "Enemy", o_hail_storm_end);
+				instance_destroy(o_hail_storm);
+				
+			}
+		
+		state = states.LASERPHASE;
+		
+		instance_create_layer(o_purp_circ.x, o_purp_circ.y, "Enemy", o_purp_circ_end);
+		instance_destroy(o_purp_circ);
+		
+		can_spawn_rip = true;
+		state_timer = 0;
+		stay_in_phase = true;
+		alarm[3] = -1
+		next_phase_countdown = 280;
+		
+		}
+
 	
 	break;
 	
@@ -150,7 +220,7 @@ switch (state){
 		screen_shake(3)
 		sprite_index = s_agis_die;
 	
-	break
+	break;
 	
 	//@@
 }

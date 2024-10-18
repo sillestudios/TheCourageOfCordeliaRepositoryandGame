@@ -41,6 +41,9 @@
     "name":"s_agis_idle",
     "path":"sprites/s_agis_idle/s_agis_idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"s_agis_idle",
+    "path":"sprites/s_agis_idle/s_agis_idle.yy",
+  },
   "visible":true,
 }
