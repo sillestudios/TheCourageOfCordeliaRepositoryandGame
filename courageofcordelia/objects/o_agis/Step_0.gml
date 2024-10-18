@@ -217,8 +217,45 @@ switch (state){
 		}
 			
 		#region ATTACK4
+		
+		/*attack1_timer++
+		if attack1_timer = 60{
+			end_stage_4 = true;
+			state = states.IDLE;
+			attack1_timer = 0;
+		}*/
+		
+		
 			
 		sprite_index = s_agis_attack_4;
+		
+		if can_attack {
+			
+			show_debug_message("agis can attack4")
+
+			can_attack = false;
+			
+			for (var i = 0; i < bullet_number; i++){
+	
+			var _spread = weapon_spread;
+			var _spreadDiv = _spread / max(bullet_number -1,1);
+			aim_dir = point_direction(x, y-40, o_player.x, o_player.y) - _spread/2 + _spreadDiv*i;
+			var _dir = aim_dir;
+			var _inst = instance_create_layer(x, y-40, "Projectile", enemy_projectile);
+			screen_shake(3);
+			show_debug_message("agis bullet created")
+			with(_inst){
+				hsp = lengthdir_x(bullet_spd, _dir);
+				vsp = lengthdir_y(bullet_spd, _dir);
+				direction = _dir;
+				image_angle = _dir;
+
+
+		}
+	}
+			can_attack = false;
+			alarm[7] = attack4_cooldown;
+}
 		
 		#endregion
 	

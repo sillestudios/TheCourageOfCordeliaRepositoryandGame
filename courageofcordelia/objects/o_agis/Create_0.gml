@@ -57,4 +57,10 @@ can_spawn_red_rec = true;
 end_stage_3 = false;
 stage_3_end_text = false;
 
+//ATTACK4
+end_stage_4 = false;
+bullet_number = 5;
+weapon_spread = 75;
+attack4_cooldown = 45;
+
 
