@@ -57,11 +57,17 @@ switch (state){
 		state = states.ATTACK4
 	}
 	
+	if stage_4_end_text{
+		state = states.ATTACK1
+	}
+	
 	break;
 	
 	//@@
 	
 	case states.ATTACK1:
+	
+		stage_4_end_text = false;
 	
 		if o_player.state = states.DEAD {
 		sprite_index = s_agis_idle
@@ -70,7 +76,7 @@ switch (state){
 	
 		#region ATTACK1
 	attack1_timer++
-	if attack1_timer = 60{
+	if attack1_timer = 240{
 		end_stage_1 = true;
 		state = states.IDLE;
 		attack1_timer = 0;
@@ -124,7 +130,7 @@ switch (state){
 		#region ATTACK2
 	
 		attack1_timer++
-		if attack1_timer = 60{
+		if attack1_timer = 240{
 			end_stage_2 = true;
 			state = states.IDLE;
 			attack1_timer = 0;
@@ -168,7 +174,7 @@ switch (state){
 		sprite_index = s_agis_attack_3
 		
 		attack1_timer++
-		if attack1_timer = 60{
+		if attack1_timer = 160{
 			end_stage_3 = true;
 			state = states.IDLE;
 			if instance_exists(o_red_square){
@@ -218,12 +224,12 @@ switch (state){
 			
 		#region ATTACK4
 		
-		/*attack1_timer++
-		if attack1_timer = 60{
+		attack1_timer++
+		if attack1_timer = 240{
 			end_stage_4 = true;
 			state = states.IDLE;
 			attack1_timer = 0;
-		}*/
+		}
 		
 		
 			

@@ -1,6 +1,6 @@
         if (obj_quickslots1.quickslots1_item[obj_quickslots1.quickslots1_index].name = "Health Potion") {
 
-			if can_heal && o_player.hp <= o_player.hp_max - 5{
+			if can_heal && o_player.hp <= o_player.hp_max{
 				instance_create_depth(o_player.x, o_player.y, -2010, o_heal_up);
 				
 				if obj_quickslots1.quickslots1_item[obj_quickslots1.quickslots1_index].quantity <= 1{

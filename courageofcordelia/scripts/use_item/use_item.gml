@@ -37,6 +37,7 @@ function use_item(item) {
             obj_equip_helm.equip_helm.item_subtract(obj_equip_helm.helm_item[obj_equip_helm.helm_index].name, 1);
             obj_equip_helm.equip_helm.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_helm.helm_item[obj_equip_helm.helm_index].armor_bonus;
         }
         return;
     }
@@ -46,6 +47,7 @@ function use_item(item) {
             obj_equip_amulet.equip_amulet.item_subtract(obj_equip_amulet.amulet_item[obj_equip_amulet.amulet_index].name, 1);
             obj_equip_amulet.equip_amulet.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_amulet.amulet_item[obj_equip_amulet.amulet_index].armor_bonus;
         }
         return;
     }
@@ -55,6 +57,7 @@ function use_item(item) {
             obj_equip_chest.equip_chest.item_subtract(obj_equip_chest.chest_item[obj_equip_chest.chest_index].name, 1);
             obj_equip_chest.equip_chest.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_chest.chest_item[obj_equip_chest.chest_index].armor_bonus;
         }
         return;
     }
@@ -64,6 +67,7 @@ function use_item(item) {
             obj_equip_pants.equip_pants.item_subtract(obj_equip_pants.pants_item[obj_equip_pants.pants_index].name, 1);
             obj_equip_pants.equip_pants.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_pants.pants_item[obj_equip_pants.pants_index].armor_bonus;
         }
         return;
     }
@@ -73,6 +77,7 @@ function use_item(item) {
             obj_equip_boots.equip_boots.item_subtract(obj_equip_boots.boots_item[obj_equip_boots.boots_index].name, 1);
             obj_equip_boots.equip_boots.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_boots.boots_item[obj_equip_boots.boots_index].armor_bonus;
         }
         return;
     }
@@ -82,6 +87,7 @@ function use_item(item) {
             obj_equip_glove.equip_glove.item_subtract(obj_equip_glove.glove_item[obj_equip_glove.glove_index].name, 1);
             obj_equip_glove.equip_glove.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_glove.glove_item[obj_equip_glove.glove_index].armor_bonus;
         }
         return;
     }
@@ -91,6 +97,7 @@ function use_item(item) {
             obj_equip_cloak.equip_cloak.item_subtract(obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].name, 1);
             obj_equip_cloak.equip_cloak.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].armor_bonus;
         }
         return;
     }
@@ -100,6 +107,7 @@ function use_item(item) {
             obj_equip_rings.equip_rings.item_subtract(obj_equip_rings.rings_item[obj_equip_rings.rings_index].name, 1);
             obj_equip_rings.equip_rings.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
+			o_player.hp_max = o_player.hp_max + obj_equip_rings.rings_item[obj_equip_rings.rings_index].armor_bonus;
         }
         return;
     }
@@ -135,6 +143,7 @@ function unequip_item(item) {
                                                 
 	
     if (item.type == TYPE.GLOVES) {   
+		o_player.hp_max = o_player.hp_max - obj_equip_glove.glove_item[obj_equip_glove.glove_index].armor_bonus;
         obj_equip_glove.equip_glove.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_glove.equip_glove.item_add("Empty", 1, s_empty, TYPE.GLOVES, noone, noone, noone, 0, 0);
@@ -143,6 +152,7 @@ function unequip_item(item) {
     }
 	
     if (item.type == TYPE.HELMS) {   
+		o_player.hp_max = o_player.hp_max - obj_equip_helm.helm_item[obj_equip_helm.helm_index].armor_bonus;
         obj_equip_helm.equip_helm.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_helm.equip_helm.item_add("Empty", 1, s_empty, TYPE.HELMS, noone, noone, noone, 0, 0);
@@ -151,6 +161,7 @@ function unequip_item(item) {
     }
 	
     if (item.type == TYPE.AMULETS) {   
+		o_player.hp_max = o_player.hp_max - obj_equip_amulet.amulet_item[obj_equip_amulet.amulet_index].armor_bonus;
         obj_equip_amulet.equip_amulet.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_amulet.equip_amulet.item_add("Empty", 1, s_empty, TYPE.AMULETS, noone, noone, noone, 0, 0);
@@ -158,7 +169,8 @@ function unequip_item(item) {
         return;
     }
 	
-    if (item.type == TYPE.CLOAKS) {   
+    if (item.type == TYPE.CLOAKS) {  
+		o_player.hp_max = o_player.hp_max - obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].armor_bonus;
         obj_equip_cloak.equip_cloak.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_cloak.equip_cloak.item_add("Empty", 1, s_empty, TYPE.CLOAKS, noone, noone, noone, 0, 0);
@@ -167,6 +179,7 @@ function unequip_item(item) {
     }
 	
     if (item.type == TYPE.CHESTS) {   
+		o_player.hp_max = o_player.hp_max - obj_equip_chest.chest_item[obj_equip_chest.chest_index].armor_bonus;
         obj_equip_chest.equip_chest.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_chest.equip_chest.item_add("Empty", 1, s_empty, TYPE.CHESTS, noone, noone, noone, 0, 0);
@@ -175,6 +188,7 @@ function unequip_item(item) {
     }
 	
     if (item.type == TYPE.PANTS) {   
+		o_player.hp_max = o_player.hp_max - obj_equip_pants.pants_item[obj_equip_pants.pants_index].armor_bonus;
         obj_equip_pants.equip_pants.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_pants.equip_pants.item_add("Empty", 1, s_empty, TYPE.PANTS, noone, noone, noone, 0, 0);
@@ -183,6 +197,7 @@ function unequip_item(item) {
     }
 	
     if (item.type == TYPE.BOOTS) {   
+		o_player.hp_max = o_player.hp_max - obj_equip_boots.boots_item[obj_equip_boots.boots_index].armor_bonus;
         obj_equip_boots.equip_boots.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_boots.equip_boots.item_add("Empty", 1, s_empty, TYPE.BOOTS, noone, noone, noone, 0, 0);
@@ -191,6 +206,7 @@ function unequip_item(item) {
     }
 	
     if (item.type == TYPE.RINGS) {   
+		o_player.hp_max = o_player.hp_max - obj_equip_rings.rings_item[obj_equip_rings.rings_index].armor_bonus;
         obj_equip_rings.equip_rings.item_subtract(item.name, item.quantity);
         obj_inventory.inventory.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus)
 		obj_equip_rings.equip_rings.item_add("Empty", 1, s_empty, TYPE.RINGS, noone, noone, noone, 0, 0);

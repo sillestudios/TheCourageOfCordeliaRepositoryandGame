@@ -60,7 +60,8 @@ stage_3_end_text = false;
 //ATTACK4
 end_stage_4 = false;
 bullet_number = 5;
-weapon_spread = 75;
-attack4_cooldown = 45;
+weapon_spread = 90;
+attack4_cooldown = 60;
+stage_4_end_text = false;
 
 

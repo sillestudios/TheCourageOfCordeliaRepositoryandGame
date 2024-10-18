@@ -95,3 +95,6 @@ if my_weapon = global.WeaponList.wood_bow && fire == false{
 }
 
 
+if hp > hp_max{
+	hp=hp_max;
+}

@@ -26,6 +26,11 @@ draw_sprite_ext(s_health_bar_panel, 0, 10, 10, 1, 1, 0, c_white, 1);
 var _healthPercent = hp/hp_max;
 var _hpImage = _healthPercent * (sprite_get_number(s_health_percent) -1 );
 draw_sprite_ext(s_health_percent, _hpImage,  55, 21, 1, 1, image_angle, image_blend, image_alpha);
+draw_set_font(fn_8bit);
+text_align(fa_center, fa_middle);
+draw_set_color(c_white);
+draw_text_transformed(115, 24.5, string(o_player.hp) + " / " + string(o_player.hp_max), 0.25, 0.25, 0);
+draw_reset();
 
 //xp bar
 var _xpPercent = experience/experience_max;

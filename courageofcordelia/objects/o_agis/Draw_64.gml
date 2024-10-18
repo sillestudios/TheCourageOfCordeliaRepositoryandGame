@@ -63,5 +63,13 @@ if state = states.IDLE && end_stage_3{
 	}
 	end_stage_3 = false;
 }
+if state = states.IDLE && end_stage_4{
+	var _bub = instance_create_depth(x+10, y-10, -3000, o_stage4text);
+		with(_bub){
+		image_xscale = 0.15;
+		image_yscale = 0.15;
+	}
+	end_stage_4 = false;
+}
 
 
