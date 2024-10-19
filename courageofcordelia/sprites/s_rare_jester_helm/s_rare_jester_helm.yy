@@ -2,10 +2,10 @@
   "$GMSprite":"",
   "%Name":"s_rare_jester_helm",
   "bboxMode":0,
-  "bbox_bottom":13,
-  "bbox_left":1,
-  "bbox_right":16,
-  "bbox_top":6,
+  "bbox_bottom":15,
+  "bbox_left":0,
+  "bbox_right":17,
+  "bbox_top":4,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -13,6 +13,9 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"438c37bb-cfe7-4d2f-977f-cf2035d3c62c","name":"438c37bb-cfe7-4d2f-977f-cf2035d3c62c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c6c8bedc-a6c9-4e21-b314-9e8c35cc7a48","name":"c6c8bedc-a6c9-4e21-b314-9e8c35cc7a48","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9d32e824-df04-4664-9df6-eb4793e01365","name":"9d32e824-df04-4664-9df6-eb4793e01365","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0654b6dc-0e11-4bfe-93c8-0077148c239b","name":"0654b6dc-0e11-4bfe-93c8-0077148c239b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -49,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,6 +74,15 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"438c37bb-cfe7-4d2f-977f-cf2035d3c62c","path":"sprites/s_rare_jester_helm/s_rare_jester_helm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"08742dd6-34de-43cd-aa25-e563e977728e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6c8bedc-a6c9-4e21-b314-9e8c35cc7a48","path":"sprites/s_rare_jester_helm/s_rare_jester_helm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b2246d7e-0e32-4a9b-a2ca-dfee393f71f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d32e824-df04-4664-9df6-eb4793e01365","path":"sprites/s_rare_jester_helm/s_rare_jester_helm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d72f826b-8fb7-40da-8d43-076c97865697","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0654b6dc-0e11-4bfe-93c8-0077148c239b","path":"sprites/s_rare_jester_helm/s_rare_jester_helm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"31ee08c3-9ac9-48f8-ab9c-29d0c2f8e92f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
