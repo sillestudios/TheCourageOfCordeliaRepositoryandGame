@@ -13,6 +13,8 @@ yShakeDirSpd = 60;
 yShakeAmount = 0;
 yShakeAmountSpd = 1/4;
 
+new_cam_size = false;
+
 
 
 

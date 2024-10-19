@@ -72,7 +72,7 @@ if state = states.IDLE && end_stage_4{
 	end_stage_4 = false;
 }
 
-//if state != states.ENTERSTAGE{
+if state != states.ENTERSTAGE{
 	var _healthPercent = hp/hp_max;
 	var _hpImage = _healthPercent * (sprite_get_number(s_health_percent) -1 );
 	
@@ -82,8 +82,8 @@ if state = states.IDLE && end_stage_4{
 	draw_set_font(fn_8bit);
 	text_align(fa_center, fa_middle);
 	draw_set_color(c_white);
-	draw_text_transformed(385, 33, string(hp) + " / " + string(hp_max), 0.2, 0.2, 0);
-	draw_text_transformed(360, 15, "Agis, Conjurer of Forgotten Souls", 0.4, 0.4, 0);
+	draw_text_transformed(431, 35.5, string(hp) + " / " + string(hp_max), 0.2, 0.2, 0);
+	draw_text_transformed(432, 23, "Agis, Conjurer of Forgotten Souls", 0.19, 0.19, 0);
 	draw_reset();
-//}
+}
 
