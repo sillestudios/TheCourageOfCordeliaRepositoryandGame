@@ -8,8 +8,8 @@
   "name":"o_green_boots",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boots",
-    "path":"folders/RPG_Icons/Boots.yy",
+    "name":"Mage",
+    "path":"folders/RPG_Icons/Boots/Mage.yy",
   },
   "parentObjectId":{
     "name":"o_boots_parent",
