@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Chests",
-    "path":"folders/RPG_Icons/Chests.yy",
+    "name":"Melee",
+    "path":"folders/RPG_Icons/Chests/Melee.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

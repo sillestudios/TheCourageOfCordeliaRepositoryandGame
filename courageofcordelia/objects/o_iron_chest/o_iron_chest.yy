@@ -8,8 +8,8 @@
   "name":"o_iron_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Chests",
-    "path":"folders/RPG_Icons/Chests.yy",
+    "name":"Melee",
+    "path":"folders/RPG_Icons/Chests/Melee.yy",
   },
   "parentObjectId":{
     "name":"o_chest_parent",
