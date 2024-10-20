@@ -2,10 +2,10 @@
   "$GMSprite":"",
   "%Name":"s_rare_robin_hood_gloves",
   "bboxMode":0,
-  "bbox_bottom":14,
+  "bbox_bottom":13,
   "bbox_left":1,
   "bbox_right":14,
-  "bbox_top":1,
+  "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -13,9 +13,6 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"f9c2e27c-46c2-4c8c-9e07-3ad89c246f90","name":"f9c2e27c-46c2-4c8c-9e07-3ad89c246f90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b964e2c1-1ab7-49bb-91f3-c6f286283909","name":"b964e2c1-1ab7-49bb-91f3-c6f286283909","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"02382c4b-35da-4311-b69e-e1578910628d","name":"02382c4b-35da-4311-b69e-e1578910628d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b0b5e02d-d276-42f7-af08-5cc6e6d3a6fa","name":"b0b5e02d-d276-42f7-af08-5cc6e6d3a6fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -52,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":4.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -74,15 +71,6 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9c2e27c-46c2-4c8c-9e07-3ad89c246f90","path":"sprites/s_rare_robin_hood_gloves/s_rare_robin_hood_gloves.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"197720dc-5f92-481d-924a-cc3add08b08c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b964e2c1-1ab7-49bb-91f3-c6f286283909","path":"sprites/s_rare_robin_hood_gloves/s_rare_robin_hood_gloves.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c8675933-ae96-441c-ad09-0c38b3f37598","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02382c4b-35da-4311-b69e-e1578910628d","path":"sprites/s_rare_robin_hood_gloves/s_rare_robin_hood_gloves.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"47080f59-61d2-4134-b8ef-63f38d8e94fa","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0b5e02d-d276-42f7-af08-5cc6e6d3a6fa","path":"sprites/s_rare_robin_hood_gloves/s_rare_robin_hood_gloves.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ffdf0a83-9cbc-4aff-9786-97140815a0a7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
