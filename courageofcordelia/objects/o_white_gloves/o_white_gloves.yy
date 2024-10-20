@@ -8,8 +8,8 @@
   "name":"o_white_gloves",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gloves",
-    "path":"folders/RPG_Icons/Gloves.yy",
+    "name":"Ranged",
+    "path":"folders/RPG_Icons/Gloves/Ranged.yy",
   },
   "parentObjectId":{
     "name":"o_gloves_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_white_gloves",
-    "path":"sprites/s_white_gloves/s_white_gloves.yy",
+    "name":"s_rare_robin_hood_gloves",
+    "path":"sprites/s_rare_robin_hood_gloves/s_rare_robin_hood_gloves.yy",
   },
   "spriteMaskId":null,
   "visible":true,
