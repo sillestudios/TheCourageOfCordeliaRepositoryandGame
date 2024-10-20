@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_green_boots",
+  "%Name":"s_robin_hood_boots",
   "bboxMode":0,
   "bbox_bottom":11,
   "bbox_left":1,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"bba53bea-27c0-4efd-bbde-6571252e1e70","blendMode":0,"displayName":"default","isLocked":false,"name":"bba53bea-27c0-4efd-bbde-6571252e1e70","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_green_boots",
+  "name":"s_robin_hood_boots",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Boots/Mage.yy",
+    "name":"Ranged",
+    "path":"folders/RPG_Icons/Boots/Ranged.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"s_green_boots",
+    "%Name":"s_robin_hood_boots",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_green_boots",
+    "name":"s_robin_hood_boots",
     "playback":1,
     "playbackSpeed":6.0,
     "playbackSpeedType":0,
@@ -72,16 +72,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e6633c7-d02e-4433-9448-22e170ee184d","path":"sprites/s_green_boots/s_green_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e6633c7-d02e-4433-9448-22e170ee184d","path":"sprites/s_robin_hood_boots/s_robin_hood_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"6db86d97-545b-496c-96b6-b228242438dc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ed30ead-77fa-4f02-8f8a-c8929302f7f1","path":"sprites/s_green_boots/s_green_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ed30ead-77fa-4f02-8f8a-c8929302f7f1","path":"sprites/s_robin_hood_boots/s_robin_hood_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a0f9d251-a6c6-474d-8f78-cebd934750eb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"53c5b87e-e271-4dd5-878b-bc3f0b0e85e0","path":"sprites/s_green_boots/s_green_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"53c5b87e-e271-4dd5-878b-bc3f0b0e85e0","path":"sprites/s_robin_hood_boots/s_robin_hood_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c628b9b9-ce95-4cf6-9367-a76bec6915c2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5f9e079-1b6f-4003-ae66-3ccd1a9372b7","path":"sprites/s_green_boots/s_green_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5f9e079-1b6f-4003-ae66-3ccd1a9372b7","path":"sprites/s_robin_hood_boots/s_robin_hood_boots.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a42cc6eb-1db4-436d-9fb5-5b3fa6923b96","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

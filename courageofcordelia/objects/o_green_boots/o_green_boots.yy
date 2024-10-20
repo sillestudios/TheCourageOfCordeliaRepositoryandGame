@@ -8,8 +8,8 @@
   "name":"o_green_boots",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Boots/Mage.yy",
+    "name":"Ranged",
+    "path":"folders/RPG_Icons/Boots/Ranged.yy",
   },
   "parentObjectId":{
     "name":"o_boots_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_green_boots",
-    "path":"sprites/s_green_boots/s_green_boots.yy",
+    "name":"s_robin_hood_boots",
+    "path":"sprites/s_robin_hood_boots/s_robin_hood_boots.yy",
   },
   "spriteMaskId":null,
   "visible":true,
