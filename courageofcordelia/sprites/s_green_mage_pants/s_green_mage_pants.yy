@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Pants",
-    "path":"folders/RPG_Icons/Pants.yy",
+    "name":"Mage",
+    "path":"folders/RPG_Icons/Pants/Mage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

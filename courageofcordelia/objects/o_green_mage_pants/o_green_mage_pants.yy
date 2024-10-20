@@ -8,8 +8,8 @@
   "name":"o_green_mage_pants",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pants",
-    "path":"folders/RPG_Icons/Pants.yy",
+    "name":"Mage",
+    "path":"folders/RPG_Icons/Pants/Mage.yy",
   },
   "parentObjectId":{
     "name":"o_pants_parent",
