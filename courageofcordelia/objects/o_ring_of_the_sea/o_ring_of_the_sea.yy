@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object264",
+  "%Name":"o_ring_of_the_sea",
   "eventList":[],
   "managed":true,
-  "name":"Object264",
+  "name":"o_ring_of_the_sea",
   "overriddenProperties":[],
   "parent":{
     "name":"Rings",
