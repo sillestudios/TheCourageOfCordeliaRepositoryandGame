@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"o_pink_mage_gloves",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_pink_mage_gloves",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Mage",
     "path":"folders/RPG_Icons/Gloves/Mage.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_gloves_parent",
+    "path":"objects/o_gloves_parent/o_gloves_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_pink_mage_gloves",
+    "path":"sprites/s_pink_mage_gloves/s_pink_mage_gloves.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
