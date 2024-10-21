@@ -1,13 +1,13 @@
 hsp = random(3);
 vsp = random(3);
 
-amulet_name = "Heart Amulet"
+amulet_name = "Perdot Amulet"
 amulet_amount = 1;
-amulet_sprite = s_heart_amulet;
-amulet_description = "Lovers medallion";
+amulet_sprite = s_amulet_6;
+amulet_description = "Imbued gold necklace.";
 amulet_style = "All";
-amulet_armor_bonus = 1;
-amulet_damage_bonus = 0;
+amulet_armor_bonus = 2;
+amulet_damage_bonus = 1;
 
 pickup_sound = coin_pickup;
 
