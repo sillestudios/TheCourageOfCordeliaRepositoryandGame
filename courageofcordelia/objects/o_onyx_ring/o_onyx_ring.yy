@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"tile337",
+    "path":"sprites/tile337/tile337.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
