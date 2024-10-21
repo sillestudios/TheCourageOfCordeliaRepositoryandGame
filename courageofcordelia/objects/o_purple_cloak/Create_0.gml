@@ -1,12 +1,12 @@
 hsp = random(3);
 vsp = random(3);
 
-cloak_name = "Red Cloak" ;
+cloak_name = "Purple Cloak" ;
 cloak_amount = 1;
-cloak_sprite = s_red_cloak;
-cloak_description = "Is it.. no it cant be..";
+cloak_sprite = s_cloak_2;
+cloak_description = "Cut from purple cloth";
 cloak_style = "All";
-cloak_armor_bonus = 1;
+cloak_armor_bonus = 0;
 cloak_damage_bonus = 1;
 
 pickup_sound = coin_pickup;

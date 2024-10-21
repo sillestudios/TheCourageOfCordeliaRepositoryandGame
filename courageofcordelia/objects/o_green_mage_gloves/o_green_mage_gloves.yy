@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_pink_mage_gloves",
+  "%Name":"o_green_mage_gloves",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_pink_mage_gloves",
+  "name":"o_green_mage_gloves",
   "overriddenProperties":[],
   "parent":{
     "name":"Mage",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pink_mage_gloves",
-    "path":"sprites/s_pink_mage_gloves/s_pink_mage_gloves.yy",
+    "name":"s_green_mage_gloves",
+    "path":"sprites/s_green_mage_gloves/s_green_mage_gloves.yy",
   },
   "spriteMaskId":null,
   "visible":true,

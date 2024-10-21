@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_pink_mage_gloves",
+  "%Name":"o_egaera_gloves",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_pink_mage_gloves",
+  "name":"o_egaera_gloves",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Gloves/Mage.yy",
+    "name":"Trybrid",
+    "path":"folders/RPG_Icons/Gloves/Trybrid.yy",
   },
   "parentObjectId":{
     "name":"o_gloves_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pink_mage_gloves",
-    "path":"sprites/s_pink_mage_gloves/s_pink_mage_gloves.yy",
+    "name":"s_rare_trybrid_gloves",
+    "path":"sprites/s_rare_trybrid_gloves/s_rare_trybrid_gloves.yy",
   },
   "spriteMaskId":null,
   "visible":true,

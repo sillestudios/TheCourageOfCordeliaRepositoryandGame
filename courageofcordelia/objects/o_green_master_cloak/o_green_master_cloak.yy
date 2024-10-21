@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"o_pink_mage_gloves",
+  "%Name":"o_green_master_cloak",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_pink_mage_gloves",
+  "name":"o_green_master_cloak",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Gloves/Mage.yy",
+    "name":"Cloaks",
+    "path":"folders/RPG_Icons/Cloaks.yy",
   },
   "parentObjectId":{
-    "name":"o_gloves_parent",
-    "path":"objects/o_gloves_parent/o_gloves_parent.yy",
+    "name":"o_cloak_parent",
+    "path":"objects/o_cloak_parent/o_cloak_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pink_mage_gloves",
-    "path":"sprites/s_pink_mage_gloves/s_pink_mage_gloves.yy",
+    "name":"s_cloak_8",
+    "path":"sprites/s_cloak_8/s_cloak_8.yy",
   },
   "spriteMaskId":null,
   "visible":true,

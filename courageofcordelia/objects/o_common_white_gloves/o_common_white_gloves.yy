@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_pink_mage_gloves",
+  "%Name":"o_common_white_gloves",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_pink_mage_gloves",
+  "name":"o_common_white_gloves",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Gloves/Mage.yy",
+    "name":"Ranged",
+    "path":"folders/RPG_Icons/Gloves/Ranged.yy",
   },
   "parentObjectId":{
     "name":"o_gloves_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pink_mage_gloves",
-    "path":"sprites/s_pink_mage_gloves/s_pink_mage_gloves.yy",
+    "name":"s_robin_hood_gloves",
+    "path":"sprites/s_robin_hood_gloves/s_robin_hood_gloves.yy",
   },
   "spriteMaskId":null,
   "visible":true,
