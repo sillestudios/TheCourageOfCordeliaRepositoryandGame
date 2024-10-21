@@ -480,7 +480,7 @@ gpu_set_blendmode(bm_normal);
 #endregion
 
 #region LOOTBEAM PURPLE
-with(lootbeam){
+with(lootbeam_purple){
 	var _wobble = 0.025;
 	var _wobble_amount_x = 1 + random_range(-_wobble, _wobble);
 	var _wobble_amount_y = 1 + random_range(-_wobble, _wobble);
