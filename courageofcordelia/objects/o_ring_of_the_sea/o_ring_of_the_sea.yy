@@ -9,7 +9,10 @@
     "name":"Rings",
     "path":"folders/RPG_Icons/Rings.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_ring_parent",
+    "path":"objects/o_ring_parent/o_ring_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
