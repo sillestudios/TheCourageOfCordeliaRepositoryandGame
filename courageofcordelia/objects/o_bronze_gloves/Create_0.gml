@@ -1,11 +1,11 @@
 hsp = random(3);
 vsp = random(3);
 
-gloves_name = "White Gloves";
+gloves_name = "Bronze Gloves";
 gloves_amount = 1;
-gloves_sprite = s_rare_robin_hood_gloves;
-gloves_description = "Yes, gloves.";
-gloves_style = "Unknown";
+gloves_sprite = s_bronze_gloves;
+gloves_description = "Metal gloves of the lowest teir.";
+gloves_style = "Melee";
 gloves_armor_bonus = 1;
 gloves_damage_bonus = 0;
 
