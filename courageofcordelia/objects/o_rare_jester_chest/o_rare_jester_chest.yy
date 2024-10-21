@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_orange_mage_chest",
+  "%Name":"o_rare_jester_chest",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_orange_mage_chest",
+  "name":"o_rare_jester_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Chests/Mage.yy",
+    "name":"Ranged",
+    "path":"folders/RPG_Icons/Chests/Ranged.yy",
   },
   "parentObjectId":{
     "name":"o_chest_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_orange_mage_chest",
-    "path":"sprites/s_orange_mage_chest/s_orange_mage_chest.yy",
+    "name":"s_rare_jester_chest",
+    "path":"sprites/s_rare_jester_chest/s_rare_jester_chest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_orange_mage_chest",
+  "%Name":"o_ilithyia_chest",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_orange_mage_chest",
+  "name":"o_ilithyia_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Chests/Mage.yy",
+    "name":"Trybrid",
+    "path":"folders/RPG_Icons/Chests/Trybrid.yy",
   },
   "parentObjectId":{
     "name":"o_chest_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_orange_mage_chest",
-    "path":"sprites/s_orange_mage_chest/s_orange_mage_chest.yy",
+    "name":"s_elite_trybrid_chest",
+    "path":"sprites/s_elite_trybrid_chest/s_elite_trybrid_chest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

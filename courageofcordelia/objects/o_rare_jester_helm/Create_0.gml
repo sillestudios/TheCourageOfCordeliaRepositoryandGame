@@ -1,7 +1,7 @@
 hsp = random(3);
 vsp = random(3);
 
-helm_name = "Quinns' Jester";
+helm_name = "Quinn's Jester";
 helm_amount = 1;
 helm_sprite = s_rare_jester_helm;
 helm_description = "Master rangers helm.";

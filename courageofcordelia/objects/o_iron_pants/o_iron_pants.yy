@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"o_orange_mage_chest",
+  "%Name":"o_iron_pants",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_orange_mage_chest",
+  "name":"o_iron_pants",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Chests/Mage.yy",
+    "name":"Melee",
+    "path":"folders/RPG_Icons/Pants/Melee.yy",
   },
   "parentObjectId":{
-    "name":"o_chest_parent",
-    "path":"objects/o_chest_parent/o_chest_parent.yy",
+    "name":"o_pants_parent",
+    "path":"objects/o_pants_parent/o_pants_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_orange_mage_chest",
-    "path":"sprites/s_orange_mage_chest/s_orange_mage_chest.yy",
+    "name":"s_iron_pants",
+    "path":"sprites/s_iron_pants/s_iron_pants.yy",
   },
   "spriteMaskId":null,
   "visible":true,
