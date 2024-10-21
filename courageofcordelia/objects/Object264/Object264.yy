@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_pink_mage_gloves",
+  "%Name":"Object264",
   "eventList":[],
   "managed":true,
-  "name":"o_pink_mage_gloves",
+  "name":"Object264",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Gloves/Mage.yy",
+    "name":"Rings",
+    "path":"folders/RPG_Icons/Rings.yy",
   },
   "parentObjectId":null,
   "persistent":false,
