@@ -1,11 +1,11 @@
 hsp = random(3);
 vsp = random(3);
 
-boots_name = "Green Ranger Boots"; 
+boots_name = "Pink Mage Boots"; 
 boots_amount = 1;
-boots_sprite = s_robin_hood_boots;
-boots_description = "Made from green boot skin.";
-boots_style = "Ranged";
+boots_sprite = s_pink_mage_boots;
+boots_description = "Made from pink boot skin.";
+boots_style = "Magic";
 boots_armor_bonus = 1;
 boots_damage_bonus = 0;
 

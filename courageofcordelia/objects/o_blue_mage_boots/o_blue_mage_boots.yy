@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"o_blue_mage_boots",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_blue_mage_boots",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Mage",
     "path":"folders/RPG_Icons/Boots/Mage.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_boots_parent",
+    "path":"objects/o_boots_parent/o_boots_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

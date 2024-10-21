@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_red_mage_boots",
+  "%Name":"o_jester_boots",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_red_mage_boots",
+  "name":"o_jester_boots",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mage",
-    "path":"folders/RPG_Icons/Boots/Mage.yy",
+    "name":"Ranged",
+    "path":"folders/RPG_Icons/Boots/Ranged.yy",
   },
   "parentObjectId":{
     "name":"o_boots_parent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_red_mage_boots",
-    "path":"sprites/s_red_mage_boots/s_red_mage_boots.yy",
+    "name":"s_jester_boots",
+    "path":"sprites/s_jester_boots/s_jester_boots.yy",
   },
   "spriteMaskId":null,
   "visible":true,
