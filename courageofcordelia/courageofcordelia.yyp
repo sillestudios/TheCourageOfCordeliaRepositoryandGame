@@ -264,6 +264,7 @@
     {"id":{"name":"o_pillar","path":"objects/o_pillar/o_pillar.yy",},},
     {"id":{"name":"o_pink_mage_boots","path":"objects/o_pink_mage_boots/o_pink_mage_boots.yy",},},
     {"id":{"name":"o_pink_mage_chest","path":"objects/o_pink_mage_chest/o_pink_mage_chest.yy",},},
+    {"id":{"name":"o_pink_mage_gloves","path":"objects/o_pink_mage_gloves/o_pink_mage_gloves.yy",},},
     {"id":{"name":"o_pink_mage_hood","path":"objects/o_pink_mage_hood/o_pink_mage_hood.yy",},},
     {"id":{"name":"o_pink_mage_pants","path":"objects/o_pink_mage_pants/o_pink_mage_pants.yy",},},
     {"id":{"name":"o_pistol_bullet","path":"objects/o_pistol_bullet/o_pistol_bullet.yy",},},
