@@ -11,8 +11,8 @@
   "name":"o_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Chests",
+    "path":"folders/Objects/Chests.yy",
   },
   "parentObjectId":null,
   "persistent":false,

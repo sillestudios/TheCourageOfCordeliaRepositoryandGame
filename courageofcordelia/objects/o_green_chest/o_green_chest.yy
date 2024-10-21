@@ -8,8 +8,8 @@
   "name":"o_green_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Chests",
+    "path":"folders/Objects/Chests.yy",
   },
   "parentObjectId":{
     "name":"o_chest",

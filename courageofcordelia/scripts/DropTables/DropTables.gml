@@ -49,3 +49,7 @@ function chest_loot_drop(){
 	}
 	
 }
+
+function green_loot(){
+	//all green loots here at 1/total green loots
+}

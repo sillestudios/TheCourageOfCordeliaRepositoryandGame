@@ -11,8 +11,8 @@
   "name":"o_fire_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"FirezoneSpecific",
-    "path":"folders/FirezoneSpecific.yy",
+    "name":"Chests",
+    "path":"folders/Objects/Chests.yy",
   },
   "parentObjectId":{
     "name":"o_chest",
