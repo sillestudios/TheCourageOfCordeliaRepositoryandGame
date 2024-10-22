@@ -97,7 +97,17 @@ function use_item(item) {
 	
 	if (item.type == TYPE.PANTS) {   
         if (obj_equip_pants.pants_item[obj_equip_pants.pants_index].name != item.name) {
-			
+			if obj_equip_pants.pants_item[obj_equip_pants.pants_index].sprite != s_empty{
+				obj_inventory.inventory.item_add(obj_equip_pants.pants_item[obj_equip_pants.pants_index].name, 1,
+				obj_equip_pants.pants_item[obj_equip_pants.pants_index].sprite,
+				obj_equip_pants.pants_item[obj_equip_pants.pants_index].type,
+				obj_equip_pants.pants_item[obj_equip_pants.pants_index].weapon_equiping_arg,
+				obj_equip_pants.pants_item[obj_equip_pants.pants_index].description,
+				obj_equip_pants.pants_item[obj_equip_pants.pants_index].style,
+				obj_equip_pants.pants_item[obj_equip_pants.pants_index].armor_bonus,
+				obj_equip_pants.pants_item[obj_equip_pants.pants_index].damage_bonus)
+				o_player.hp_max = o_player.hp_max - obj_equip_pants.pants_item[obj_equip_pants.pants_index].armor_bonus;
+			}
             obj_equip_pants.equip_pants.item_subtract(obj_equip_pants.pants_item[obj_equip_pants.pants_index].name, 1);
             obj_equip_pants.equip_pants.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
@@ -108,7 +118,17 @@ function use_item(item) {
 	
 	if (item.type == TYPE.BOOTS) {   
         if (obj_equip_boots.boots_item[obj_equip_boots.boots_index].name != item.name) {
-			
+			if obj_equip_boots.boots_item[obj_equip_boots.boots_index].sprite != s_empty{
+				obj_inventory.inventory.item_add(obj_equip_boots.boots_item[obj_equip_boots.boots_index].name, 1,
+				obj_equip_boots.boots_item[obj_equip_boots.boots_index].sprite,
+				obj_equip_boots.boots_item[obj_equip_boots.boots_index].type,
+				obj_equip_boots.boots_item[obj_equip_boots.boots_index].weapon_equiping_arg,
+				obj_equip_boots.boots_item[obj_equip_boots.boots_index].description,
+				obj_equip_boots.boots_item[obj_equip_boots.boots_index].style,
+				obj_equip_boots.boots_item[obj_equip_boots.boots_index].armor_bonus,
+				obj_equip_boots.boots_item[obj_equip_boots.boots_index].damage_bonus)
+				o_player.hp_max = o_player.hp_max - obj_equip_boots.boots_item[obj_equip_boots.boots_index].armor_bonus;
+			}
             obj_equip_boots.equip_boots.item_subtract(obj_equip_boots.boots_item[obj_equip_boots.boots_index].name, 1);
             obj_equip_boots.equip_boots.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
@@ -119,7 +139,17 @@ function use_item(item) {
 	
 	if (item.type == TYPE.GLOVES) {   
         if (obj_equip_glove.glove_item[obj_equip_glove.glove_index].name != item.name) {
-			
+			if obj_equip_glove.glove_item[obj_equip_glove.glove_index].sprite != s_empty{
+				obj_inventory.inventory.item_add(obj_equip_glove.glove_item[obj_equip_glove.glove_index].name, 1,
+				obj_equip_glove.glove_item[obj_equip_glove.glove_index].sprite,
+				obj_equip_glove.glove_item[obj_equip_glove.glove_index].type,
+				obj_equip_glove.glove_item[obj_equip_glove.glove_index].weapon_equiping_arg,
+				obj_equip_glove.glove_item[obj_equip_glove.glove_index].description,
+				obj_equip_glove.glove_item[obj_equip_glove.glove_index].style,
+				obj_equip_glove.glove_item[obj_equip_glove.glove_index].armor_bonus,
+				obj_equip_glove.glove_item[obj_equip_glove.glove_index].damage_bonus)
+				o_player.hp_max = o_player.hp_max - obj_equip_glove.glove_item[obj_equip_glove.glove_index].armor_bonus;
+			}
             obj_equip_glove.equip_glove.item_subtract(obj_equip_glove.glove_item[obj_equip_glove.glove_index].name, 1);
             obj_equip_glove.equip_glove.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
@@ -130,7 +160,17 @@ function use_item(item) {
 	
 	if (item.type == TYPE.CLOAKS) {   
         if (obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].name != item.name) {
-			
+			if obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].sprite != s_empty{
+				obj_inventory.inventory.item_add(obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].name, 1,
+				obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].sprite,
+				obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].type,
+				obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].weapon_equiping_arg,
+				obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].description,
+				obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].style,
+				obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].armor_bonus,
+				obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].damage_bonus)
+				o_player.hp_max = o_player.hp_max - obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].armor_bonus;
+			}
             obj_equip_cloak.equip_cloak.item_subtract(obj_equip_cloak.cloak_item[obj_equip_cloak.cloak_index].name, 1);
             obj_equip_cloak.equip_cloak.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
@@ -141,7 +181,17 @@ function use_item(item) {
 	
 	if (item.type == TYPE.RINGS) {   
         if (obj_equip_rings.rings_item[obj_equip_rings.rings_index].name != item.name) {
-			
+			if obj_equip_rings.rings_item[obj_equip_rings.rings_index].sprite != s_empty{
+				obj_inventory.inventory.item_add(obj_equip_rings.rings_item[obj_equip_rings.rings_index].name, 1,
+				obj_equip_rings.rings_item[obj_equip_rings.rings_index].sprite,
+				obj_equip_rings.rings_item[obj_equip_rings.rings_index].type,
+				obj_equip_rings.rings_item[obj_equip_rings.rings_index].weapon_equiping_arg,
+				obj_equip_rings.rings_item[obj_equip_rings.rings_index].description,
+				obj_equip_rings.rings_item[obj_equip_rings.rings_index].style,
+				obj_equip_rings.rings_item[obj_equip_rings.rings_index].armor_bonus,
+				obj_equip_rings.rings_item[obj_equip_rings.rings_index].damage_bonus)
+				o_player.hp_max = o_player.hp_max - obj_equip_rings.rings_item[obj_equip_rings.rings_index].armor_bonus;
+			}
             obj_equip_rings.equip_rings.item_subtract(obj_equip_rings.rings_item[obj_equip_rings.rings_index].name, 1);
             obj_equip_rings.equip_rings.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
             obj_inventory.inventory.item_subtract(item.name, 1);
