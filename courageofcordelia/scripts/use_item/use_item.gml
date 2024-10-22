@@ -34,9 +34,20 @@ function use_item(item) {
 	
 	if (item.type == TYPE.HELMS) {   
         if (obj_equip_helm.helm_item[obj_equip_helm.helm_index].name != item.name) {
-            obj_equip_helm.equip_helm.item_subtract(obj_equip_helm.helm_item[obj_equip_helm.helm_index].name, 1);
-            obj_equip_helm.equip_helm.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
-            obj_inventory.inventory.item_subtract(item.name, 1);
+			if obj_equip_helm.helm_item[obj_equip_helm.helm_index].sprite != s_empty{
+				obj_inventory.inventory.item_add(obj_equip_helm.helm_item[obj_equip_helm.helm_index].name, 1,
+				obj_equip_helm.helm_item[obj_equip_helm.helm_index].sprite,
+				obj_equip_helm.helm_item[obj_equip_helm.helm_index].type,
+				obj_equip_helm.helm_item[obj_equip_helm.helm_index].weapon_equiping_arg,
+				obj_equip_helm.helm_item[obj_equip_helm.helm_index].description,
+				obj_equip_helm.helm_item[obj_equip_helm.helm_index].style,
+				obj_equip_helm.helm_item[obj_equip_helm.helm_index].armor_bonus,
+				obj_equip_helm.helm_item[obj_equip_helm.helm_index].damage_bonus)
+				o_player.hp_max = o_player.hp_max - obj_equip_helm.helm_item[obj_equip_helm.helm_index].armor_bonus;
+			}
+	        obj_equip_helm.equip_helm.item_subtract(obj_equip_helm.helm_item[obj_equip_helm.helm_index].name, 1);
+	        obj_equip_helm.equip_helm.item_add(item.name, 1, item.sprite, item.type, item.weapon_equiping_arg, item.description, item.style, item.armor_bonus, item.damage_bonus);
+	        obj_inventory.inventory.item_subtract(item.name, 1);
 			o_player.hp_max = o_player.hp_max + obj_equip_helm.helm_item[obj_equip_helm.helm_index].armor_bonus;
         }
         return;
