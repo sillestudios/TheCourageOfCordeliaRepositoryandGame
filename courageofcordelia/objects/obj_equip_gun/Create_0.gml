@@ -21,7 +21,7 @@ can_show_inv = false;
 gun_index = undefined;
 gun_item = undefined;
 
-equip_gun.item_add("Empty", 1, s_empty, TYPE.WEAPON, noone);
+equip_gun.item_add("Wooden Bow", 1, s_wood_bow, TYPE.WEAPON, global.WeaponList.wood_bow, "Woody two shoes", "Ranged", 0, 1);
 
 
 weapon_name = noone;

@@ -54,6 +54,8 @@ array_push(global.PlayerWeapons, global.WeaponList.tyranny);		//5
 array_push(global.PlayerWeapons, global.WeaponList.empty);			//6
 array_push(global.PlayerWeapons, global.WeaponList.vector);			//7
 array_push(global.PlayerWeapons, global.WeaponList.wood_bow);		//8
+array_push(global.PlayerWeapons, global.WeaponList.fn);				//9
+array_push(global.PlayerWeapons, global.WeaponList.lmg);			//10
 
 
 

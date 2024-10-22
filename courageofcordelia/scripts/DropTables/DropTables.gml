@@ -48,7 +48,7 @@ function chest_loot_drop(){
 
 function green_loot(){
 		var _yOff = -15;
-		var _drop_chance = irandom(18)
+		var _drop_chance = irandom(22)
 			//all green loots here at 1/total green loots
 		if (_drop_chance = 1){
 			instance_create_layer(x, y - _yOff, "Enemy", o_bronze_helm);
@@ -121,6 +121,14 @@ function green_loot(){
 		if (_drop_chance = 18){
 			instance_create_layer(x, y - _yOff, "Enemy", o_bronze_pants);
 			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Platelegs", 1);
+		}
+		if (_drop_chance = 19){
+			instance_create_layer(x, y - _yOff, "Enemy", o_sidewinder_drop);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Side-winder", 1);
+		}
+		if (_drop_chance = 20){
+			instance_create_layer(x, y - _yOff, "Enemy", o_blaster_drop);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Big Blaster", 1);
 		}
 
 }

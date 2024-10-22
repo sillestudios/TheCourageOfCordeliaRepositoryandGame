@@ -266,7 +266,7 @@ function check_fire(){
 			audio_play_sound_at(my_weapon.wep_shoot_sound,x,y,100,100,100,1,false,1,1);
 			
 			//shell casings
-			if my_weapon = global.WeaponList.sidewinder or my_weapon = global.WeaponList.vector{
+			if my_weapon = global.WeaponList.sidewinder or my_weapon = global.WeaponList.vector or global.WeaponList.fn{
 				instance_create_depth(my_weapon.x, my_weapon.y, -500, o_shell);
 			}
 			

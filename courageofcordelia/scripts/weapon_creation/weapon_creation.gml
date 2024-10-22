@@ -161,6 +161,32 @@ global.WeaponList =
 		o_empty,
 		sound_bow_shoot_1
 		),
+		
+	fn : new create_weapon(
+		s_fn,
+		s_fn,
+		7,
+		9,
+		9,
+		0,
+		o_pistol_bullet,
+		40,
+		o_pistol_muzzle,
+		fn_shot
+		),
+		
+	lmg : new create_weapon(
+		s_lmg,
+		s_lmg,
+		7,
+		14,
+		14,
+		0,
+		o_pistol_bullet,
+		15,
+		o_pistol_muzzle,
+		lmg_shot
+		),
 	
 	
 	

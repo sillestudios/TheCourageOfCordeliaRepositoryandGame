@@ -1,6 +1,6 @@
 
 //variables for all projectiles
-damage = 5;
+damage = 3;
 range = 160;
 owner_id = noone;
 knockback_time = 10;

@@ -1,7 +1,7 @@
 event_inherited()
 weapon_name = "Vector";
 drop_amount = 1;
-weapon_sprite = s_vector;
+weapon_sprite = s_vector_drop;
 type = TYPE.WEAPON;
 weapon_equiping_arg = global.PlayerWeapons[7];
 weapon_description = "The holy grail.";
