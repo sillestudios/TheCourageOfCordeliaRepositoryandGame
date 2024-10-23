@@ -130,5 +130,45 @@ function green_loot(){
 			instance_create_layer(x, y - _yOff, "Enemy", o_blaster_drop);
 			o_loot_feed._loot_feed.add_feed(c_green, 1, "Big Blaster", 1);
 		}
+		if (_drop_chance = 21){
+			instance_create_layer(x, y - _yOff, "Enemy", o_holy_amulet);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Holy Amulet", 1);
+		}
+		if (_drop_chance = 22){
+			instance_create_layer(x, y - _yOff, "Enemy", o_perdot_amulet);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Perdot Amulet", 1);
+		}
+		if (_drop_chance = 23){
+			instance_create_layer(x, y - _yOff, "Enemy", o_gold_necklace);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Gold Necklace", 1);
+		}
+		if (_drop_chance = 24){
+			instance_create_layer(x, y - _yOff, "Enemy", o_green_pearl_necklace);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Green Pearl Necklace", 1);
+		}
+		if (_drop_chance = 25){
+			instance_create_layer(x, y - _yOff, "Enemy", o_red_cloak);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Red Cloak", 1);
+		}
+		if (_drop_chance = 26){
+			instance_create_layer(x, y - _yOff, "Enemy", o_purple_cloak);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Purple Cloak", 1);
+		}
+		if (_drop_chance = 27){
+			instance_create_layer(x, y - _yOff, "Enemy", o_orange_cloak);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Orange Cloak", 1);
+		}
+		if (_drop_chance = 27){
+			instance_create_layer(x, y - _yOff, "Enemy", o_emerald_ring);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Emerald Ring", 1);
+		}
+		if (_drop_chance = 27){
+			instance_create_layer(x, y - _yOff, "Enemy", o_pink_opal_ring);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Pink Opal Ring", 1);
+		}
+		if (_drop_chance = 27){
+			instance_create_layer(x, y - _yOff, "Enemy", o_silver_ring);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Silver Ring", 1);
+		}
 
 }
