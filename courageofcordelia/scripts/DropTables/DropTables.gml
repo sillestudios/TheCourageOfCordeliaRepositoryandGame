@@ -445,7 +445,7 @@ function red_loot(){
 			o_loot_feed._loot_feed.add_feed(c_red, 1, "Quinn's Helm", 1);
 		}
 		if (_drop_chance = 7){
-			instance_create_layer(x, y - _yOff, "Enemy", o_rare_jester_chest;
+			instance_create_layer(x, y - _yOff, "Enemy", o_rare_jester_chest);
 			o_loot_feed._loot_feed.add_feed(c_red, 1, "Quinn's Chest", 1);
 		}
 		if (_drop_chance = 8){
