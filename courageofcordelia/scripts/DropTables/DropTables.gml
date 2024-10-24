@@ -175,114 +175,254 @@ function green_loot(){
 	
 function blue_loot(){
 		var _yOff = -15;
-		var _drop_chance = irandom(31)
+		var _drop_chance = irandom(28)
 		
 		if (_drop_chance = 1){
 			instance_create_layer(x, y - _yOff, "Enemy", o_iron_helm);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Iron Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Iron Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 2){
 			instance_create_layer(x, y - _yOff, "Enemy", o_iron_boots);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Iron Boots", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Iron Boots", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 3){
 			instance_create_layer(x, y - _yOff, "Enemy", o_iron_chest);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Iron Chest", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Iron Chest", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 4){
 			instance_create_layer(x, y - _yOff, "Enemy", o_iron_pants);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Iron Pants", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Iron Pants", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 5){
 			instance_create_layer(x, y - _yOff, "Enemy", o_iron_gloves);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Iron Gloves", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Iron Gloves", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 6){
 			instance_create_layer(x, y - _yOff, "Enemy", o_blue_mage_boots);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Blue Mage Boots", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Blue Mage Boots", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 7){
 			instance_create_layer(x, y - _yOff, "Enemy", o_blue_mage_chest);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Blue Mage Chest", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Blue Mage Chest", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 8){
 			instance_create_layer(x, y - _yOff, "Enemy", o_blue_mage_gloves);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Blue Mage Gloves", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Blue Mage Gloves", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 9){
 			instance_create_layer(x, y - _yOff, "Enemy", o_blue_mage_hood);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 10){
 			instance_create_layer(x, y - _yOff, "Enemy", o_blue_mage_pants);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Blue Mage Hood", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Blue Mage Hood", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 11){
 			instance_create_layer(x, y - _yOff, "Enemy", o_rare_robin_hood_chest);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Tan Ranger Hat", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Tan Ranger Hat", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 12){
 			instance_create_layer(x, y - _yOff, "Enemy", o_rare_robin_hood_helm);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Tan Ranger Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Tan Ranger Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 13){
 			instance_create_layer(x, y - _yOff, "Enemy", o_rare_robin_hood_pants);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Tan Ranger Bottoms", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Tan Ranger Bottoms", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 14){
 			instance_create_layer(x, y - _yOff, "Enemy", o_white_gloves);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "White Gloves", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "White Gloves", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 15){
 			instance_create_layer(x, y - _yOff, "Enemy", o_heart_amulet);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Heart Amulet", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Heart Amulet", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 16){
 			instance_create_layer(x, y - _yOff, "Enemy", o_emerald_amulet);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Emerald Amulet", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Emerald Amulet", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 17){
 			instance_create_layer(x, y - _yOff, "Enemy", o_red_royal_cloak);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Red royal cloak.", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Red royal cloak.", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 18){
 			instance_create_layer(x, y - _yOff, "Enemy", o_purple_royal_cloak);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Purple royal clo", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Purple royal clo", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 19){
 			instance_create_layer(x, y - _yOff, "Enemy", o_orange_royal_cloak);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 20){
 			instance_create_layer(x, y - _yOff, "Enemy", o_ring_of_embers);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 21){
 			instance_create_layer(x, y - _yOff, "Enemy", o_ring_of_the_sea);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 22){
 			instance_create_layer(x, y - _yOff, "Enemy", o_onyx_ring);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 23){
 			instance_create_layer(x, y - _yOff, "Enemy", o_large_onyx_ring);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 24){
 			instance_create_layer(x, y - _yOff, "Enemy", o_ring_of_splitting);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 25){
 			instance_create_layer(x, y - _yOff, "Enemy", o_rings_of_duality);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 26){
 			instance_create_layer(x, y - _yOff, "Enemy", o_gold_ring;
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
 		}
-		if (_drop_chance = 1){
+		if (_drop_chance = 27){
 			instance_create_layer(x, y - _yOff, "Enemy", o_gold_emerald_ring);
-			o_loot_feed._loot_feed.add_feed(c_green, 1, "Bronze Helm", 1);
-		}w
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
+		}
+}
+
+function purple_loot(){
+		var _yOff = -15;
+		var _drop_chance = irandom(28)
+		
+		if (_drop_chance = 1){
+			instance_create_layer(x, y - _yOff, "Enemy", o_masterwork_helm);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Masterwork Helm", 1);
+		}
+		if (_drop_chance = 2){
+			instance_create_layer(x, y - _yOff, "Enemy", o_masterwork_boots);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Masterwork Boots", 1);
+		}
+		if (_drop_chance = 3){
+			instance_create_layer(x, y - _yOff, "Enemy", o_masterwork_chest);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Masterwork Chest", 1);
+		}
+		if (_drop_chance = 4){
+			instance_create_layer(x, y - _yOff, "Enemy", o_masterwork_pants);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Masterwork Pants", 1);
+		}
+		if (_drop_chance = 5){
+			instance_create_layer(x, y - _yOff, "Enemy", o_masterwork_gloves);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Masterwork Gloves", 1);
+		}
+		if (_drop_chance = 6){
+			instance_create_layer(x, y - _yOff, "Enemy", o_orange_mage_hood);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Orange Mage Hood", 1);
+		}
+		if (_drop_chance = 7){
+			instance_create_layer(x, y - _yOff, "Enemy", o_orange_mage_chest);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Orange Mage Chest", 1);
+		}
+		if (_drop_chance = 8){
+			instance_create_layer(x, y - _yOff, "Enemy", o_orange_mage_pants);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Orange Mage Pants", 1);
+		}
+		if (_drop_chance = 9){
+			instance_create_layer(x, y - _yOff, "Enemy", o_masterwork_boots);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Orange Mage Boots", 1);
+		}
+		if (_drop_chance = 10){
+			instance_create_layer(x, y - _yOff, "Enemy", o_orange_mage_gloves);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Orange Mage Gloves", 1);
+		}
+		if (_drop_chance = 11){
+			instance_create_layer(x, y - _yOff, "Enemy", o_jester_helm);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Jester Helm", 1);
+		}
+		if (_drop_chance = 12){
+			instance_create_layer(x, y - _yOff, "Enemy", o_jester_chest);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Jester Chest", 1);
+		}
+		if (_drop_chance = 13){
+			instance_create_layer(x, y - _yOff, "Enemy", o_jester_pants);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Jester Pants", 1);
+		}
+		if (_drop_chance = 14){
+			instance_create_layer(x, y - _yOff, "Enemy", o_jester_boots);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Jester Boots", 1);
+		}
+		if (_drop_chance = 15){
+			instance_create_layer(x, y - _yOff, "Enemy", o_jester_gloves);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Jester Gloves", 1);
+		}
+		if (_drop_chance = 16){
+			instance_create_layer(x, y - _yOff, "Enemy", o_orions_helm);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Orion's Helm", 1);
+		}
+		if (_drop_chance = 17){
+			instance_create_layer(x, y - _yOff, "Enemy", o_amulet_fortune);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Amulet of Fortune", 1);
+		}
+		if (_drop_chance = 18){
+			instance_create_layer(x, y - _yOff, "Enemy", o_amethyst_amulet);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Amethyst Amulet", 1);
+		}
+		if (_drop_chance = 19){
+			instance_create_layer(x, y - _yOff, "Enemy", o_red_master_cloak);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Red Master Cloak", 1);
+		}
+		if (_drop_chance = 20){
+			instance_create_layer(x, y - _yOff, "Enemy", o_purple_master_cloak);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Purple Master Cloak", 1);
+		}
+		if (_drop_chance = 21){
+			instance_create_layer(x, y - _yOff, "Enemy", o_green_master_cloak);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Green Master Cloak", 1);
+		}
+		if (_drop_chance = 22){
+			instance_create_layer(x, y - _yOff, "Enemy", o_gold_ring_of_embers);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Gold Ring of Embers", 1);
+		}
+		if (_drop_chance = 23){
+			instance_create_layer(x, y - _yOff, "Enemy", o_gold_ring_of_the_sea);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Gold Ring of the Sea", 1);
+		}
+		if (_drop_chance = 24){
+			instance_create_layer(x, y - _yOff, "Enemy", o_ring_of_hearts);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Ring of Hearts", 1);
+		}
+		if (_drop_chance = 25){
+			instance_create_layer(x, y - _yOff, "Enemy", o_gold_green_pearl_ring);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Gold Green Pearl Ring", 1);
+		}
+		if (_drop_chance = 26){
+			instance_create_layer(x, y - _yOff, "Enemy", o_peridot_ring);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Peridot Ring", 1);
+		}
+		if (_drop_chance = 27){
+			instance_create_layer(x, y - _yOff, "Enemy", o_amythest_ring);
+			o_loot_feed._loot_feed.add_feed(c_purple, 1, "Amethyst Ring", 1);
+		}
+}
+
+function red_loot(){
+		var _yOff = -15;
+		var _drop_chance = irandom(28)
+		
+		if (_drop_chance = 1){
+			instance_create_layer(x, y - _yOff, "Enemy", o_red_mage_hat);
+			o_loot_feed._loot_feed.add_feed(c_red, 1, "Red Mage Hat", 1);
+		}
+		if (_drop_chance = 2){
+			instance_create_layer(x, y - _yOff, "Enemy", o_red_mage_chest);
+			o_loot_feed._loot_feed.add_feed(c_red, 1, "Red Mage Chest", 1);
+		}
+		if (_drop_chance = 3){
+			instance_create_layer(x, y - _yOff, "Enemy", o_red_mage_pants);
+			o_loot_feed._loot_feed.add_feed(c_red, 1, "Red Mage Pants", 1);
+		}
+		if (_drop_chance = 4){
+			instance_create_layer(x, y - _yOff, "Enemy", o_red_mage_boots);
+			o_loot_feed._loot_feed.add_feed(c_red, 1, "Red Mage Boots", 1);
+		}
+		if (_drop_chance = 5){
+			instance_create_layer(x, y - _yOff, "Enemy", o_red_mage_gloves);
+			o_loot_feed._loot_feed.add_feed(c_red, 1, "Red Mage Gloves", 1);
+		}
 }
