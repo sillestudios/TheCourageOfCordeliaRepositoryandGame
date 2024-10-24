@@ -32,6 +32,21 @@ function chest_loot_drop(){
 	
 	if (_chance > 60 && _chance < 80){
 		green_loot();
+		
+		var _loot_tier = irandom(100)
+		
+		if (_loot_tier >= 80){
+			
+			blue_loot()
+		}
+		if (_loot_tier < 80 && _loot_tier >= 70 ){
+			
+			purple_loot()
+		}
+		if (_loot_tier < 70 && _loot_tier >= 65){
+			
+			red_loot()
+		}
 	}
 	
 	if (_chance < 5){
