@@ -127,7 +127,7 @@ function chest3_loot_drop(){
 		purple_loot();
 	}
 	
-	if (_chance >= 1 && _chance <=10){
+	if (_chance >= 1 && _chance <= 10){
 		red_loot();
 	}
 	
