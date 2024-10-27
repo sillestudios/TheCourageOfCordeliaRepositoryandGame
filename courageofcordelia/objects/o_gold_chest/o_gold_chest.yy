@@ -12,8 +12,8 @@
     "path":"folders/Objects/Chests.yy",
   },
   "parentObjectId":{
-    "name":"o_chest",
-    "path":"objects/o_chest/o_chest.yy",
+    "name":"o_green_chest",
+    "path":"objects/o_green_chest/o_green_chest.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

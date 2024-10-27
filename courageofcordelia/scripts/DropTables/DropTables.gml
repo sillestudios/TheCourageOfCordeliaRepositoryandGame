@@ -54,6 +54,94 @@ function chest1_loot_drop(){
 	}
 	
 }
+function chest2_loot_drop(){
+	
+	var _yOff = -15;
+	
+	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
+	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
+	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
+
+	
+	var _chance = irandom(100)
+	
+	if (_chance < 90){
+		instance_create_layer(x,  y - _yOff, "Enemy", o_xp_spawn)
+	}
+	
+	if (_chance > 50 && _chance < 90){
+		green_loot();
+		
+	}
+	
+	if (_chance >= 12 && _chance < 32){
+		blue_loot()
+	}
+	
+	if (_chance >= 2 && _chance <= 11){
+		purple_loot();
+	}
+	
+	if (_chance = 1){
+		red_loot();
+	}
+	
+	if (_chance < 5){
+		instance_create_depth(x, y - _yOff, -800, o_spawn_in_vfx);
+		instance_create_layer(x, y - _yOff, "Enemy", o_theif);
+	}
+	
+	if (_chance <= 2){
+		instance_create_layer(x, y - _yOff, "Enemy", o_silver_key);
+		o_loot_feed._loot_feed.add_feed(c_purple, 1, "Silver Key", 1);
+	}
+	
+}
+function chest3_loot_drop(){
+	
+	var _yOff = -15;
+	
+	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
+	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
+	instance_create_layer(x, y - _yOff, "Enemy", o_coin_spawn);
+	o_loot_feed._loot_feed.add_feed(c_yellow, 1, "Coin", 1);
+
+	
+	var _chance = irandom(100)
+	
+	if (_chance < 199 && _chance >= 100){
+		instance_create_layer(x,  y - _yOff, "Enemy", o_xp_spawn)
+	}
+	
+	
+	if (_chance >= 69 && _chance < 99){
+		blue_loot()
+	}
+	
+	if (_chance >= 48 && _chance <= 68){
+		purple_loot();
+	}
+	
+	if (_chance >= 1 && _chance <=10){
+		red_loot();
+	}
+	
+	if (_chance < 5){
+		instance_create_depth(x, y - _yOff, -800, o_spawn_in_vfx);
+		instance_create_layer(x, y - _yOff, "Enemy", o_theif);
+	}
+	
+	if (_chance <= 2){
+		instance_create_layer(x, y - _yOff, "Enemy", o_silver_key);
+		o_loot_feed._loot_feed.add_feed(c_purple, 1, "Silver Key", 1);
+	}
+	
+}
 
 function green_loot(){
 		var _yOff = -15;
