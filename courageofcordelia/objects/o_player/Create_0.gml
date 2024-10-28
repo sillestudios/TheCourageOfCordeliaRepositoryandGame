@@ -56,10 +56,11 @@ array_push(global.PlayerWeapons, global.WeaponList.vector);			//7
 array_push(global.PlayerWeapons, global.WeaponList.wood_bow);		//8
 array_push(global.PlayerWeapons, global.WeaponList.fn);				//9
 array_push(global.PlayerWeapons, global.WeaponList.lmg);			//10
+array_push(global.PlayerWeapons, global.WeaponList.musket);			//11
 
 
 
-selectedWeapon = 8;
+selectedWeapon = 11;
 my_weapon = global.PlayerWeapons[selectedWeapon];
 //weaponOffsetDistInitial = global.PlayerWeapons[selectedWeapon].wep_offset;//offset gun for length of arms
 //weaponOffsetDist = weaponOffsetDistInitial

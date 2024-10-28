@@ -13,8 +13,8 @@
   "name":"o_arrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Arrows",
-    "path":"folders/Entity/Weapons/Weps/Bows/Arrows.yy",
+    "name":"Weps",
+    "path":"folders/Entity/Weapons/Weps.yy",
   },
   "parentObjectId":null,
   "persistent":false,
