@@ -199,6 +199,18 @@ global.WeaponList =
 		o_pistol_muzzle,
 		lmg_shot
 		),
+	hohoho : new create_weapon(
+		s_hohoho,
+		s_hohoho,
+		7,
+		5,
+		5,
+		-15,
+		o_musket_shot,
+		60,
+		o_pistol_muzzle,
+		lmg_shot
+		),
 	
 	
 	

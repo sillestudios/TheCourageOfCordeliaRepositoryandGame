@@ -145,7 +145,7 @@ function chest3_loot_drop(){
 
 function green_loot(){
 		var _yOff = -15;
-		var _drop_chance = irandom(31)
+		var _drop_chance = irandom(32)
 			//all green loots here at 1/total green loots
 		if (_drop_chance = 1){
 			instance_create_layer(x, y - _yOff, "Enemy", o_bronze_helm);
@@ -267,12 +267,17 @@ function green_loot(){
 			instance_create_layer(x, y - _yOff, "Enemy", o_silver_ring);
 			o_loot_feed._loot_feed.add_feed(c_green, 1, "Silver Ring", 1);
 		}
+		if (_drop_chance = 31){
+			instance_create_layer(x, y - _yOff, "Enemy", o_musket);
+			o_loot_feed._loot_feed.add_feed(c_green, 1, "Hand Musket", 1);
+		}
+		
 
 }
 	
 function blue_loot(){
 		var _yOff = -15;
-		var _drop_chance = irandom(28)
+		var _drop_chance = irandom(29)
 		
 		if (_drop_chance = 1){
 			instance_create_layer(x, y - _yOff, "Enemy", o_iron_helm);
@@ -381,6 +386,10 @@ function blue_loot(){
 		if (_drop_chance = 27){
 			instance_create_layer(x, y - _yOff, "Enemy", o_gold_emerald_ring);
 			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Bronze Helm", 1);
+		}
+		if (_drop_chance = 28){
+			instance_create_layer(x, y - _yOff, "Enemy", o_hohoho);
+			o_loot_feed._loot_feed.add_feed(c_blue, 1, "Santa's Helper", 1);
 		}
 }
 
