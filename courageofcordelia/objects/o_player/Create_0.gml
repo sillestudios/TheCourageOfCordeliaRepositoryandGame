@@ -61,7 +61,7 @@ array_push(global.PlayerWeapons, global.WeaponList.hohoho);			//12
 
 
 
-selectedWeapon = 12;
+selectedWeapon = 5;
 my_weapon = global.PlayerWeapons[selectedWeapon];
 //weaponOffsetDistInitial = global.PlayerWeapons[selectedWeapon].wep_offset;//offset gun for length of arms
 //weaponOffsetDist = weaponOffsetDistInitial
