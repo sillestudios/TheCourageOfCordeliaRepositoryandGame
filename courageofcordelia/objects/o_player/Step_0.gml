@@ -1,4 +1,6 @@
-
+if keyboard_check_pressed(ord("H")){
+	save_tester++;
+}
 
 switch(state){
 	default:

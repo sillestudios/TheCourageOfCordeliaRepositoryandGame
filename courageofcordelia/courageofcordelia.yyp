@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Control","folderPath":"folders/Control.yy","name":"Control","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"SaveLoad","folderPath":"folders/Control/SaveLoad.yy","name":"SaveLoad","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Lighting","folderPath":"folders/Control/Lighting.yy","name":"Lighting","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ParticleSystem","folderPath":"folders/Control/ParticleSystem.yy","name":"ParticleSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Entity","folderPath":"folders/Entity.yy","name":"Entity","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -423,6 +424,7 @@
     {"id":{"name":"obj_equip_rings","path":"objects/obj_equip_rings/obj_equip_rings.yy",},},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"obj_quickslots1","path":"objects/obj_quickslots1/obj_quickslots1.yy",},},
+    {"id":{"name":"obj_save","path":"objects/obj_save/obj_save.yy",},},
     {"id":{"name":"Object27","path":"objects/Object27/Object27.yy",},},
     {"id":{"name":"lootbeam_blue","path":"particles/lootbeam_blue/lootbeam_blue.yy",},},
     {"id":{"name":"lootbeam_green","path":"particles/lootbeam_green/lootbeam_green.yy",},},
@@ -469,6 +471,7 @@
     {"id":{"name":"macros_enums","path":"scripts/macros_enums/macros_enums.yy",},},
     {"id":{"name":"MenuFunctions","path":"scripts/MenuFunctions/MenuFunctions.yy",},},
     {"id":{"name":"player_processes","path":"scripts/player_processes/player_processes.yy",},},
+    {"id":{"name":"scr_save","path":"scripts/scr_save/scr_save.yy",},},
     {"id":{"name":"text_align","path":"scripts/text_align/text_align.yy",},},
     {"id":{"name":"trap_processes","path":"scripts/trap_processes/trap_processes.yy",},},
     {"id":{"name":"use_item","path":"scripts/use_item/use_item.yy",},},

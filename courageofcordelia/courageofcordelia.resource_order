@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Control","order":2,"path":"folders/Control.yy",},
+    {"name":"SaveLoad","order":7,"path":"folders/Control/SaveLoad.yy",},
     {"name":"Lighting","order":3,"path":"folders/Control/Lighting.yy",},
     {"name":"ParticleSystem","order":4,"path":"folders/Control/ParticleSystem.yy",},
     {"name":"Entity","order":3,"path":"folders/Entity.yy",},
@@ -343,6 +344,7 @@
     {"name":"obj_equip_pants","order":6,"path":"objects/obj_equip_pants/obj_equip_pants.yy",},
     {"name":"obj_equip_rings","order":8,"path":"objects/obj_equip_rings/obj_equip_rings.yy",},
     {"name":"obj_quickslots1","order":1,"path":"objects/obj_quickslots1/obj_quickslots1.yy",},
+    {"name":"obj_save","order":1,"path":"objects/obj_save/obj_save.yy",},
     {"name":"Object27","order":8,"path":"objects/Object27/Object27.yy",},
     {"name":"lootbeam_blue","order":1,"path":"particles/lootbeam_blue/lootbeam_blue.yy",},
     {"name":"lootbeam_purple","order":2,"path":"particles/lootbeam_purple/lootbeam_purple.yy",},

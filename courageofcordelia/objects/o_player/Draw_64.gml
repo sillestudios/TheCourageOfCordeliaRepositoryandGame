@@ -20,6 +20,9 @@ if global.controller = controllers.KEYBOARD{
 	draw_sprite(s_cursor, 0, _x, _y);
 }
 
+//save game testing
+draw_text(100, 100, save_tester);
+
 //healthbar
 draw_sprite_ext(s_health_bar_panel, 0, 10, 10, 1, 1, 0, c_white, 1);
 
